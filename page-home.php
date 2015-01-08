@@ -4,6 +4,10 @@
 	Author: Asshurim Larita @ iBoostme..
 	*/
 	get_header();
+
+
+	$posts = get_field('posts');
+	var_dump($posts);
 ?>
 
 <!--Section: Spotlight-->
