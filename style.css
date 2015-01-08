@@ -181,6 +181,20 @@ article.list .summary>.controls{
 }
 
 
+/*Contact Form 7*/
+.wpcf7-not-valid-tip{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+
+}
+
 
 /*Form Control*/
 .input-group-lg>span>.form-control {
