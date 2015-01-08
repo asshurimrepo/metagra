@@ -9,6 +9,9 @@
 ?>
 
 
+
+
+
 	<section class="container featured-products">
 		<h2 class="no-background void-top"><span>Metal</span></h2>
 
@@ -57,17 +60,17 @@
 		<div class="space-md"></div>
 
 		<div class="featured-list gallery">
-			<div class="text-center col-sm-3"> <figure style="background-image: url(<?=asset('images/fuel-digging.jpg')?>)"><a href="#"><img src="<?=asset('images/fuel-digging.jpg')?>" alt="#"/></a></figure> <h3>Sintering</h3>  </div>
-			<div class="text-center col-sm-3"> <figure style="background-image: url(<?=asset('images/fuel-digging.jpg')?>)"><a href="#"><img src="<?=asset('images/fuel-digging.jpg')?>" alt="#"/></a></figure> <h3>Meta - Roll</h3>  </div>
-			<div class="text-center col-sm-3"> <figure style="background-image: url(<?=asset('images/fuel-digging.jpg')?>)"><a href="#"><img src="<?=asset('images/fuel-digging.jpg')?>" alt="#"/></a></figure> <h3>Coke Industry</h3>  </div>
-			<div class="text-center col-sm-3"> <figure style="background-image: url(<?=asset('images/fuel-digging.jpg')?>)"><a href="#"><img src="<?=asset('images/fuel-digging.jpg')?>" alt="#"/></a></figure> <h3>Drill Pipes</h3>  </div>
+			<div class="text-center col-sm-3"> <figure style="background-image: url(<?=asset('images/post-1.jpg')?>"><a href="#"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a></figure> <h3>Sintering</h3>  </div>
+			<div class="text-center col-sm-3"> <figure style="background-image: url(<?=asset('images/spotlight-placeholder.jpg')?>)"><a href="#"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a></figure> <h3>Meta - Roll</h3>  </div>
+			<div class="text-center col-sm-3"> <figure style="background-image: url(<?=asset('images/metal.jpg')?>)"><a href="#"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a></figure> <h3>Coke Industry</h3>  </div>
+			<div class="text-center col-sm-3"> <figure style="background-image: url(<?=asset('images/redflowers.jpg')?>)"><a href="#"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a></figure> <h3>Drill Pipes</h3>  </div>
 
 			<div class="space-md col-xs-12"></div>
 
-			<div class="text-center col-sm-3"> <figure style="background-image: url(<?=asset('images/fuel-digging.jpg')?>)"><a href="#"><img src="<?=asset('images/fuel-digging.jpg')?>" alt="#"/></a></figure> <h3>Sintering</h3>  </div>
-			<div class="text-center col-sm-3"> <figure style="background-image: url(<?=asset('images/fuel-digging.jpg')?>)"><a href="#"><img src="<?=asset('images/fuel-digging.jpg')?>" alt="#"/></a></figure> <h3>Meta - Roll</h3>  </div>
-			<div class="text-center col-sm-3"> <figure style="background-image: url(<?=asset('images/fuel-digging.jpg')?>)"><a href="#"><img src="<?=asset('images/fuel-digging.jpg')?>" alt="#"/></a></figure> <h3>Coke Industry</h3>  </div>
-			<div class="text-center col-sm-3"> <figure style="background-image: url(<?=asset('images/fuel-digging.jpg')?>)"><a href="#"><img src="<?=asset('images/fuel-digging.jpg')?>" alt="#"/></a></figure> <h3>Drill Pipes</h3>  </div>
+			<div class="text-center col-sm-3"> <figure style="background-image: url(<?=asset('images/post-1.jpg')?>)"><a href="#"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a></figure> <h3>Sintering</h3>  </div>
+			<div class="text-center col-sm-3"> <figure style="background-image: url(<?=asset('images/spotlight-placeholder.jpg')?>)"><a href="#"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a></figure> <h3>Meta - Roll</h3>  </div>
+			<div class="text-center col-sm-3"> <figure style="background-image: url(<?=asset('images/metal.jpg')?>)"><a href="#"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a></figure> <h3>Coke Industry</h3>  </div>
+			<div class="text-center col-sm-3"> <figure style="background-image: url(<?=asset('images/redflowers.jpg')?>)"><a href="#"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a></figure> <h3>Drill Pipes</h3>  </div>
 		</div>
 
 
