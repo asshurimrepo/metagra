@@ -182,6 +182,16 @@ article.list .summary>.controls{
 
 
 
+/*Form Control*/
+.input-group-lg>span>.form-control {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+}
+
+
 /*Why*/
 #why{
     background: url(images/redflowers.jpg) center no-repeat;
