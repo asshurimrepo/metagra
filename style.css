@@ -185,7 +185,7 @@ article.list .summary>.controls{
 .wpcf7-not-valid-tip{
     position: fixed;
     bottom: 0;
-    right: 0;
+    right: 20px;
 
     padding: 10px;
     margin-bottom: 20px;
