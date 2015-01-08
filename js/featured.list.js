@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+    alert(1);
     $("#featured-list").owlCarousel({
 
         autoPlay: 3000,
