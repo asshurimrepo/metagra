@@ -204,6 +204,8 @@ article.list .summary>.controls{
 #why .items{
     margin: 50px 0 90px;
     line-height: 1.7em;
+    font-size: 19px;
+    font-weight: 300;
 }
 
 /*Inverse*/
