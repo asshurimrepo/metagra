@@ -22,7 +22,7 @@
 	<?=link_css('font-awesome/css/font-awesome.min.css')?>
 	<?=link_css('style.css')?>
 
-	<?php //wp_head(); ?>
+	<?php wp_head(); ?>
 </head>
 <body>
 <!--Start Content-->
