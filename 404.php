@@ -4,7 +4,7 @@
 	<div class="row">
 		<div class="span12">
 			<div class="hero-unit text-center">
-				<h2 class="no-background">Page Not Found <small><font face="Tahoma" color="red">Error 404</font></small></h2>
+				<h2 class="no-background"><span>Page Not Found <small><font face="Tahoma" color="red">Error 404</font></small></span> </h2>
 				<br />
 				<p>The page you requested could not be found, either contact your webmaster or try again. Use your browsers <b>Back</b> button to navigate to the page you have prevously come from</p>
 				<p><b>Or you could just press this neat little button:</b></p>
