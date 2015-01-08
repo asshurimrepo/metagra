@@ -25,7 +25,7 @@
 	<h2 class="no-background"><span><?=$post->post_title?></span></h2>
 
 	<article class="row list">
-		<figure class="col-md-5"><img src="<?=asset('images/post-1.jpg')?>" alt="#" /></figure>
+		<figure class="col-md-5"><?=get_the_post_thumbnail($post->ID)?></figure>
 		<div class="summary col-md-7">
 			<?=$post->post_excerpt?>
 			<div class="controls">
