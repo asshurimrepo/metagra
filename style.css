@@ -178,8 +178,6 @@ article.list .summary>.controls{
 /*Spotlight*/
 #spotlight{
     margin-top: -30vh;
-    overflow: hidden;
-    max-height: 700px;
 }
 
 
