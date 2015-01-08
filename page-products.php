@@ -1,6 +1,6 @@
 <?php
 	/*
-	Template Name: Content Page
+	Template Name: Product Page
 	Author: Asshurim Larita @ iBoostme..
 	*/
 	get_header();
