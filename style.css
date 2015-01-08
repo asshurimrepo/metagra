@@ -108,6 +108,7 @@ h2.no-background span:after {
 header{
     position: relative;
     background: rgba(255,255,255,.8);
+    z-index: 99;
 }
 
 header #logo{
