@@ -116,6 +116,7 @@ header #logo{
 
 nav{
     background: #d61a20 !important;
+    margin-bottom: -5px;
 }
 
 .navbar-nav {
