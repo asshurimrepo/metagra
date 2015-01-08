@@ -69,6 +69,6 @@
 <?=link_js('owl-carousel/owl.carousel.js')?>
 <?=link_js('js/featured.list.js')?>
 
-<?php wp_footer(); ?>
+<?php //wp_footer(); ?>
 </body>
 </html>
