@@ -42,11 +42,11 @@
 		<figure class="well text-center">
 
 			<div id="partners" class="owl-carousel list-5">
-				<div class="text-center"><a href="#"><img class="img-responsive" src="images/p-omek.png" alt="OMEK"/></a></div>
-				<div class="text-center"><a href="#"><img class="img-responsive" src="images/p-evergrence.png" alt="Evergrence"/></a></div>
-				<div class="text-center"><a href="#"><img class="img-responsive" src="images/p-survicam.png" alt="Survi Cam"/></a></div>
-				<div class="text-center"><a href="#"><img class="img-responsive" src="images/p-biocircle.png" alt="Bio Circle"/></a></div>
-				<div class="text-center"><a href="#"><img class="img-responsive" src="images/p-silverstring.png" alt="Silver String"/></a></div>
+				<div class="text-center"><a href="#"><img class="img-responsive" src="<?=asset('images/p-omek.png')?>" alt="OMEK"/></a></div>
+				<div class="text-center"><a href="#"><img class="img-responsive" src="<?=asset('images/p-evergrence.png')?>" alt="Evergrence"/></a></div>
+				<div class="text-center"><a href="#"><img class="img-responsive" src="<?=asset('images/p-survicam.png')?>" alt="Survi Cam"/></a></div>
+				<div class="text-center"><a href="#"><img class="img-responsive" src="<?=asset('images/p-biocircle.png')?>" alt="Bio Circle"/></a></div>
+				<div class="text-center"><a href="#"><img class="img-responsive" src="<?=asset('images/p-silverstring.png')?>" alt="Silver String"/></a></div>
 			</div>
 
 		</figure>
