@@ -205,6 +205,13 @@ article.list .summary>.controls{
     border: 1px solid #d6e9c6 !important;
     padding: 10px 15px !important;
 }
+.wpcf7-validation-errors{
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border:1px solid #faebcc !important;
+    padding: 10px 15px !important;
+
+}
 
 
 /*Form Control*/
