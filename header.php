@@ -29,7 +29,7 @@
 
 
 
-
+<?php global $main_nav; ?>
 <!--Header-->
 <header>
 
@@ -52,12 +52,13 @@
 			<div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
 
 				<ul class="nav navbar-nav">
-					<li><a href="#">Who we are</a></li>
-					<li><a href="#">Products</a></li>
-					<li><a href="#">Our Expertise</a></li>
-					<li><a href="#">Our Offices</a></li>
-					<li><a href="#">Investment</a></li>
-					<li><a href="#">Contact Us</a></li>
+
+					<?php foreach($main_nav as $nav): ?>
+						<li class="<?=is_active($nav->object_id)?>">
+							<a href="<?=get_site_url().'/'.$nav->url?>"><?=$nav->title?></a>
+						</li>
+					<?php endforeach; ?>
+
 				</ul>
 
 			</div><!-- /.navbar-collapse -->
