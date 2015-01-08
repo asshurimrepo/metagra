@@ -2,6 +2,7 @@
 
 	require_once( 'inc/helpers.php' );
 	require_once( 'inc/hooks.php' );
+	require_once( 'inc/dimox_breadcrumbs.php' );
 
 	add_theme_support( 'menus' );
 
@@ -16,4 +17,5 @@
 	function form_entries_display( ){
 		get_template_part('partials/cv_registration_iframe');
 	}
+
 
