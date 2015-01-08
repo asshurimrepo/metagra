@@ -55,7 +55,7 @@
 
 					<?php foreach($main_nav as $nav): ?>
 						<li class="<?=is_active($nav->object_id)?>">
-							<a href="<?=get_site_url().'/'.$nav->url?>"><?=$nav->title?></a>
+							<a href="<?=get_site_url().'/'.$nav->url?>"><?=get_the_ID()?><?=$nav->title?></a>
 						</li>
 					<?php endforeach; ?>
 
