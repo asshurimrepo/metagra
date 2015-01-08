@@ -1,4 +1,4 @@
-<?php get_header(); have_posts(); ?>
+<?php get_header(); have_posts(); the_post(); ?>
 
 	<section class="container">
 
