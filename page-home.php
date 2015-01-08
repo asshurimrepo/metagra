@@ -7,6 +7,7 @@
 
 
 	$posts = get_field('posts');
+	$highlights = get_field('highlights');
 ?>
 
 <!--Section: Spotlight-->
@@ -46,29 +47,20 @@
 <!--Why-->
 <section id="why" class="inverse">
 	<div class="container">
-		<h2 class="no-background"><span>Why <b>Metagra</b>?</span></h2>
+		<h2 class="no-background"><span><?=get_field('highlight_text')?></span></h2>
 
 
 		<div class="row items">
-			<div class="col-md-3 col-sm-6 text-center">
-				<figure><img src="<?=asset('images/why-1.png')?>" class="img-responsive"/></figure>
-				20 years of consolidated experience in grain markets locally and internationally.
-			</div>
+
+		<?foreach($highlights as $highlight):?>
 
 			<div class="col-md-3 col-sm-6 text-center">
-				<figure><img src="<?=asset('images/why2.png')?>" class="img-responsive"/></figure>
-				Strong relation with clients and suppliers.
+				<figure><img src="<?=$highlight['image']?>" class="img-responsive"/></figure>
+				<?=$highlight['text']?>
 			</div>
 
-			<div class="col-md-3 col-sm-6 text-center">
-				<figure><img src="<?=asset('images/why-3.png')?>" class="img-responsive"/></figure>
-				A long time experience in Humanitarian and food aid supplies.
-			</div>
+		<?php endforeach; ?>
 
-			<div class="col-md-3 col-sm-6 text-center">
-				<figure><img src="<?=asset('images/why-4.png')?>" class="img-responsive"/></figure>
-				Strong knowledge about Logistics.
-			</div>
 		</div>
 
 	</div>
