@@ -29,7 +29,7 @@
 		<div class="summary col-md-7">
 			<?=$post->post_excerpt?>
 			<div class="controls">
-				<a class="btn btn-danger" href="#">READ MORE</a>
+				<a class="btn btn-danger" href="<?=get_permalink($post->ID)?>">READ MORE</a>
 			</div>
 		</div>
 	</article>
