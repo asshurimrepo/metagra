@@ -142,6 +142,10 @@ nav ul.nav{
     border-left: 1px solid #8c1317;
 }
 
+.navbar-nav>li>a:hover{
+    color: #fafafa;
+}
+
 .navbar-nav>li:first-child>a{
     border-left: none;
 }
