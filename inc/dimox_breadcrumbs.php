@@ -3,7 +3,7 @@
 	function dimox_breadcrumbs() {
 
 		$showOnHome = 0; // 1 - show breadcrumbs on the homepage, 0 - don't show
-		$delimiter = '<span class="divider">/</span>'; // delimiter between crumbs
+		$delimiter = ''; // delimiter between crumbs
 		$home = 'Home'; // text for the 'Home' link
 		$showCurrent = 1; // 1 - show current post/page title in breadcrumbs, 0 - don't show
 		$before = '<li class="active"><span class="current">'; // tag before the current crumb
@@ -14,11 +14,11 @@
 
 		if (is_home() || is_front_page()) {
 
-			if ($showOnHome == 1) echo '<ul class="breadcrumb"><li><a href="' . $homeLink . '">' . $home . '</a></li></ul>';
+			if ($showOnHome == 1) echo '<ol class="breadcrumb"><li><a href="' . $homeLink . '">' . $home . '</a></li></ol>';
 
 		} else {
 
-			echo '<ul class="breadcrumb"><li><a href="' . $homeLink . '">' . $home . '</a> ' . $delimiter . '</li> ';
+			echo '<ol class="breadcrumb"><li><a href="' . $homeLink . '">' . $home . '</a> ' . $delimiter . '</li> ';
 
 			if ( is_category() ) {
 				$thisCat = get_category(get_query_var('cat'), false);
@@ -101,7 +101,7 @@
 				if ( is_category() || is_day() || is_month() || is_year() || is_search() || is_tag() || is_author() ) echo ')';
 			}
 
-			echo '</ul>';
+			echo '</ol>';
 
 		}
 	} // end dimox_breadcrumbs()
