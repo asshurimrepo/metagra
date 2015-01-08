@@ -202,7 +202,7 @@ article.list .summary>.controls{
 .wpcf7-mail-sent-ok{
     color: #3c763d;
     background-color: #dff0d8;
-    border: 1px solid #d6e9c6;
+    border: 1px solid #d6e9c6 !important;
     padding: 10px 15px !important;
 }
 
