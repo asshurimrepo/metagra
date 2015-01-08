@@ -1,0 +1,304 @@
+html, body {
+    width: auto !important;
+    overflow-x: hidden !important;
+    font-size: 16px;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*Sections*/
+section{
+    color: #222222;
+}
+
+
+/*Headings*/
+h2 {
+    font-size: 33px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0;
+}
+h2.no-background {
+    position: relative;
+    overflow: hidden;
+    min-height: 40px;
+}
+h2.no-background span {
+    display: inline-block;
+    vertical-align: baseline;
+    zoom: 1;
+    *display: inline;
+    *vertical-align: auto;
+    position: relative;
+    padding: 0 20px;
+}
+h2.no-background span:before,
+h2.no-background span:after {
+    content: '';
+    display: block;
+    width: 1000px;
+    position: absolute;
+    top: 0.73em;
+    border-top: 1px solid #dfdfdf;
+}
+h2.no-background span:before {
+    right: 100%;
+}
+h2.no-background span:after {
+    left: 100%;
+}
+
+
+
+/*Margins & Paddings*/
+.void-top{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+/*Featured Products*/
+.featured-products article{
+    margin-bottom: 20px;
+}
+
+
+/*Feature List*/
+.featured-list figure{
+    background: no-repeat center;
+    background-size: cover;
+    margin: 0 5px;
+}
+.featured-list figure>a>img{
+    width: 100%;
+}
+.featured-list figure>a{
+    opacity: 0;
+    transition: all .3s;
+}
+.featured-list figure:hover>a{
+    opacity: 1;
+}
+.featured-list.gallery h3{
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+
+/*Header*/
+header{
+    position: relative;
+    background: rgba(255,255,255,.8);
+}
+
+header #logo{
+    padding: 20px 0;
+}
+
+nav{
+    background: #d61a20 !important;
+}
+
+.navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar-collapse{
+    text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #FFF;
+}
+
+.navbar-nav>li>a{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left: 1px solid #8c1317;
+}
+
+.navbar-nav>li:first-child>a{
+    border-left: none;
+}
+
+
+
+
+/*List*/
+article.list{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+article.list figure>img{
+    width: 100%;
+}
+article.list .summary{
+    padding-top: 40px;
+    line-height: 2.2em;
+}
+article.list .summary>h1{
+    margin-top: -40px;
+}
+article.list .summary>.controls{
+    margin: 15px 0;
+}
+
+
+
+
+
+/*Spotlight*/
+#spotlight{
+    margin-top: -30vh;
+    overflow: hidden;
+    max-height: 700px;
+}
+
+
+
+/*Why*/
+#why{
+    background: url(images/redflowers.jpg) center no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    color: #FFF;
+    letter-spacing: 1px;
+
+}
+
+#why figure{
+    padding: 15px 0;
+}
+
+#why img{
+    margin: 0 auto;
+}
+
+#why .items{
+    margin: 50px 0 90px;
+    line-height: 1.7em;
+}
+
+/*Inverse*/
+.inverse h2.no-background{
+    color: #FFF;
+}
+
+
+
+/*Partners*/
+
+#partners a{
+    display: block;
+    padding: 10px;
+}
+#partners a>img{
+    vertical-align: middle;
+}
+
+
+/*Input Group*/
+input, textarea, select, button, a{
+    border-radius: 0 !important;
+}
+
+input[type='text'], textarea{
+    border: 1px solid #a9a9a9;
+}
+
+.input-group input[type='text']{
+    border-right: none;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Breadcrumbs*/
+.breadcrumbs{
+    margin: 20px 0;
+}
+.breadcrumb{
+    background: transparent;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+/*Buttons*/
+.btn-danger{
+    background-color: #d6171e;
+}
+
+
+
+/*Text*/
+.text-danger{
+    color: #d6171e;
+}
+
+
+
+/*SPACES*/
+.space{
+    padding: 5px;
+}
+.space-lg{
+    padding: 30px;
+}
+.space-md{
+    padding: 20px;
+}
+.spacious{
+    line-height: 2.2em;
+}
+
+
+
+/*Footer*/
+footer .subscription{
+    padding: 50px;
+}
+
+footer .links{
+    padding: 30px 0;
+    border-top:1px solid #000;
+}
+
+footer .links h3{
+    font-weight: 700;
+}
+
+footer .links li>a{
+    color: #252525;
+    font-size: 18px;
+    line-height: 4vh;
+}
+
+footer .bottom{
+    padding: 20px 0;
+    color: #FFF;
+    font-weight: 300;
+    background-color: #252525;
+    letter-spacing: 1px;
+}
