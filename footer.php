@@ -7,12 +7,14 @@
 			<div class="col-md-8 col-md-offset-2">
 
 
-				<div class="input-group input-group-lg">
+				<!--<div class="input-group input-group-lg">
 					<input type="email" class="form-control" placeholder="Enter Email address">
                   <span class="input-group-btn">
                     <button class="btn btn-danger" type="button">SUBSCRIBE</button>
                   </span>
-				</div>
+				</div>-->
+
+				<?=do_shortcode('[contact-form-7 id="57" title="Contact form 1"]')?>
 
 				<div class="space"></div>
 
