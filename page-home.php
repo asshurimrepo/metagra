@@ -12,7 +12,7 @@
 
 <!--Section: Spotlight-->
 <section id="spotlight">
-	<img src="<?=asset('images/spotlight-placeholder.jpg')?>" />
+	<?=do_shortcode('[rev_slider homeslider]')?>
 </section>
 
 
