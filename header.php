@@ -34,7 +34,7 @@
 <header>
 
 	<div class="container" id="logo">
-		<a href="#"><img src="<?=asset('images/logo.png')?>" alt="Metagra | Your trading partner in Middle East and Europe"/></a>
+		<a href="<?=get_site_url()?>"><img src="<?=asset('images/logo.png')?>" alt="Metagra | Your trading partner in Middle East and Europe"/></a>
 	</div>
 
 	<nav class="navbar-default">
