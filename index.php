@@ -1,4 +1,4 @@
-<?php get_header(); have_posts(); the_post(); ?>
+<?php get_header(); get_template_part('breadcrumbs');  have_posts(); the_post(); ?>
 
 	<section class="container">
 
