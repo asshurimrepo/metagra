@@ -105,6 +105,9 @@ h2.no-background span:after {
     background-size: cover;
     margin: 0 5px;
 }
+.featured-list .item{
+    margin-bottom: 5px;
+}
 .featured-list figure>a>img{
     width: 100%;
     border-width: 0 !important;
