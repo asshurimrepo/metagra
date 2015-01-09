@@ -9,11 +9,10 @@
 	$products = get_field('products');
 ?>
 
-
-
-
-
 	<section class="container featured-products">
+
+		<div class="pre-loader"></div>
+
 		<h2 class="no-background void-top"><span>Metal</span></h2>
 
 		<article class="row list">
