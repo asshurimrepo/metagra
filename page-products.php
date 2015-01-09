@@ -21,17 +21,15 @@
 			<div class="summary col-md-7">
 				<h1 class="hidden-xs hidden-sm"><?=$products[0]->post_title?></h1>
 				<?=$products[0]->post_content?>
-				<?=thumbnail_src($products[0]->ID)?>
 			</div>
 		</article>
 
 
 		<div id="featured-list" class="owl-carousel featured-list">
-			<div class="text-center"> <figure style="background-image: url(<?=asset('images/post-1.jpg')?>"><a href="#"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a></figure> <h3>Sintering</h3> <article class="small">After Compaction the green components must be Sintered to achieve their required mechanical properties.</article> </div>
-			<div class="text-center"> <figure style="background-image: url(<?=asset('images/spotlight-placeholder.jpg')?>)"><a href="#"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a></figure> <h3>Meta - Roll</h3> <article  class="small">Here is a varietal, sheet metal and shaped pipes of various grades of steel.</article> </div>
-			<div class="text-center"> <figure style="background-image: url(<?=asset('images/metal.jpg')?>)"><a href="#"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a></figure> <h3>Coke Industry</h3> <article  class="small">The company produces the implementation of ammonium sulfate, which is used in agriculture and industry, both in the domestic market and for export. </article> </div>
-			<div class="text-center"> <figure style="background-image: url(<?=asset('images/redflowers.jpg')?>)"><a href="#"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a></figure> <h3>Drill Pipes</h3> <article  class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</article> </div>
-		</div>
+			<?php foreach($products as $product) : ?>
+				<div class="text-center"> <figure style="background-image: url(<?=thumbnail_src($products->ID)?>"><a href="#"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a></figure> <h3><?=$product->post_title?></h3> <article class="small"><?=$product->post_excerpt?></article> </div>
+			<?php endforeach; ?>
+	</div>
 
 	</section>
 
