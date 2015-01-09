@@ -6,6 +6,7 @@
 	get_header();
 
 	get_template_part('breadcrumbs');
+	$products = get_field('products');
 ?>
 
 
@@ -16,10 +17,10 @@
 		<h2 class="no-background void-top"><span>Metal</span></h2>
 
 		<article class="row list">
-			<figure class="col-md-5"><img src="<?=asset('images/metal.jpg')?>" alt="#" /></figure>
+			<figure class="col-md-5"><?=get_post_thumbnail($products[0]->ID)?></figure>
 			<div class="summary col-md-7">
-				<h1 class="hidden-xs hidden-sm">Metal</h1>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<h1 class="hidden-xs hidden-sm"><?=$products[0]->post_title?></h1>
+				<?=$products[0]->post_content?>
 			</div>
 		</article>
 
