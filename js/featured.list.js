@@ -31,7 +31,7 @@ $(document).ready(function(){
         }, function(response){
 
             $(".pre-loader").fadeOut(400);
-            $('#featured-list').parent().find('.list').html(response);
+            $('#featured-list').parent().find('.ajax-content').html(response);
 
         });
 
