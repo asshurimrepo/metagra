@@ -17,7 +17,7 @@
 		<h2 class="no-background void-top"><span>Metal</span></h2>
 
 		<article class="row list">
-			<figure class="col-md-5"><?=get_post_thumbnail($products[0]->ID)?></figure>
+			<figure class="col-md-5"><?=get_the_post_thumbnail($products[0]->ID)?></figure>
 			<div class="summary col-md-7">
 				<h1 class="hidden-xs hidden-sm"><?=$products[0]->post_title?></h1>
 				<?=$products[0]->post_content?>
