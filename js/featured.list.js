@@ -26,7 +26,12 @@ $(document).ready(function(){
         $.post(base_url,{
             action: 'get_post_content',
             id: post_id
+        }, function(response){
+
+            $(".featured-products>list").html(response);
+
         });
+
 
     });
 });
