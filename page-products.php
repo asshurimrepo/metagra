@@ -16,7 +16,7 @@
 
 
 		<article class="row list">
-			<div class="pre-loader"><span>Fetching..</span></div>
+			<div class="pre-loader"><span><?=preloader()?></span></div>
 			<div class="ajax-content">
 				<figure class="col-md-5"><?=get_the_post_thumbnail($products[0]->ID)?></figure>
 				<div class="summary col-md-7">
