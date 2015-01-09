@@ -7,6 +7,7 @@
 
 	get_template_part('breadcrumbs');
 	$products = get_field('products');
+	$featured_product_gallery = get_field('featured_product_gallery');
 ?>
 
 	<section class="container featured-products">
@@ -62,17 +63,12 @@
 		<div class="space-md"></div>
 
 		<div class="featured-list gallery">
-			<div class="text-center col-sm-3"> <figure style="background-image: url(<?=asset('images/post-1.jpg')?>"><a href="#"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a></figure> <h3>Sintering</h3>  </div>
-			<div class="text-center col-sm-3"> <figure style="background-image: url(<?=asset('images/spotlight-placeholder.jpg')?>)"><a href="#"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a></figure> <h3>Meta - Roll</h3>  </div>
-			<div class="text-center col-sm-3"> <figure style="background-image: url(<?=asset('images/metal.jpg')?>)"><a href="#"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a></figure> <h3>Coke Industry</h3>  </div>
-			<div class="text-center col-sm-3"> <figure style="background-image: url(<?=asset('images/redflowers.jpg')?>)"><a href="#"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a></figure> <h3>Drill Pipes</h3>  </div>
-
-			<div class="space-md col-xs-12"></div>
-
-			<div class="text-center col-sm-3"> <figure style="background-image: url(<?=asset('images/post-1.jpg')?>)"><a href="#"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a></figure> <h3>Sintering</h3>  </div>
-			<div class="text-center col-sm-3"> <figure style="background-image: url(<?=asset('images/spotlight-placeholder.jpg')?>)"><a href="#"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a></figure> <h3>Meta - Roll</h3>  </div>
-			<div class="text-center col-sm-3"> <figure style="background-image: url(<?=asset('images/metal.jpg')?>)"><a href="#"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a></figure> <h3>Coke Industry</h3>  </div>
-			<div class="text-center col-sm-3"> <figure style="background-image: url(<?=asset('images/redflowers.jpg')?>)"><a href="#"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a></figure> <h3>Drill Pipes</h3>  </div>
+			<?php foreach($featured_product_gallery as $i=>$item): ?>
+				<div class="text-center col-sm-3"> <figure style="background-image: url(<?=$item->image?>"><a href="#"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a></figure> <h3><?=$item->text?></h3>  </div>
+				<?php if($i%4 == 3): ?>
+					<div class="space-md col-xs-12"></div>
+				<?php endif; ?>
+			<?php endforeach; ?>
 		</div>
 
 
