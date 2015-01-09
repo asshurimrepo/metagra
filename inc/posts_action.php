@@ -3,5 +3,6 @@
 	function get_post_content($params){
 		$post_id = $params['id'];
 		$post = get_post($post_id);
-		echo $post->post_content;
+
+		include('../ajax-default.php');
 	}
