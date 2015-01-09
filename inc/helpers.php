@@ -72,7 +72,5 @@
 			</span>
 			<span id="bubblingG_2">
 			</span>
-			<span id="bubblingG_3">
-			</span>
 			</div>';
 	}
