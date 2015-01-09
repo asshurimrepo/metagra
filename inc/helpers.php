@@ -57,9 +57,9 @@
 	}
 
 
-	function thumbnail_src( $post_id )
+	function thumbnail_src( $post_id, $size = 'medium' )
 	{
-		$thumb = wp_get_attachment_image_src( get_post_thumbnail_id( $post_id ) );
+		$thumb = wp_get_attachment_image_src( get_post_thumbnail_id( $post_id ), $size );
 
 		return $thumb[0];
 	}
