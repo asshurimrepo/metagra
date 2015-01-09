@@ -155,6 +155,7 @@ nav{
 article.list{
     margin-top: 20px;
     margin-bottom: 60px;
+    position: relative;
 }
 article.list figure>img{
     width: 100%;
@@ -170,7 +171,13 @@ article.list .summary>h1{
 article.list .summary>.controls{
     margin: 15px 0;
 }
-
+article.list .pre-loader{
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #222222;
+}
 
 
 
