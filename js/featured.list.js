@@ -1,3 +1,5 @@
+var base_url = 'http://'+window.location.host+'/';
+
 $(document).ready(function(){
 
     $("#featured-list").owlCarousel({
@@ -17,7 +19,12 @@ $(document).ready(function(){
 
     $("#featured-list figure a").click(function(){
 
-        alert(window.location.host);
+        var post_id = $(this).data('id');
+
+        $.post(base_url,{
+            action: 'get_post_content',
+            id: post_id
+        });
 
     });
 });
