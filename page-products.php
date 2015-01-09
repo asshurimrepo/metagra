@@ -27,7 +27,7 @@
 
 		<div id="featured-list" class="owl-carousel featured-list">
 			<?php foreach($products as $product) : ?>
-				<div class="text-center"><figure style="background-image: url(<?=thumbnail_src($product->ID)?>)"><a data-id="<?=$product->ID?>" href="#"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a></figure> <h3><?=$product->post_title?></h3> <article class="small"><?=$product->post_excerpt?></article> </div>
+				<div class="text-center"><figure style="background-image: url(<?=thumbnail_src($product->ID)?>)"><a data-id="<?=$product->ID?>" href="#featured"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a></figure> <h3><?=$product->post_title?></h3> <article class="small"><?=$product->post_excerpt?></article> </div>
 			<?php endforeach; ?>
 	</div>
 
