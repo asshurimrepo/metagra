@@ -16,7 +16,7 @@
 
 
 		<article class="row list">
-			<div class="pre-loader"></div>
+			<div class="pre-loader"><span>Fetching..</span></div>
 			<figure class="col-md-5"><?=get_the_post_thumbnail($products[0]->ID)?></figure>
 			<div class="summary col-md-7">
 				<h1 class="hidden-xs hidden-sm"><?=$products[0]->post_title?></h1>

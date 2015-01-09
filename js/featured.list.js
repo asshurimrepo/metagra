@@ -23,11 +23,14 @@ $(document).ready(function(){
 
         var post_id = $(this).data('id');
 
+        $(".pre-loader").fadeIn(500);
+
         $.post(base_url,{
             action: 'get_post_content',
             id: post_id
         }, function(response){
 
+            $(".pre-loader").fadeOut(400);
             $('#featured-list').parent().find('.list').html(response);
 
         });

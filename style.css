@@ -176,7 +176,18 @@ article.list .pre-loader{
     top: 0;
     left: 0;
     right: 0;
-    background: #222222;
+    background: #FFF;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+article.list .pre-loader>span{
+    position: absolute;
+    left: 0;
+    top: 46%;
+    text-align: center;
+    right: 0;
+    font-weight: 600;
 }
 
 
