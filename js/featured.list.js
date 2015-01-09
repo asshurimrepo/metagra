@@ -30,7 +30,7 @@ $(document).ready(function(){
             id: post_id
         }, function(response){
 
-            $(".pre-loader").fadeOut(400);
+            $(".pre-loader").delay(100).fadeOut(400);
             $('#featured-list').parent().find('.ajax-content').html(response);
 
         });
