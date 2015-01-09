@@ -28,7 +28,7 @@ $(document).ready(function(){
             id: post_id
         }, function(response){
 
-            $(this).parent().parent().parent().find('.list').html(response);
+            $('#featured-list').parent().find('.list').html(response);
 
         });
 
