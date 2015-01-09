@@ -1,6 +1,8 @@
-var base_url = 'http://'+window.location.host+'/';
+var base_url = '';
 
 $(document).ready(function(){
+
+    base_url = $('[name=base_ur]').prop('content');
 
     $("#featured-list").owlCarousel({
 
