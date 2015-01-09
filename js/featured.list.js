@@ -28,7 +28,7 @@ $(document).ready(function(){
             id: post_id
         }, function(response){
 
-            $(".featured-products>list").html(response);
+            $(".featured-products>.list").html(response);
 
         });
 
