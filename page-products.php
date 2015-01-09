@@ -57,7 +57,8 @@
 
 
 	<section class="container">
-		<h2 class="no-background void-top"><span>Agriculture</span></h2>
+		<h2 class="no-background void-top"><span><?=get_field('featured_product_title')?></span></h2>
+		<p class="text-center"><?=get_field('featured_product_description')?></p>
 
 		<div class="space-md"></div>
 
