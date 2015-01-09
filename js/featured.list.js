@@ -17,7 +17,7 @@ $(document).ready(function(){
 
     $("#featured-list figure a").click(function(){
 
-
+        alert(window.location.host);
 
     });
 });
