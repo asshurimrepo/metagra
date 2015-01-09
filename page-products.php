@@ -21,6 +21,7 @@
 			<div class="summary col-md-7">
 				<h1 class="hidden-xs hidden-sm"><?=$products[0]->post_title?></h1>
 				<?=$products[0]->post_content?>
+				<?php var_dump(wp_get_attachment_image_src( get_post_thumbnail_id( $product[0]->ID ) )); ?>
 			</div>
 		</article>
 
