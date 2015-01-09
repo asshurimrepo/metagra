@@ -21,6 +21,7 @@
 			<div class="summary col-md-7">
 				<h1 class="hidden-xs hidden-sm"><?=$products[0]->post_title?></h1>
 				<?=$products[0]->post_content?>
+				<?=thumbnail_src($products[0]->ID)?>
 			</div>
 		</article>
 
