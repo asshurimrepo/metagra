@@ -44,11 +44,9 @@
 			<div class="col-md-4">
 				<h3>STAY CONNECTED</h3>
 				<ul class="list-unstyled">
-					<li><a href="#"><i class="fa fa-twitter"></i> Twitter</a></li>
-					<li><a href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
-					<li><a href="#"><i class="fa fa-google-plus"></i> Google +</a></li>
-					<li><a href="#"><i class="fa fa-instagram"></i> Instagram</a></li>
-					<li><a href="#"><i class="fa fa-pinterest"></i> Pinterest</a></li>
+					<li><a target="_blank" href="https://twitter.com/#!/metagra"><i class="fa fa-twitter"></i> Twitter</a></li>
+					<li><a target="_blank" href="https://www.facebook.com/pages/Metagra-Trading-DMCC/291839950958697"><i class="fa fa-facebook"></i> Facebook</a></li>
+					<li><a target="_blank" href="mailto:info@metagra.ae"><i class="fa fa-mail-reply"></i> Mail</a></li>
 				</ul>
 			</div>
 
