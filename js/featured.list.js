@@ -25,6 +25,8 @@ $(document).ready(function(){
 
         $(".pre-loader").fadeIn(500);
 
+        scrollTo('#featured-products');
+
         $.post(base_url,{
             action: 'get_post_content',
             id: post_id
@@ -32,8 +34,6 @@ $(document).ready(function(){
 
             $(".pre-loader").delay(100).fadeOut(400);
             $('#featured-list').parent().find('.ajax-content').html(response);
-
-            scrollTo('#featured-products');
 
         });
 
