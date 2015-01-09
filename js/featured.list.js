@@ -33,8 +33,31 @@ $(document).ready(function(){
             $(".pre-loader").delay(100).fadeOut(400);
             $('#featured-list').parent().find('.ajax-content').html(response);
 
+            scrollTo('#featured-products');
+
         });
 
 
     });
+
+
+    $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            scrollTo(this.hash);
+        }
+    });
 });
+
+
+function scrollTo(hash){
+
+    var target = $(hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+    if (target.length) {
+        $('html,body').animate({
+            scrollTop: target.offset().top
+        }, 1000);
+        return false;
+    }
+
+}

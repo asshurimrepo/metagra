@@ -10,8 +10,7 @@
 	$featured_product_gallery = get_field('featured_product_gallery');
 ?>
 
-	<section class="container featured-products">
-
+	<section id="featured-products" class="container featured-products">
 
 		<h2 class="no-background void-top"><span>Metal</span></h2>
 
