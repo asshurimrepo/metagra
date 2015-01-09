@@ -4,5 +4,5 @@
 		$post_id = $params['id'];
 		$post = get_post($post_id);
 
-		include('ajax-default.php');
+		get_template_part('ajax','default');
 	}
