@@ -13,4 +13,11 @@ $(document).ready(function(){
         items : 5
 
     });
+
+
+    $("#featured-list figure a").click(function(){
+
+
+
+    });
 });
