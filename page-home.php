@@ -47,7 +47,7 @@
 <!--Why-->
 <div id="why" class="inverse">
 	<div class="container">
-		<h2 class="no-background"><span><?=get_field('highlight_text')?></span></h2>
+		<h2 class="no-background"><span>Why <b>Metagra</b>?</span></h2>
 
 
 		<div class="row items">
