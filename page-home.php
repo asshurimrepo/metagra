@@ -45,7 +45,7 @@
 
 
 <!--Why-->
-<section id="why" class="inverse">
+<div id="why" class="inverse">
 	<div class="container">
 		<h2 class="no-background"><span><?=get_field('highlight_text')?></span></h2>
 
@@ -64,6 +64,6 @@
 		</div>
 
 	</div>
-</section>
+</div>
 
 <?php get_footer(); ?>
