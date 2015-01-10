@@ -16,8 +16,6 @@
 </section>
 
 
-
-
 <section id="blog" class="container">
 
 	<?php foreach($posts as $post): ?>
