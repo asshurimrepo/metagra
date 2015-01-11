@@ -28,8 +28,8 @@
 
 			<div class="col-md-4 text-right">
 
-				<a href="#" style="color: #ff7200; font-size: 40px; margin:0 6px;"><i class="fa fa-facebook-square"></i></a>
-				<a href="#" style="color: #ff7200; font-size: 40px; margin:0 6px;"><i class="fa fa-twitter-square"></i></a>
+				<a target="_blank" href="https://twitter.com/#!/metagra" style="color: #ff7200; font-size: 40px; margin:0 6px;"><i class="fa fa-facebook-square"></i></a>
+				<a target="_blank" href="https://www.facebook.com/pages/Metagra-Trading-DMCC/291839950958697" style="color: #ff7200; font-size: 40px; margin:0 6px;"><i class="fa fa-twitter-square"></i></a>
 
 				<p>
 
