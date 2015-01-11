@@ -58,6 +58,12 @@ $(document).ready(function(){
         $(this).find('.dropdown-menu').stop(true, true).delay(200).slideUp();
 
     });
+
+    $(".dropdown-menu").each(function(){
+        if(! $(this).find("li").length ){
+            $(this).remove();
+        }
+    });
 });
 
 
