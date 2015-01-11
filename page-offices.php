@@ -34,12 +34,12 @@
 				<span class="italic lead">info@metagra.ae</span>
 
 				<h3><i class="fa fa-phone"></i> Call us</h3>
-				<span class="italic lead">Tel: +38 098 79 79 213</span>
+				<span class="italic lead">Tel: +38 098 79 79 213</span><br>
 				<span class="italic lead">Fax: +38 0512 765 764</span>
 
 				<h3><i class="fa fa-angle-double-down"></i> Address</h3>
-				<span class="italic lead">4a Mira prospekt</span>
-				<span class="italic lead">Mykolayiv</span>
+				<span class="italic lead">4a Mira prospekt,</span>
+				<span class="italic lead">Mykolayiv,</span>
 				<span class="italic lead">54034, Ukraine</span>
 
 				</p>
