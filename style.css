@@ -251,6 +251,9 @@ article.list .pre-loader>span{
     padding: 10px 15px !important;
 
 }
+.wpcf7 .ajax-loader{
+    display: block;
+}
 
 
 /*Form Control*/
