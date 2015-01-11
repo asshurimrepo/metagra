@@ -11,7 +11,7 @@
 	<h2 class="no-background void-top"><span>Contact <b>Us</b></span></h2>
 
 	<section class="map">
-		<iframe frameborder="0" src="https://mapsengine.google.com/map/u/0/embed?mid=zB5T74wOKau0.kz4bPhrycyBk" width="100%" height="480"></iframe>
+		<iframe frameborder="0" src="https://mapsengine.google.com/map/u/0/embed?mid=zB5T74wOKau0.kz4bPhrycyBk" width="100%" height="280"></iframe>
 	</section>
 
 	<div class="space-md"></div>
