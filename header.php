@@ -68,7 +68,7 @@
 
 								<ul class="dropdown-menu" role="menu">
 									<?php foreach ( $main_nav as $s_nav ): if($s_nav->menu_item_parent == $nav->ID): ?>
-										<li><a href="<?= $nav->url ?>"><?= $nav->title ?></a></li>
+										<li><a href="<?= $s_nav->url ?>"><?= $s_nav->title ?></a></li>
 									<?php endif; endforeach; ?>
 								</ul>
 							</li>
