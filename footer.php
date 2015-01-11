@@ -33,10 +33,10 @@
 			<div class="col-md-4 col-md-offset-4">
 				<h3>ABOUT METAGRA</h3>
 				<ul class="list-unstyled">
-					<li><a href="?p=6"><i class="fa fa-question"></i> About Metagra</a></li>
-					<li><a href="?p=8"><i class="fa fa-database"></i> Products</a></li>
-					<li><a href="?p=10"><i class="fa fa-star"></i> Our Expertise</a></li>
-					<li><a href="?p=14"><i class="fa fa-money"></i> Investments</a></li>
+					<li><a href="<?=get_permalink(6)?>"><i class="fa fa-question"></i> About Metagra</a></li>
+					<li><a href="<?=get_permalink(8)?>"><i class="fa fa-database"></i> Products</a></li>
+					<li><a href="<?=get_permalink(10)?>"><i class="fa fa-star"></i> Our Expertise</a></li>
+					<li><a href="<?=get_permalink(14)?>"><i class="fa fa-money"></i> Investments</a></li>
 				</ul>
 			</div>
 
