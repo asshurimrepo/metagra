@@ -20,7 +20,7 @@
 		<div class="spc-md"></div>
 		<div class="container">
 
-			<div class="col-md-8">
+			<div class="col-md-8 form">
 
 				<?=do_shortcode('[contact-form-7 id="111" title="Contact Form Us"]')?>
 

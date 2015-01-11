@@ -410,6 +410,38 @@ footer .bottom{
 
 
 
+/*Form */
+.form input, .form select, .form textarea{
+    margin-bottom: 15px;
+    border: 0;
+}
+
+.form input[type=text], .form select, .form textarea{
+    background: #f4f4f4;
+    padding: 20px 16px;
+    font-weight: 300;
+    font-size: 16px;
+    font-style: italic;
+}
+.form select{
+    height: 60px;
+}
+.form textarea{
+    padding: 15px 16px;
+}
+.form .no-pad-left{
+    padding-left: 0;
+}
+.form .btn-primary{
+    background: #0d99f1;
+    padding: 10px 20px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    border: none;
+}
+
+
 
 
 
