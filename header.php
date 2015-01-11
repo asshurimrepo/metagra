@@ -31,10 +31,11 @@
 <!--Start Content-->
 
 
-
 <?php global $main_nav; ?>
 <!--Header-->
 <header>
+
+	<pre><?php var_dump($main_nav); ?></pre>
 
 	<div class="container" id="logo">
 		<a href="<?=get_site_url()?>"><img src="<?=asset('images/logo.png')?>" alt="Metagra | Your trading partner in Middle East and Europe"/></a>
