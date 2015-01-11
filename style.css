@@ -22,6 +22,10 @@ html, body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/*Formats*/
+.italic{
+    font-style: italic;
+}
 
 /*Sections*/
 section{
