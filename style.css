@@ -174,7 +174,7 @@ nav{
 }
 @media(min-width:768px) {
     .navbar-nav>li>a {
-        border-left: none;
+        border-left: none !important;
     }
 
 }
