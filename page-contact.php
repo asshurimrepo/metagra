@@ -22,6 +22,7 @@
 
 			<div class="col-md-8">
 
+				<?=do_shortcode('[contact-form-7 id="111" title="Contact Form Us"]')?>
 
 			</div>
 
