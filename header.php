@@ -12,17 +12,18 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="<?php bloginfo( 'charset' ); ?>" />
-	<meta name="base_url" content="<?=site_url()?>" />
-	<title><?php bloginfo('name'); ?>  <?php wp_title(); ?></title>
+	<meta charset="<?php bloginfo( 'charset' ); ?>"/>
+	<meta name="base_url" content="<?= site_url() ?>"/>
+	<title><?php bloginfo( 'name' ); ?>  <?php wp_title(); ?></title>
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
-	<?=link_css('bootstrap/css/bootstrap.min.css')?>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700' rel='stylesheet' type='text/css'>
-	<?=link_css('font-awesome/css/font-awesome.min.css')?>
-	<?=link_css('style.css')?>
-	<?=link_css('owl-carousel/owl.carousel.css')?>
-	<?=link_css('owl-carousel/owl.theme.css')?>
+	<?= link_css( 'bootstrap/css/bootstrap.min.css' ) ?>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700' rel='stylesheet'
+	      type='text/css'>
+	<?= link_css( 'font-awesome/css/font-awesome.min.css' ) ?>
+	<?= link_css( 'style.css' ) ?>
+	<?= link_css( 'owl-carousel/owl.carousel.css' ) ?>
+	<?= link_css( 'owl-carousel/owl.theme.css' ) ?>
 
 
 	<?php wp_head(); ?>
@@ -35,16 +36,18 @@
 <!--Header-->
 <header>
 
-	<pre><?php var_dump($main_nav); ?></pre>
+	<pre><?php var_dump( $main_nav ); ?></pre>
 
 	<div class="container" id="logo">
-		<a href="<?=get_site_url()?>"><img src="<?=asset('images/logo.png')?>" alt="Metagra | Your trading partner in Middle East and Europe"/></a>
+		<a href="<?= get_site_url() ?>"><img src="<?= asset( 'images/logo.png' ) ?>"
+		                                     alt="Metagra | Your trading partner in Middle East and Europe"/></a>
 	</div>
 
 	<nav class="navbar-default">
 		<div class="container">
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+				        data-target="#bs-navbar-collapse-1">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -57,15 +60,26 @@
 
 				<ul class="nav navbar-nav">
 
-					<?php foreach($main_nav as $nav): ?>
-						<li class="<?=is_active($nav->object_id)?>">
-							<a href="<?=$nav->url?>"><?=$nav->title?></a>
-						</li>
+					<?php foreach ( $main_nav as $nav ): ?>
+
+						<?php if ( ! $nav->menu_item_parent ): ?>
+							<li class="<?= is_active( $nav->object_id ) ?>">
+								<a href="<?= $nav->url ?>"><?= $nav->title ?></a>
+
+								<ul class="dropdown-menu" role="menu">
+									<?php foreach ( $main_nav as $s_nav ): if($s_nav->ID == $nav->menu_item_parent): ?>
+										<li><a href="<?= $nav->url ?>"><?= $nav->title ?></a></li>
+									<?php endif; endforeach; ?>
+								</ul>
+							</li>
+						<?php endif; ?>
+
 					<?php endforeach; ?>
 
 				</ul>
 
-			</div><!-- /.navbar-collapse -->
+			</div>
+			<!-- /.navbar-collapse -->
 		</div>
 	</nav>
 
