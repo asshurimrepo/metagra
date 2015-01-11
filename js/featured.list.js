@@ -49,7 +49,7 @@ $(document).ready(function(){
 
 
 
-    $('ul.nav li.dropdown').hover(function() {
+    $('ul.nav li').hover(function() {
 
         $(this).find('.dropdown-menu').stop(true, true).delay(200).slideDown();
 
