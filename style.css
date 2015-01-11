@@ -172,6 +172,12 @@ nav{
 .navbar-nav>li:first-child>a{
     border-left: none;
 }
+@media(min-width:768px) {
+    .navbar-nav>li>a{
+
+        border-left: none;
+
+}
 
 
 
