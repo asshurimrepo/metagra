@@ -36,7 +36,7 @@
 <!--Header-->
 <header>
 
-	<pre><?php var_dump( $main_nav ); ?></pre>
+<!--	<pre>--><?php //var_dump( $main_nav ); ?><!--</pre>-->
 
 	<div class="container" id="logo">
 		<a href="<?= get_site_url() ?>"><img src="<?= asset( 'images/logo.png' ) ?>"
