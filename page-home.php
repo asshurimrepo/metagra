@@ -12,7 +12,13 @@
 
 <!--Section: Spotlight-->
 <section id="spotlight">
-	<?=do_shortcode('[rev_slider homeslider]')?>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<?=do_shortcode('[rev_slider homeslider]')?>
+			</div>
+		</div>
+	</div>
 </section>
 
 
