@@ -28,9 +28,13 @@
 	<!--Links-->
 	<section class="links row">
 		<div class="container">
+			<div class="col-md-4">
+				<?=do_shortcode('[contact-form-7 id="57" title="Contact form 1"]')?>
+				<div class="space"></div>
+				<p class="lead"><i class="fa fa-phone-square"></i> <em>Have a Question? Call us</em> <strong class="text-danger">+971 4369 9787</strong> <br> <small class="text-muted">Our phone lines are available 24/7</small></p>
+			</div>
 
-
-			<div class="col-md-4 col-md-offset-4">
+			<div class="col-md-4">
 				<h3>ABOUT METAGRA</h3>
 				<ul class="list-unstyled">
 					<li><a href="<?=get_permalink(6)?>"><i class="fa fa-question"></i> About Metagra</a></li>
