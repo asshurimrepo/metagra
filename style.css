@@ -227,6 +227,7 @@ article.list .pre-loader>span{
 
 /*Spotlight*/
 #spotlight{
+    padding-top: 60px;
     /*margin-top: -30vh;*/
 }
 
