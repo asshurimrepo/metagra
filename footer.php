@@ -2,19 +2,19 @@
 <footer>
 
 	<!--Subscription-->
-	<section class="subscription container">
+	<!--<section class="subscription container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
 
 
-				<!--<div class="input-group input-group-lg">
+				<div class="input-group input-group-lg">
 					<input type="email" class="form-control" placeholder="Enter Email address">
                   <span class="input-group-btn">
                     <button class="btn btn-danger" type="button">SUBSCRIBE</button>
                   </span>
-				</div>-->
+				</div>
 
-				<?=do_shortcode('[contact-form-7 id="57" title="Contact form 1"]')?>
+				<?/*=do_shortcode('[contact-form-7 id="57" title="Contact form 1"]')*/?>
 
 				<div class="space"></div>
 
@@ -22,13 +22,13 @@
 
 			</div>
 		</div>
-	</section>
+	</section>-->
 
 
 	<!--Links-->
 	<section class="links row">
 		<div class="container">
-			<div class="col-md-4">
+			<div class="col-md-4 subscription">
 				<?=do_shortcode('[contact-form-7 id="57" title="Contact form 1"]')?>
 				<div class="space"></div>
 				<p class="lead"><i class="fa fa-phone-square"></i> <em>Have a Question? Call us</em> <strong class="text-danger">+971 4369 9787</strong> <br> <small class="text-muted">Our phone lines are available 24/7</small></p>
