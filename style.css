@@ -364,8 +364,9 @@ input[type='text'], textarea{
 .btn-danger{
     /*background-color: #d6171e;*/
     background-color: #d88b07;
+    border:none;
 }
-
+.btn-danger:hover { background-color: #ca8206;}
 
 
 /*Text*/
