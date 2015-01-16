@@ -362,14 +362,16 @@ input[type='text'], textarea{
 
 /*Buttons*/
 .btn-danger{
-    background-color: #d6171e;
+    /*background-color: #d6171e;*/
+    background-color: #d88b07;
 }
 
 
 
 /*Text*/
 .text-danger{
-    color: #d6171e;
+    /*color: #d6171e;*/
+    color: #d88b07;
 }
 
 
@@ -405,8 +407,10 @@ footer .links h3{
 
 footer .links li>a{
     color: #252525;
-    font-size: 18px;
-    line-height: 4vh;
+    /*font-size: 18px;
+    line-height: 4vh;*/
+    font-size: 16px;
+    line-height: 12vh;
 }
 
 footer .bottom{
