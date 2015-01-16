@@ -366,8 +366,12 @@ input[type='text'], textarea{
     /*background-color: #d6171e;*/
     background-color: #d88b07;
     border:none;
+    text-shadow: 0px 1px 0px rgba(0,0,0,0.5);
+    box-shadow: inset 0 2px 0 rgba(255,255,255,.2), 0 1px 0 #FFF, inset 0 1px 0 rgba(0,0,0,.2), inset 0 -1px 0 rgba(0,0,0,.2), inset -1px 0 0 rgba(0,0,0,.1), inset 1px 0 0 rgba(0,0,0,.1);
+    -webkit-box-shadow: inset 0 2px 0 rgba(255,255,255,.2), 0 1px 0 #FFF, inset 0 1px 0 rgba(0,0,0,.2), inset 0 -1px 0 rgba(0,0,0,.2), inset -1px 0 0 rgba(0,0,0,.1), inset 1px 0 0 rgba(0,0,0,.1);
+    -moz-box-shadow: inset 0 2px 0 rgba(255,255,255,.2), 0 1px 0 #FFF, inset 0 1px 0 rgba(0,0,0,.2), inset 0 -1px 0 rgba(0,0,0,.2), inset -1px 0 0 rgba(0,0,0,.1), inset 1px 0 0 rgba(0,0,0,.1);
 }
-.btn-danger:hover { background-color: #ca8206;}
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active { background-color: #ca8206;}
 
 
 /*Text*/
