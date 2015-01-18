@@ -77,7 +77,7 @@
 
 						<?php endforeach; ?>
 
-					</ul>
+
 					<div class="col-sm-3 col-md-3 pull-right">
 						<form class="navbar-form" role="search" id="nav-search-form">
 							<div class="input-group">
