@@ -142,8 +142,8 @@ header #logo{
 }
 
 nav{
-   /* background: #d61a20 !important;*/ /*<--- old*/
-    -webkit-border-radius: 5px;
+    background: #d61a20 !important;
+    /*-webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
     position: relative;
@@ -157,15 +157,15 @@ nav{
     position: relative;
     z-index: 9999;
 
-    background: #f0f9ff; /* Old browsers */
-    background: -moz-linear-gradient(top,  #f0f9ff 46%, #f0f9ff 46%, #9ff9f6 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(46%,#f0f9ff), color-stop(46%,#f0f9ff), color-stop(100%,#9ff9f6)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #f0f9ff 46%,#f0f9ff 46%,#9ff9f6 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #f0f9ff 46%,#f0f9ff 46%,#9ff9f6 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #f0f9ff 46%,#f0f9ff 46%,#9ff9f6 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  #f0f9ff 46%,#f0f9ff 46%,#9ff9f6 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#9ff9f6',GradientType=0 ); /* IE6-9 */
-}
+    background: #f0f9ff; *//* Old browsers *//*
+    background: -moz-linear-gradient(top,  #f0f9ff 46%, #f0f9ff 46%, #9ff9f6 100%); *//* FF3.6+ *//*
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(46%,#f0f9ff), color-stop(46%,#f0f9ff), color-stop(100%,#9ff9f6)); *//* Chrome,Safari4+ *//*
+    background: -webkit-linear-gradient(top,  #f0f9ff 46%,#f0f9ff 46%,#9ff9f6 100%); *//* Chrome10+,Safari5.1+ *//*
+    background: -o-linear-gradient(top,  #f0f9ff 46%,#f0f9ff 46%,#9ff9f6 100%); *//* Opera 11.10+ *//*
+    background: -ms-linear-gradient(top,  #f0f9ff 46%,#f0f9ff 46%,#9ff9f6 100%); *//* IE10+ *//*
+    background: linear-gradient(to bottom,  #f0f9ff 46%,#f0f9ff 46%,#9ff9f6 100%); *//* W3C *//*
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#9ff9f6',GradientType=0 ); *//* IE6-9 *//*
+*/}
 
 #nav-search-form {
 
