@@ -142,28 +142,39 @@ header #logo{
 }
 
 nav{
-   /* background: #d61a20 !important;*/
-    /*-webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    position: relative;
-    z-index: 5;
-    height: 40px;
-    -moz-box-shadow: -1px -1px 0 #FFF inset, 0 1px 3px rgba(0,0,0,0.1);
-    -webkit-box-shadow: -1px -1px 0 #FFF inset, 0 1px 3px rgba(0,0,0,0.1);
-    box-shadow: -1px -1px 0 #FFF inset, 0 1px 3px rgba(0,0,0,0.1);
-    margin-bottom: 40px;
-    display: block;
-    position: relative;
-    z-index: 9999;
-    */
 }
 
 #nav-search-form {
-
+}
+#nav-search-form .input-group  .form-control{
+    border-bottom-left-radius: 5px !important;
+    border-top-left-radius: 5px !important;
+}
+#nav-search-form .input-group  .input-group-btn .btn{
+    border-bottom-right-radius: 5px !important;
+    border-top-right-radius: 5px !important;
 }
 #nav-search-form input[type='text'], input[type='password'], input[type='search'], input[type='email'], input[type='tel'], input.input-field, textarea {
-
+    background: #fafafa;
+    background: -moz-linear-gradient(top, #fafafa 0%, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fafafa), color-stop(100%,#ffffff));
+    background: -webkit-linear-gradient(top, #fafafa 0%,#ffffff 100%);
+    background: -o-linear-gradient(top, #fafafa 0%,#ffffff 100%);
+    background: -ms-linear-gradient(top, #fafafa 0%,#ffffff 100%);
+    background: linear-gradient(top, #fafafa 0%,#ffffff 100%);
+    border: 1px solid #D8D8D9;
+    margin: 5px 5px 5px 0;
+    display: inline-block;
+    /* float: left; */
+    -moz-box-shadow: 0 1px 0 #FFF,0 1px 0 #FFF inset;
+    box-shadow: 0 1px 0 #FFF,0 1px 0 #FFF inset;
+    -webkit-box-shadow: 0 1px 0 #FFF,0 1px 0 #FFF inset;
+    text-shadow: 0 1px 0 #FFF;
+    padding: 8px 10px 8px;
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
 }
 .navbar-nav {
     display: inline-block;
