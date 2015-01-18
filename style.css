@@ -142,7 +142,20 @@ header #logo{
 }
 
 nav{
-    background: #d61a20 !important;
+   /* background: #d61a20 !important;*/ /*<--- old*/
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 5;
+    height: 40px;
+    -moz-box-shadow: -1px -1px 0 #FFF inset, 0 1px 3px rgba(0,0,0,0.1);
+    -webkit-box-shadow: -1px -1px 0 #FFF inset, 0 1px 3px rgba(0,0,0,0.1);
+    box-shadow: -1px -1px 0 #FFF inset, 0 1px 3px rgba(0,0,0,0.1);
+    margin-bottom: 40px;
+    display: block;
+    position: relative;
+    z-index: 9999;
 }
 
 
@@ -156,7 +169,9 @@ nav{
 }
 
 .navbar-default .navbar-nav>li>a{
-    color: #FFF;
+    /*color: #FFF;*/
+    padding: 9px 15px;
+    color: #777;
 }
 
 .navbar-nav>li>a{
