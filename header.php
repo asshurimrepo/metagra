@@ -43,44 +43,47 @@
 		                                     alt="Metagra | Your trading partner in Middle East and Europe"/></a>
 	</div>
 
-	<nav class="navbar-default">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-				        data-target="#bs-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-			</div>
+	<div class="container">
+		<div class="col-md-12">
+			<nav class="navbar-default">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+								data-target="#bs-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
 
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
 
-				<ul class="nav navbar-nav">
+						<ul class="nav navbar-nav">
 
-					<?php foreach ( $main_nav as $nav ): ?>
+							<?php foreach ( $main_nav as $nav ): ?>
 
-						<?php if ( ! $nav->menu_item_parent ): ?>
-							<li class="<?= is_active( $nav->object_id ) ?>">
-								<a href="<?= $nav->url ?>"><?= $nav->title ?></a>
+								<?php if ( ! $nav->menu_item_parent ): ?>
+									<li class="<?= is_active( $nav->object_id ) ?>">
+										<a href="<?= $nav->url ?>"><?= $nav->title ?></a>
 
-								<ul class="dropdown-menu" role="menu">
-									<?php foreach ( $main_nav as $s_nav ): if($s_nav->menu_item_parent == $nav->ID): ?>
-										<li><a href="<?= $s_nav->url ?>"><?= $s_nav->title ?></a></li>
-									<?php endif; endforeach; ?>
-								</ul>
-							</li>
-						<?php endif; ?>
+										<ul class="dropdown-menu" role="menu">
+											<?php foreach ( $main_nav as $s_nav ): if($s_nav->menu_item_parent == $nav->ID): ?>
+												<li><a href="<?= $s_nav->url ?>"><?= $s_nav->title ?></a></li>
+											<?php endif; endforeach; ?>
+										</ul>
+									</li>
+								<?php endif; ?>
 
-					<?php endforeach; ?>
+							<?php endforeach; ?>
 
-				</ul>
+						</ul>
 
-			</div>
-			<!-- /.navbar-collapse -->
+					</div>
+					<!-- /.navbar-collapse -->
+				</div>
+			</nav>
 		</div>
-	</nav>
-
+	</div>
 </header>
