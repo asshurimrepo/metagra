@@ -143,9 +143,9 @@ header #logo{
 
 nav{
    /* background: #d61a20 !important;*/ /*<--- old*/
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+    /*-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;*/
+    /*border-radius: 5px;*/
     position: relative;
     z-index: 5;
     height: 40px;
