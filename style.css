@@ -167,7 +167,15 @@ nav{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#9ff9f6',GradientType=0 ); /* IE6-9 */
 }
 
-.navbar-form input[type='text'], input[type='password'], input[type='search'], input[type='email'], input[type='tel'], input.input-field, textarea {
+#nav-search-form {
+    /*width: 200px;*/
+    padding: 0 5px;
+    margin: 0;
+    height: 26px;
+    /*float: left;*/
+    border-color: #E7E7E7;
+}
+#nav-search-form input[type='text'], input[type='password'], input[type='search'], input[type='email'], input[type='tel'], input.input-field, textarea {
     background: #fafafa;
     background: -moz-linear-gradient(top, #fafafa 0%, #ffffff 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fafafa), color-stop(100%,#ffffff));
@@ -176,7 +184,7 @@ nav{
     background: -ms-linear-gradient(top, #fafafa 0%,#ffffff 100%);
     background: linear-gradient(top, #fafafa 0%,#ffffff 100%);
     border: 1px solid #D8D8D9;
-    margin-top: 6px;
+    margin-top: 6px !important;
     /*margin: 5px 5px 5px 0;*/
     display: inline-block;
     /* float: left; */
