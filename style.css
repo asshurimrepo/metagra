@@ -448,6 +448,10 @@ article.list .pre-loader>span{
 .inverse h2.no-background{
     color: #FFF;
 }
+.inverse h2.single-line, .inverse h2.single-line b{
+    color: #FFF;
+}
+
 
 
 
