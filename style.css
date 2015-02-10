@@ -528,7 +528,6 @@ footer .bottom{
 
 
 
-
 /*Form */
 .form input, .form select, .form textarea{
     margin-bottom: 15px;
@@ -798,10 +797,7 @@ footer .bottom{
 }
 #coming-soon{
     text-align: center;
-    background-color: #f0f0f0;
     min-height: 185px;
-    border: 1px solid #d3d3d3;
-    border-radius: 5px;
     padding: 30px 15px;
 }
 
@@ -816,4 +812,12 @@ footer .bottom{
 .thin{
     font-weight: 100;
 }
-.ucwords { text-transform: uppercase; }
+.ucwords {
+    text-transform: uppercase;
+}
+
+.box {
+    background-color: #f0f0f0;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+}
