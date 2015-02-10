@@ -113,7 +113,7 @@ h2.single-line span:after {
     top: 0.5em;
     height: 6px;
 }
-.box h2.single-line .text-left>span{
+.box h2.single-line.text-left>span{
     margin-left: 68px;
 }
 
