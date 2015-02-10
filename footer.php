@@ -50,7 +50,7 @@
 			</div>
 
 			<div class="col-md-3 pull-right">
-				<h3 class="ucwords"><span class="thin">About</span> Metagra</h3>
+				<h3 class="ucwords"><span class="thin">About</span> Metagra</h3>x
 				<ul class="list-unstyled">
 					<li><a href="<?=get_permalink(6)?>"><i class="fa fa-question"></i> About Metagra</a></li>
 					<li><a href="<?=get_permalink(8)?>"><i class="fa fa-database"></i> Products</a></li>
