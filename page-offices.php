@@ -24,8 +24,8 @@
 					<div class="col-md-3 text-center"><img src="<?=asset('images/tracker-logo.png')?>" alt="Street Address"/></div>
 					<div class="col-md-9">
 						<h4>Street Address</h4>
-						<p>Office 1402, Platinium Tower, JLT,
-							Dubai, UAE</p>
+						<p>4a Mira prospekt, Mykolayiv,
+						54034, Ukraine</p>
 					</div>
 				</div>
 
@@ -33,7 +33,8 @@
 					<div class="col-md-3 text-center"><img src="<?=asset('images/phone-icon.png')?>" alt="Phone"/></div>
 					<div class="col-md-9">
 						<h4>Phone</h4>
-						<p>Tel: +971 4 369 9787</p>
+						<p>Tel: +38 098 79 79 213</p>
+						<p>Fax: +38 0512 765 764</p>
 					</div>
 				</div>
 			</div>
