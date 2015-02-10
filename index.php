@@ -4,7 +4,7 @@
 
 		<article class="row list box no-pad-sides">
 			<?php if(has_post_thumbnail(get_the_ID())): ?>
-				<figure class="col-md-5">
+				<figure class="col-md-5 no-pad-left">
 					<?php echo get_the_post_thumbnail(get_the_ID()); ?>
 				</figure>
 				<div class="summary col-md-7">
