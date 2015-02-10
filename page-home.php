@@ -30,12 +30,12 @@
 			<h2 class="no-background"><span>
 				<?php
 				$title = $post->post_title;
-				if($title == 'Who We Are'){
+				if($title == 'Who we are'){
 					$keyword = "Who";
-					echo '<span style="font-weight: normal; text-transform: capitalize;">'.str_ireplace($keyword, '<span class="emp-orange">'.$keyword.'</span>', $title).'</span>';
-				}else if($title == 'What We Do'){
+					echo '<span style="font-weight: normal; ">'.str_ireplace($keyword, '<span class="emp-orange">'.$keyword.'</span>', $title).'</span>';
+				}else if($title == 'What we do'){
 					$keyword = "What";
-					echo '<span style="font-weight: normal; text-transform: capitalize;">'.str_ireplace($keyword, '<span class="emp-orange">'.$keyword.'</span>', $title).'</span>';
+					echo '<span style="font-weight: normal;">'.str_ireplace($keyword, '<span class="emp-orange">'.$keyword.'</span>', $title).'</span>';
 				}else
 				{
 					echo $post->post_title;
