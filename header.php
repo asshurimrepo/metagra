@@ -40,7 +40,7 @@
 
 	<div class="container" id="logo">
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-8">
 				<a href="<?= get_site_url() ?>">
 					<img class="img-responsive logo-img" src="<?= asset( 'images/logo.png' ) ?>"
 						 alt="Metagra | Your trading partner in Middle East and Europe"/>
