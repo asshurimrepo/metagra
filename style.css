@@ -83,8 +83,9 @@ h2.no-background span:after {
     display: block;
     width: 1000px;
     position: absolute;
-    top: 0.73em;
-    border-top: 1px solid #dfdfdf;
+    top: 0.5em;
+    background: url('images/light-heading-sp.png') repeat-x bottom transparent;
+    height: 6px;
 }
 h2.no-background span:before {
     right: 100%;
@@ -525,7 +526,7 @@ footer .bottom{
 }
 
 footer .list-items {
-    padding-left: 20px;
+    padding-left: 15px;
 }
 
 
