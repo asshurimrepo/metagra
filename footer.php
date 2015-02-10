@@ -42,7 +42,7 @@
 
 			<div class="col-md-3 pull-right">
 				<h3 class="ucwords"><span class="thin">Stay</span> Connected</h3>
-				<ul class="list-unstyled">
+				<ul class="list-unstyled list-items">
 					<li><a target="_blank" href="https://twitter.com/#!/metagra"><i class="fa fa-twitter"></i> Twitter</a></li>
 					<li><a target="_blank" href="https://www.facebook.com/pages/Metagra-Trading-DMCC/291839950958697"><i class="fa fa-facebook"></i> Facebook</a></li>
 					<li><a target="_blank" href="mailto:info@metagra.ae"><i class="fa fa-envelope"></i> Mail</a></li>
@@ -51,7 +51,7 @@
 
 			<div class="col-md-3 pull-right">
 				<h3 class="ucwords"><span class="thin">About</span> Metagra</h3>
-				<ul class="list-unstyled">
+				<ul class="list-unstyled list-items">
 					<li><a href="<?=get_permalink(6)?>"><i class="fa fa-question"></i> About Metagra</a></li>
 					<li><a href="<?=get_permalink(8)?>"><i class="fa fa-database"></i> Products</a></li>
 					<li><a href="<?=get_permalink(10)?>"><i class="fa fa-star"></i> Our Expertise</a></li>
