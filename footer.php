@@ -36,7 +36,7 @@
 			<div class="col-md-5 subscription">
 				<?=do_shortcode('[contact-form-7 id="57" title="Contact form 1"]')?>
 				<div class="space"></div>
-				<p>Contact Us <span class="number emp">+971 4369 9787</span></p>
+				<p class="contact">Contact Us <span class="number emp">+971 4369 9787</span></p>
 				<!--<p class="lead"><i class="fa fa-phone-square"></i> <em>Have a Question? Call us</em> <strong class="text-danger">+971 4369 9787</strong> <br> <small class="text-muted">Our phone lines are available 24/7</small></p>-->
 			</div>
 
