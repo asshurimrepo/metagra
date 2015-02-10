@@ -6,12 +6,11 @@
 	$numSegments = count($segments);
 	$currentSegment = $segments[$numSegments - 2];
 
-	$title = the_title();
+	$title = get_the_title( the_ID() );
 	if($currentSegment == 'who-we-are'){
 		$keyword = "Who";
 		$title = str_ireplace($keyword, '<span style="color: #c7810d;">'.$keyword.'</span>', $str);
 	}
-
 	?>
 
 	<section class="container">
