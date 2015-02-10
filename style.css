@@ -582,7 +582,7 @@ input[type='text'], input[type='password'], input[type='search'], input[type='em
     font-weight: normal;
 }
 .input-group .form-control { margin-bottom: 5px; }
-.form input[type=text], .form select/*, .form textarea*/{
+.form input[type=text], .form select, .form textarea{
     background: #fff;
     padding: 20px 16px;
     font-weight: 300;
