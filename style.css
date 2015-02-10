@@ -915,5 +915,6 @@ input[type='text'], input[type='password'], input[type='search'], input[type='em
     border-radius: 20px;
     font-size: 16px;
     padding: 20px 15px;
-    background-color: rgba(96,59,10,0.8);
+    background-color: rgba(96,59,10,0.6);
+    min-height: 280px;
 }

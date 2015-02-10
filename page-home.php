@@ -73,9 +73,11 @@
 
 		<?foreach($highlights as $highlight):?>
 
-			<div class="col-md-3 col-sm-6 text-center feature">
-				<figure><img src="<?=$highlight['image']?>" class="img-responsive"/></figure>
-				<?=$highlight['text']?>
+			<div class="col-md-3 col-sm-6 text-center ">
+				<div class="feature">
+					<figure><img src="<?=$highlight['image']?>" class="img-responsive"/></figure>
+					<?=$highlight['text']?>
+				</div>
 			</div>
 
 		<?php endforeach; ?>
