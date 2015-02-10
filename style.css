@@ -518,6 +518,18 @@ input[type='text'], textarea{
 }
 
 
+.border-frame {
+    overflow: hidden;
+    background-color: #FFF;
+    padding: 7px;
+    margin-bottom: 15px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 5px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 1px 5px rgba(0,0,0,.05);
+    -webkit-box-shadow: 0 1px 5px rgba(0,0,0,.05);
+}
+
+
 
 /*SPACES*/
 .space{

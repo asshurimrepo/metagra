@@ -30,7 +30,7 @@
 			<h2 class="single-line md">
 				<span><?=$post->post_title;?></span>
 			</h2>
-			<figure class="col-md-12"><?=get_the_post_thumbnail($post->ID)?></figure>
+			<figure class="col-md-12 border-frame"><?=get_the_post_thumbnail($post->ID)?></figure>
 			<div class="summary col-md-12">
 				<?php echo substr( $post->post_excerpt, 0, 270).'...'; ?>
 				<div class="controls">
