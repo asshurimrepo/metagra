@@ -41,7 +41,7 @@
 			</div>
 
 			<div class="col-md-3 pull-right">
-				<h3>STAY CONNECTED</h3>
+				<h3><span class="thin">STAY</span> CONNECTED</h3>
 				<ul class="list-unstyled">
 					<li><a target="_blank" href="https://twitter.com/#!/metagra"><i class="fa fa-twitter"></i> Twitter</a></li>
 					<li><a target="_blank" href="https://www.facebook.com/pages/Metagra-Trading-DMCC/291839950958697"><i class="fa fa-facebook"></i> Facebook</a></li>
@@ -50,7 +50,7 @@
 			</div>
 
 			<div class="col-md-3 pull-right">
-				<h3>ABOUT METAGRA</h3>
+				<h3><span class="thin">ABOUT</span> METAGRA</h3>
 				<ul class="list-unstyled">
 					<li><a href="<?=get_permalink(6)?>"><i class="fa fa-question"></i> About Metagra</a></li>
 					<li><a href="<?=get_permalink(8)?>"><i class="fa fa-database"></i> Products</a></li>
