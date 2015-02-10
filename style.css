@@ -62,6 +62,7 @@ h2 {
     text-align: center;
     font-weight: 300;
     letter-spacing: 0;
+    color: #444444;
 }
 h2.no-background {
     position: relative;
@@ -91,6 +92,9 @@ h2.no-background span:before {
 }
 h2.no-background span:after {
     left: 100%;
+}
+h2.no-background b{
+    color: #c7810d;
 }
 
 

@@ -8,7 +8,7 @@
 	get_template_part( 'breadcrumbs' );
 ?>
 
-	<h2 class="no-background void-top"><span>Contact <b>Us</b></span></h2>
+	<h2 class="no-background void-top"><span><b>Contact</b> Us</span></h2>
 
 	<section class="map">
 		<iframe frameborder="0" src="https://mapsengine.google.com/map/u/0/embed?mid=zB5T74wOKau0.kz4bPhrycyBk" width="100%" height="280"></iframe>
