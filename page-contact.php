@@ -38,7 +38,13 @@
 						</div>
 					</div>
 
-					<div class="col-md-4"></div>
+					<div class="col-md-4">
+						<div class="col-md-3 text-center"><img src="<?=asset('images/email-icon.png')?>" alt="Email"/></div>
+						<div class="col-md-9">
+							<h4>Email</h4>
+							<p>info@metagra-dmcc.ae</p>
+						</div>
+					</div>
 				</div>
 			</div>
 
