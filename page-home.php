@@ -32,10 +32,10 @@
 				$title = $post->post_title;
 				if($title == 'Who we are?'){
 					$keyword = "Who";
-					echo '<span style="font-weight: normal; ">'.str_ireplace($keyword, '<span class="emp-orange">'.$keyword.'</span>', $title).'</span>';
+					echo '<b style="font-weight: normal; ">'.str_ireplace($keyword, '<b class="emp-orange">'.$keyword.'</b>', $title).'</b>';
 				}else if($title == 'What we do?'){
 					$keyword = "What";
-					echo '<span style="font-weight: normal;">'.str_ireplace($keyword, '<span class="emp-orange">'.$keyword.'</span>', $title).'</span>';
+					echo '<b style="font-weight: normal;">'.str_ireplace($keyword, '<b class="emp-orange">'.$keyword.'</b>', $title).'</b>';
 				}else
 				{
 					echo $post->post_title;
