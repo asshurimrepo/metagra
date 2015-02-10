@@ -309,7 +309,7 @@ article.list{
     position: relative;
     padding-bottom: 100px;
 }
-article.list h1 { font-weight: bold; }
+article.list h1 { font-weight: bold; font-size: 26px; }
 article.list figure>img{
     width: 100%;
     height: auto;
