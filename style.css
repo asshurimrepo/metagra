@@ -554,9 +554,9 @@ footer .list-items {
 
 
 /*Form */
-.form input, .form select/*, .form textarea*/{
+.form input, .form select, .form textarea{
     margin-bottom: 15px;
-    border: 0;
+    /*border: 0;*/
     /*background: #fff;*/
 }
 input[type='text'], input[type='password'], input[type='search'], input[type='email'], input[type='tel'], input.input-field, textarea, .form textarea {
