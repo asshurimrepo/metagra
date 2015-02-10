@@ -19,6 +19,10 @@ html, body {
     background-color: #f1f1f1;
 }
 
+body{
+    background: url(images/background.png);
+}
+
 *{
     font-family: 'Open Sans', sans-serif;
 }
