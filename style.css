@@ -98,11 +98,6 @@ h2.no-background b{
     color: #c7810d;
 }
 
-h2.no-background b{
-    color: #c7810d;
-}
-
-
 
 /*Margins & Paddings*/
 .void-top{
@@ -836,10 +831,6 @@ footer .list-items {
 .box .full-width{
     margin-left: -90px;
     margin-right: -90px;
-}
-.box .full-width{
-    margin-left: -58px;
-    margin-right: -58px;
 }
 .emp {
     font-weight: bold;
