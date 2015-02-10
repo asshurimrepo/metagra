@@ -451,11 +451,16 @@ input[type='text'], textarea{
 /*Breadcrumbs*/
 .breadcrumbs{
     margin: 20px 0;
+
 }
 .breadcrumb{
     background: transparent;
     font-weight: 300;
     font-size: 14px;
+    color: #d88b07;
+}
+.breadcrumb{
+    color: #b2b2b2;
 }
 
 
