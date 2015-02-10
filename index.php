@@ -24,11 +24,9 @@
 					<?php
 
 					if($currentSegment == 'who-we-are'){
-						echo get_the_title();
-						the_title();
-						/*$title = get_the_title( get_the_ID() );
+						$title = get_the_title();
 						$keyword = "Who";
-						echo '<span style="font-weight: normal">'.str_ireplace($keyword, '<span style="font-weight:bold; color: #c7810d;">'.$keyword.'</span>', $str).'</span>';*/
+						echo '<span style="font-weight: normal">'.str_ireplace($keyword, '<span style="font-weight:bold; color: #c7810d;">'.$keyword.'</span>', $str).'</span>';
 					}else {
 						the_title();
 					}
