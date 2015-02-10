@@ -84,8 +84,9 @@ h2.no-background span:after {
     display: block;
     width: 1000px;
     position: absolute;
-    top: 0.73em;
-    border-top: 1px solid #dfdfdf;
+    top: 0.5em;
+    background: url('images/light-heading-sp.png') repeat-x bottom transparent;
+    height: 6px;
 }
 h2.no-background span:before {
     right: 100%;
@@ -93,6 +94,10 @@ h2.no-background span:before {
 h2.no-background span:after {
     left: 100%;
 }
+h2.no-background b{
+    color: #c7810d;
+}
+
 h2.no-background b{
     color: #c7810d;
 }
@@ -449,19 +454,17 @@ input[type='text'], textarea{
 /*Breadcrumbs*/
 .breadcrumbs{
     margin: 20px 0;
+
 }
 .breadcrumb{
     background: transparent;
     font-weight: 300;
     font-size: 14px;
 }
-
-
-
-
-
-
-
+.breadcrumb a {  color: #d88b07; }
+.breadcrumb .active{
+    color: #b2b2b2;
+}
 
 /*Buttons*/
 .btn-danger{
@@ -528,6 +531,9 @@ footer .bottom{
     letter-spacing: 1px;
 }
 
+footer .list-items {
+    padding-left: 15px;
+}
 
 
 
@@ -825,6 +831,11 @@ footer .bottom{
     background-color: #f0f0f0;
     border: 1px solid #d3d3d3;
     border-radius: 5px;
+    padding: 45px 90px;
+}
+.box .full-width{
+    margin-left: -90px;
+    margin-right: -90px;
 }
 .box .full-width{
     margin-left: -58px;
@@ -836,7 +847,7 @@ footer .bottom{
 .contact {
     margin-left: 20px;
     font-size: 14px;
-    margin-top: -7px;
+    margin-top: -18px;
 }
 .contact .emp{
     font-size: 20px;
