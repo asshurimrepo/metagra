@@ -6,7 +6,6 @@
 	$numSegments = count($segments);
 	$currentSegment = $segments[$numSegments - 2];
 
-	echo $currentSegment;
 	$title = the_title();
 	if($currentSegment == 'who-we-are'){
 		$keyword = "Who";
