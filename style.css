@@ -111,6 +111,7 @@ h2.single-line{
 }
 h2.single-line.md{
     font-size: 26px;
+    letter-spacing: 1px;
 }
 h2.single-line.md b{
     color: #c7810d;
