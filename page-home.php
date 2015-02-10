@@ -27,7 +27,7 @@
 	<?php foreach($posts as $post): ?>
 
 		<div class="col-md-6">
-			<h2 class="no-background">
+			<h2 class="single-line md">
 				<span><?=$post->post_title;?></span>
 			</h2>
 			<figure class="col-md-12"><?=get_the_post_thumbnail($post->ID)?></figure>
