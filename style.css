@@ -330,8 +330,8 @@ article.list figure>img{
     height: auto;
 }
 article.list .summary{
-    padding-top: 40px;
-    line-height: 2.2em;
+    padding-top: 30px;
+    line-height: 28px;
 }
 article.list .summary>h1{
     margin-top: -40px;
