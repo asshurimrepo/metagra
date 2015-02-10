@@ -88,10 +88,10 @@ h2.no-background span:after {
     background: url('images/light-heading-sp.png') repeat-x bottom transparent;
     height: 6px;
 }
-h2.no-background span:before, h2.single-line {
+h2.no-background span:before, h2.single-line span:before {
     right: 100%;
 }
-h2.no-background span:after, h2.single-line {
+h2.no-background span:after, h2.single-line span:after {
     left: 100%;
 }
 h2.no-background b{
