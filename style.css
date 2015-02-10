@@ -430,7 +430,7 @@ article.list .pre-loader>span{
 
 }
 
-#why h2.single-line span:after{
+#why h2.single-line span:after, #why h2.single-line span:before{
     border-top: 2px solid #FFFFFF;
 }
 
