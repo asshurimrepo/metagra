@@ -955,6 +955,6 @@ input[type='text'], input[type='password'], input[type='search'], input[type='em
     color: #f0f0f0;
 }
 .A_large_bg_black_assh {
-    border-left: 10px solid #c7810d;
-    border-right: 10px solid #c7810d;
+    /*border-left: 10px solid #c7810d !important;
+    border-right: 10px solid #c7810d !important;*/
 }
