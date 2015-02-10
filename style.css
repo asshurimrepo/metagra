@@ -62,7 +62,6 @@ h2 {
     text-align: center;
     font-weight: 300;
     letter-spacing: 0;
-    color: #444444;
 }
 h2.no-background {
     position: relative;
@@ -92,9 +91,6 @@ h2.no-background span:before {
 }
 h2.no-background span:after {
     left: 100%;
-}
-h2.no-background b{
-    color: #c7810d;
 }
 
 
@@ -826,4 +822,14 @@ footer .bottom{
     border: 1px solid #d3d3d3;
     border-radius: 5px;
 }
-.emp { font-weight: bold; }
+.emp {
+    font-weight: bold;
+}
+.contact {
+    margin-left: 20px;
+    font-size: 14px;
+    margin-top: -7px;
+}
+.contact .emp{
+    font-size: 20px;
+}
