@@ -53,8 +53,7 @@
 <!--Why-->
 <div id="why" class="inverse">
 	<div class="container">
-		<h2 class="single-line md"><span>Why <b class="emp">Metagra?</b></span></h2>
-
+		<h2 class="single-line md void-top"><span>Why <b class="emp">Metagra?</b></span></h2>
 
 		<div class="row items">
 

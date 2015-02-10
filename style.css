@@ -427,7 +427,7 @@ article.list .pre-loader>span{
     min-height: 300px;
     color: #FFF;
     letter-spacing: 1px;
-
+    padding-top: 40px;
 }
 
 #why h2.single-line span:after, #why h2.single-line span:before{
