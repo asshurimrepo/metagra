@@ -443,7 +443,7 @@ article.list .pre-loader>span{
 }
 
 #why .items{
-    margin: 50px 0 90px;
+    margin: 20px 0 50px auto;
     line-height: 1.7em;
     font-size: 19px;
     font-weight: 300;
