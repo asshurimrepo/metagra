@@ -430,6 +430,10 @@ article.list .pre-loader>span{
 
 }
 
+#why h2.single-line span:after{
+    border-top: 2px solid #FFFFFF;
+}
+
 #why figure{
     padding: 15px 0;
 }
