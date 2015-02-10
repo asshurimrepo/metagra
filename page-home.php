@@ -21,14 +21,7 @@
 	</div>
 </section>
 
-<?php
-$urlArray = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-$segments = explode('/', $urlArray);
-$numSegments = count($segments);
-$currentSegment = $segments[$numSegments - 2];
 
-
-?>
 <section id="blog" class="container">
 	<article class="row list">
 	<?php foreach($posts as $post): ?>
@@ -37,10 +30,10 @@ $currentSegment = $segments[$numSegments - 2];
 			<h2 class="no-background"><span>
 				<?php
 				$title = $post->post_title;
-				if($currentSegment == 'who-we-are'){
+				if($title == 'Who We Are'){
 					$keyword = "Who";
 					echo '<span style="font-weight: normal; text-transform: capitalize;">'.str_ireplace($keyword, '<span class="emp-orange">'.$keyword.'</span>', $title).'</span>';
-				}else if($currentSegment == 'what-we-do'){
+				}else if($title == 'What We Do'){
 					$keyword = "What";
 					echo '<span style="font-weight: normal; text-transform: capitalize;">'.str_ireplace($keyword, '<span class="emp-orange">'.$keyword.'</span>', $title).'</span>';
 				}else
