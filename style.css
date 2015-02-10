@@ -588,6 +588,7 @@ input[type='text'], input[type='password'], input[type='search'], input[type='em
     font-weight: 300;
     font-size: 16px;
     font-style: italic;
+    margin-bottom: 30px;
 }
 .form select{
     height: 60px;
