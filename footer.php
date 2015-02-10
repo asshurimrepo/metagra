@@ -66,8 +66,8 @@
 
 	<!--footer bottom-->
 	<section class="bottom">
-		<div class="container">
-			<small>Copyright Metagra &copy; 2014. All Rights Reserved</small>
+		<div class="container copyright">
+			<small>Copyright Metagra &copy; 2015. All Rights Reserved</small>
 		</div>
 	</section>
 </footer>
