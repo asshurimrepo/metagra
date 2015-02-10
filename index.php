@@ -6,7 +6,7 @@
 	$numSegments = count($segments);
 	$currentSegment = $segments[$numSegments - 2];
 
-	$title = get_the_title( the_ID() );
+	$title = get_the_title( $post_id );
 	if($currentSegment == 'who-we-are'){
 		$keyword = "Who";
 		$title = str_ireplace($keyword, '<span style="color: #c7810d;">'.$keyword.'</span>', $str);
