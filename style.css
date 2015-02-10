@@ -813,3 +813,7 @@ footer .bottom{
     text-align: center;
     color: #848484;
 }
+.thin{
+    font-weight: 100;
+}
+.ucwords { text-transform: uppercase; }
