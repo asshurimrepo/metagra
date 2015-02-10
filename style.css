@@ -554,12 +554,12 @@ footer .list-items {
 
 
 /*Form */
-.form input, .form select{
+.form input, .form select, .form textarea{
     margin-bottom: 15px;
     border: 0;
     /*background: #fff;*/
 }
-input[type='text'], input[type='password'], input[type='search'], input[type='email'], input[type='tel'], input.input-field, textarea {
+input[type='text'], input[type='password'], input[type='search'], input[type='email'], input[type='tel'], input.input-field, textarea, .form textarea {
     background: #fafafa;
     background: -moz-linear-gradient(top, #fafafa 0%, #ffffff 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fafafa), color-stop(100%,#ffffff));
