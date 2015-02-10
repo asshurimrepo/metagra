@@ -6,11 +6,7 @@
 	$numSegments = count($segments);
 	$currentSegment = $segments[$numSegments - 2];
 
-	$title = get_the_title( $post_id );
-	if($currentSegment == 'who-we-are'){
-		$keyword = "Who";
-		$title = str_ireplace($keyword, '<span style="color: #c7810d;">'.$keyword.'</span>', $str);
-	}
+
 	?>
 
 	<section class="container">
@@ -24,7 +20,18 @@
 			<?php else: ?>
 				<div class="summary col-md-12">
 			<?php endif; ?>
-				<h1 class="hidden-xs hidden-sm"><?php echo $title; ?></h1>
+				<h1 class="hidden-xs hidden-sm">
+					<?php
+
+					if($currentSegment == 'who-we-are'){
+						$title = get_the_title( get_the_ID() );
+						$keyword = "Who";
+						echo '<span style="font-weight: normal">'.str_ireplace($keyword, '<span style="font-weight:bold; color: #c7810d;">'.$keyword.'</span>', $str).'</span>';
+					}else {
+						the_title();
+					}
+					?>
+				</h1>
 				<?php the_content(); ?>
 			</div>
 		</article>
