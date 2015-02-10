@@ -8,8 +8,7 @@
 	get_template_part('breadcrumbs');
 ?>
 	<section class="container" id="coming-soon">
-		<h2>Coming Soon</h2>
-		<p>We are working on something very interesting.</p>
+		<p>Coming Soon...</p>
 	</section>
 
 

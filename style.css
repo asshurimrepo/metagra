@@ -799,4 +799,13 @@ footer .bottom{
 }
 #coming-soon{
     text-align: center;
+    background-color: #f0f0f0;
+    min-height: 185px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+}
+
+#coming-soon p {
+    font-size: 16px;
+    color: #444444;
 }
