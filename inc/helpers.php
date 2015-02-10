@@ -69,3 +69,9 @@
 	{
 		return '<div class="bubblingG"><span id="bubblingG_1"></span><span id="bubblingG_2"></span><span id="bubblingG_3"></span></div>';
 	}
+
+	function trace($ar, $color = "F00"){
+	echo '<pre style="z-index:9999;color:#'.$color.'">';
+	print_r($ar);
+	echo '</pre><br style="clear:both;" /><br />';
+}

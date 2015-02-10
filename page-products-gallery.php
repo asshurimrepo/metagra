@@ -1,13 +1,13 @@
 <?php
-	/*
-	Template Name: Product Gallery
-	Author: Asshurim Larita @ iBoostme..
-	*/
-	get_header();
+/*
+Template Name: Product Gallery
+Author: Asshurim Larita @ iBoostme..
+*/
+get_header();
 
-	get_template_part('breadcrumbs');
-	$products = get_field('products');
-	$featured_product_gallery = get_field('featured_product_gallery');
+get_template_part('breadcrumbs');
+$products = get_field('products');
+$featured_product_gallery = get_field('featured_product_gallery');
 ?>
 	<div id="featured-products"></div>
 	<section class="container featured-products">
@@ -26,15 +26,12 @@
 			</div>
 		</article>
 
-
-		<div id="featured-list" class="owl-carousel featured-list">
-			<?php foreach($products as $product) : ?>
-				<div class="text-center" style="padding-top: 1px;"><figure style="background-image: url(<?=thumbnail_src($product->ID)?>)"><a data-id="<?=$product->ID?>" href="#featured"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a></figure> <h3><?=$product->post_title?></h3> <article class="small"><?=$product->post_excerpt?></article> </div>
-			<?php endforeach; ?>
-	</div>
+		<!--<div id="featured-list" class="owl-carousel featured-list">
+			<?php /*foreach($products as $product) : */?>
+				<div class="text-center" style="padding-top: 1px;"><figure style="background-image: url(<?/*=thumbnail_src($product->ID)*/?>)"><a data-id="<?/*=$product->ID*/?>" href="#featured"><img src="<?/*=asset('images/magnify.png')*/?>" alt="#"/></a></figure> <h3><?/*=$product->post_title*/?></h3> <article class="small"><?/*=$product->post_excerpt*/?></article> </div>
+			<?php /*endforeach; */?>
+		</div>-->
 
 	</section>
-
-
 
 <?php get_footer();

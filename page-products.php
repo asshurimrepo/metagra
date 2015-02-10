@@ -14,7 +14,6 @@
 
 		<h2 class="no-background void-top"><span>Metal</span></h2>
 
-
 		<article class="row list">
 			<div class="pre-loader"><span><?=preloader()?></span></div>
 			<div class="ajax-content">
@@ -26,12 +25,11 @@
 			</div>
 		</article>
 
-
 		<div id="featured-list" class="owl-carousel featured-list">
 			<?php foreach($products as $product) : ?>
 				<div class="text-center" style="padding-top: 1px;"><figure style="background-image: url(<?=thumbnail_src($product->ID)?>)"><a data-id="<?=$product->ID?>" href="#featured"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a></figure> <h3><?=$product->post_title?></h3> <article class="small"><?=$product->post_excerpt?></article> </div>
 			<?php endforeach; ?>
-	</div>
+		</div>
 
 	</section>
 

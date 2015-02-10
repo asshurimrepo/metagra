@@ -49,19 +49,17 @@ $(document).ready(function(){
 
 
 
-    $('ul.nav li').hover(function() {
-
+    /*$('ul.nav li').hover(function() {
         $(this).find('.dropdown-menu').stop(true, true).delay(200).slideDown();
 
     }, function() {
-
         $(this).find('.dropdown-menu').stop(true, true).delay(200).slideUp();
-
     });
-
+     */
     $(".dropdown-menu").each(function(){
         if(! $(this).find("li").length ){
             $(this).remove();
+            $(".dropdown-menu .fa-chevron-right").remove();
         }
     });
 });

@@ -23,23 +23,23 @@
 
 
 <section id="blog" class="container">
-
+	<article class="row list">
 	<?php foreach($posts as $post): ?>
 
-
-	<h2 class="no-background"><span><?=$post->post_title?></span></h2>
-
-	<article class="row list">
-		<figure class="col-md-5"><?=get_the_post_thumbnail($post->ID)?></figure>
-		<div class="summary col-md-7">
-			<?=$post->post_excerpt?>
-			<div class="controls">
-				<a class="btn btn-danger" href="<?=get_permalink($post->ID)?>">READ MORE</a>
+		<div class="col-md-6">
+			<h2 class="no-background"><span><?=$post->post_title?></span></h2>
+			<figure class="col-md-12"><?=get_the_post_thumbnail($post->ID)?></figure>
+			<div class="summary col-md-12">
+				<?php echo substr( $post->post_excerpt, 0, 270).'...'; ?>
+				<div class="controls">
+					<a class="btn btn-danger" href="<?=get_permalink($post->ID)?>">READ MORE</a>
+				</div>
 			</div>
 		</div>
-	</article>
 
 	<?php endforeach; ?>
+
+	</article>
 
 
 
