@@ -22,12 +22,15 @@
 			<?php endif; ?>
 				<h1 class="hidden-xs hidden-sm">
 					<?php
-
+					$title = get_the_title();
 					if($currentSegment == 'who-we-are'){
-						$title = get_the_title();
 						$keyword = "Who";
-						echo '<span style="font-weight: normal; text-transform: capitalize;">'.str_ireplace($keyword, '<span style="font-weight:bold; color: #c7810d;">'.$keyword.'</span>', $title).'</span>';
-					}else {
+						echo '<span style="font-weight: normal; text-transform: capitalize;">'.str_ireplace($keyword, '<span class="emp-orange">'.$keyword.'</span>', $title).'</span>';
+					}else if($currentSegment == 'what-we-do'){
+						$keyword = "What";
+						echo '<span style="font-weight: normal; text-transform: capitalize;">'.str_ireplace($keyword, '<span class="emp-orange">'.$keyword.'</span>', $title).'</span>';
+					}else
+					{
 						the_title();
 					}
 					?>

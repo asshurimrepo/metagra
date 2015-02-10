@@ -888,6 +888,10 @@ input[type='text'], input[type='password'], input[type='search'], input[type='em
 .emp {
     font-weight: bold;
 }
+.emp-orange {
+    font-weight: bold;
+    color: #c7810d;
+}
 .contact {
     margin-left: 20px;
     font-size: 14px;
