@@ -16,7 +16,7 @@
 				<iframe frameborder="0" src="https://mapsengine.google.com/map/u/0/embed?mid=zB5T74wOKau0.kz4bPhrycyBk" width="100%" height="250"></iframe>
 			</section>
 
-			<section class="info">
+			<div class="info">
 				<div class="row">
 					<div class="col-md-4">
 						<div class="col-md-3"><img src="<?=asset('images/tracker-logo.png')?>" alt="Street Address"/></div>
@@ -28,7 +28,7 @@
 					<div class="col-md-4"></div>
 					<div class="col-md-4"></div>
 				</div>
-			</section>
+			</div>
 
 			<div class="space-md"></div>
 
