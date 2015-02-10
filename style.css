@@ -950,8 +950,6 @@ input[type='text'], input[type='password'], input[type='search'], input[type='em
     padding: 20px 15px;
     background-color: rgba(0, 0, 0, 0.5);
     min-height: 250px;
-    font-weight: 300;
-    font-family: 'Open Sans';
     line-height: 20px;
     color: #f0f0f0;
 }
