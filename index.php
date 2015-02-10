@@ -26,7 +26,7 @@
 					if($currentSegment == 'who-we-are'){
 						$title = get_the_title();
 						$keyword = "Who";
-						echo '<span style="font-weight: normal">'.str_ireplace($keyword, '<span style="font-weight:bold; color: #c7810d;">'.$keyword.'</span>', $title).'</span>';
+						echo '<span style="font-weight: normal; text-transform: capitalize;">'.str_ireplace($keyword, '<span style="font-weight:bold; color: #c7810d;">'.$keyword.'</span>', $title).'</span>';
 					}else {
 						the_title();
 					}
