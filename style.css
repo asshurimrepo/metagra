@@ -95,6 +95,10 @@ h2.no-background span:after {
     left: 100%;
 }
 
+h2.no-background b{
+    color: #c7810d;
+}
+
 
 
 /*Margins & Paddings*/
@@ -826,6 +830,7 @@ footer .list-items {
     background-color: #f0f0f0;
     border: 1px solid #d3d3d3;
     border-radius: 5px;
+    padding: 45px 58px;
 }
 .emp {
     font-weight: bold;
