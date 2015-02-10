@@ -36,52 +36,9 @@
 						<p>Tel: +971 4 369 9787</p>
 					</div>
 				</div>
-
-				<div class="col-md-4">
-					<div class="col-md-3 text-center"><img src="<?=asset('images/email-icon.png')?>" alt="Email"/></div>
-					<div class="col-md-9">
-						<h4>Email</h4>
-						<p>info@metagra-dmcc.ae</p>
-					</div>
-				</div>
 			</div>
 		</div>
 
-		<div id="contact">
-			<div class="spc-md"></div>
-
-
-			<div class="row">
-
-				<div class="col-md-8 form">
-
-					<?=do_shortcode('[contact-form-7 id="111" title="Contact Form Us"]')?>
-
-				</div>
-
-				<div class="col-md-4 text-right">
-
-					<p>
-
-					<h3><i class="fa fa-envelope"></i> Email us</h3>
-					<span class="italic lead">info@metagra.ae</span>
-
-					<h3><i class="fa fa-phone"></i> Call us</h3>
-					<span class="italic lead">Tel: +38 098 79 79 213</span><br>
-					<span class="italic lead">Fax: +38 0512 765 764</span>
-
-					<h3><i class="fa fa-angle-double-down"></i> Address</h3>
-					<span class="italic lead">4a Mira prospekt,</span>
-					<span class="italic lead">Mykolayiv,</span>
-					<span class="italic lead">54034, Ukraine</span>
-
-					</p>
-				</div>
-			</div>
-
-			<div class="spc-lg"></div>
-
-		</div>
 	</div>
 </div>
 
