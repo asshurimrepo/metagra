@@ -14,7 +14,7 @@
 
 		<h2 class="no-background void-top"><span>Metal</span></h2>
 
-		<article class="row list">
+		<article class="row list box">
 			<div class="pre-loader"><span><?=preloader()?></span></div>
 			<div class="ajax-content">
 				<figure class="col-md-5"><?=get_the_post_thumbnail($products[0]->ID)?></figure>
