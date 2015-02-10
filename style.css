@@ -67,6 +67,7 @@ h2.no-background {
     position: relative;
     overflow: hidden;
     min-height: 40px;
+    color: #444444;
 }
 h2.no-background span {
     display: inline-block;
@@ -91,6 +92,9 @@ h2.no-background span:before {
 }
 h2.no-background span:after {
     left: 100%;
+}
+h2.no-background b{
+    color: #c7810d;
 }
 
 
@@ -821,6 +825,10 @@ footer .bottom{
     background-color: #f0f0f0;
     border: 1px solid #d3d3d3;
     border-radius: 5px;
+}
+.box .full-width{
+    margin-left: -58px;
+    margin-right: -58px;
 }
 .emp {
     font-weight: bold;
