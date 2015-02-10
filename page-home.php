@@ -27,22 +27,9 @@
 	<?php foreach($posts as $post): ?>
 
 		<div class="col-md-6">
-			<h2 class="no-background"><span>
-				<?php
-				$title = $post->post_title;
-				if($title == 'Who we are?'){
-					$keyword = "Who";
-					echo '<b class="emp-title">'.str_ireplace($keyword, '<b class="emp-orange">'.$keyword.'</b>', $title).'</b>';
-				}else if($title == 'What we do?'){
-					$keyword = "What";
-					echo '<b class="emp-title">'.str_ireplace($keyword, '<b class="emp-orange">'.$keyword.'</b>', $title).'</b>';
-				}else
-				{
-					echo $post->post_title;
-				}
-				?>
-
-			</span></h2>
+			<h2 class="no-background">
+				<span><?=$post->post_title;?></span>
+			</h2>
 			<figure class="col-md-12"><?=get_the_post_thumbnail($post->ID)?></figure>
 			<div class="summary col-md-12">
 				<?php echo substr( $post->post_excerpt, 0, 270).'...'; ?>
