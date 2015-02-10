@@ -13,7 +13,7 @@
 			<h2 class="no-background void-top full-width"><span><b>Contact</b> Us</span></h2>
 
 			<section class="map">
-				<iframe frameborder="0" src="https://mapsengine.google.com/map/u/0/embed?mid=zB5T74wOKau0.kz4bPhrycyBk" width="100%" height="280"></iframe>
+				<iframe frameborder="0" src="https://mapsengine.google.com/map/u/0/embed?mid=zB5T74wOKau0.kz4bPhrycyBk" width="100%" height="250"></iframe>
 			</section>
 
 			<div class="space-md"></div>
