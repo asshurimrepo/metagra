@@ -73,7 +73,7 @@ $currentSegment = $segments[$numSegments - 2];
 <!--Why-->
 <div id="why" class="inverse">
 	<div class="container">
-		<h2 class="no-background"><span>Why <span class="emp">Metagra?</span></span></h2>
+		<h2 class="no-background"><span>Why <b class="emp">Metagra?</b></span></h2>
 
 
 		<div class="row items">
