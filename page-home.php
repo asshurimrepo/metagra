@@ -32,10 +32,10 @@
 				$title = $post->post_title;
 				if($title == 'Who we are?'){
 					$keyword = "Who";
-					echo '<b style="font-weight: normal; color:#222222">'.str_ireplace($keyword, '<b class="emp-orange">'.$keyword.'</b>', $title).'</b>';
+					echo '<b class="emp-title">'.str_ireplace($keyword, '<b class="emp-orange">'.$keyword.'</b>', $title).'</b>';
 				}else if($title == 'What we do?'){
 					$keyword = "What";
-					echo '<b style="font-weight: normal; color:#222222">'.str_ireplace($keyword, '<b class="emp-orange">'.$keyword.'</b>', $title).'</b>';
+					echo '<b class="emp-title">'.str_ireplace($keyword, '<b class="emp-orange">'.$keyword.'</b>', $title).'</b>';
 				}else
 				{
 					echo $post->post_title;
@@ -73,7 +73,7 @@
 
 		<?foreach($highlights as $highlight):?>
 
-			<div class="col-md-3 col-sm-6 text-center">
+			<div class="col-md-3 col-sm-6 text-center feature">
 				<figure><img src="<?=$highlight['image']?>" class="img-responsive"/></figure>
 				<?=$highlight['text']?>
 			</div>

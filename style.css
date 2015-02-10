@@ -34,7 +34,7 @@ body{
 
 /*Sections*/
 section{
-    color: #222222;
+    color: #444444;
 }
 section img, .featured-list figure{
     position: relative;
@@ -892,6 +892,9 @@ input[type='text'], input[type='password'], input[type='search'], input[type='em
 .emp {
     font-weight: bold;
 }
+.emp-title{
+    font-weight: normal; color:#444444; text-transform: capitalize;
+}
 .emp-orange {
     font-weight: bold;
     color: #c7810d;
@@ -908,3 +911,9 @@ input[type='text'], input[type='password'], input[type='search'], input[type='em
 .no-pad { padding: 0; }
 .no-pad-sides { padding-left: 0; padding-right: 0; }
 .no-pad-left { padding-left: 0; }
+.feature{
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 20px 15px;
+    background-color: rgba(96,59,10,0.8);
+}
