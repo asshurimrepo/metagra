@@ -67,6 +67,7 @@ h2.no-background {
     position: relative;
     overflow: hidden;
     min-height: 40px;
+    color: #444444;
 }
 h2.no-background span {
     display: inline-block;
