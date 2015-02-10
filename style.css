@@ -39,7 +39,7 @@ section{
 section img, .featured-list figure{
     position: relative;
     overflow: hidden;
-    border: 6px solid #FFF;
+    /*border: 6px solid #FFF;*/
     box-shadow: 0 1px 5px rgba(0,0,0,.05), 0 0 0 1px #e5e5e5;
     -moz-box-shadow: 0 1px 5px rgba(0,0,0,.05), 0 0 0 1px #e5e5e5;
     -webkit-box-shadow: 0 1px 5px rgba(0,0,0,.05), 0 0 0 1px #e5e5e5;
@@ -307,7 +307,9 @@ article.list{
     margin-top: 20px;
     margin-bottom: 60px;
     position: relative;
+    padding-bottom: 100px;
 }
+article.list h1 { font-weight: bold; }
 article.list figure>img{
     width: 100%;
     height: auto;
@@ -896,3 +898,4 @@ input[type='text'], input[type='password'], input[type='search'], input[type='em
 
 .no-pad { padding: 0; }
 .no-pad-sides { padding-left: 0; padding-right: 0; }
+.no-pad-left { padding-left: 0; }
