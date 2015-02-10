@@ -954,7 +954,16 @@ input[type='text'], input[type='password'], input[type='search'], input[type='em
     line-height: 20px;
     color: #f0f0f0;
 }
-.A_large_bg_black_assh {
-    /*border-left: 10px solid #c7810d !important;
-    border-right: 10px solid #c7810d !important;*/
+.A_large_bg_black_juni {
+    /*border-left: 10px solid #c7810d;
+    border-right: 10px solid #c7810d;*/
+}
+.A_large_bg_black_juni > center{
+    color: #d88b07;
+    font-size: 24px;
+    font-weight:700;
+}
+.A_large_bg_black_juni > center > small{
+    font-size: 15px;
+    font-weight: 100;
 }
