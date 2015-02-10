@@ -59,13 +59,13 @@
 				<div class="row">
 
 
-					<div class="col-md-8 form">
+					<div class="col-md-6 form">
 
 						<?=do_shortcode('[contact-form-7 id="111" title="Contact Form Us"]')?>
 
 					</div>
 
-					<div class="col-md-4 text-center">
+					<div class="col-md-6 text-center">
 						<img src="<?=asset('images/building.jpg')?>" alt="Metagra Trading Contact Form"/>
 						<!--<a target="_blank" href="https://twitter.com/#!/metagra" style="color: #ff7200; font-size: 40px; margin:0 6px;"><i class="fa fa-facebook-square"></i></a>
 						<a target="_blank" href="https://www.facebook.com/pages/Metagra-Trading-DMCC/291839950958697" style="color: #ff7200; font-size: 40px; margin:0 6px;"><i class="fa fa-twitter-square"></i></a>
