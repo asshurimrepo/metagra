@@ -457,9 +457,11 @@ input[type='text'], textarea{
     background: transparent;
     font-weight: 300;
     font-size: 14px;
-    color: #d88b07;
 }
-
+.breadcrumb a {  color: #d88b07; }
+.breadcrumb .active{
+    color: #b2b2b2;
+}
 
 /*Buttons*/
 .btn-danger{
@@ -826,11 +828,11 @@ footer .list-items {
     background-color: #f0f0f0;
     border: 1px solid #d3d3d3;
     border-radius: 5px;
-    padding: 45px 58px;
+    padding: 45px 90px;
 }
 .box .full-width{
-    margin-left: -58px;
-    margin-right: -58px;
+    margin-left: -90px;
+    margin-right: -90px;
 }
 .emp {
     font-weight: bold;
