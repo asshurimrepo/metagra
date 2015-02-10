@@ -559,6 +559,28 @@ footer .list-items {
     border: 0;
     background: #fff;
 }
+input[type='text'], input[type='password'], input[type='search'], input[type='email'], input[type='tel'], input.input-field, textarea {
+    background: #fafafa;
+    background: -moz-linear-gradient(top, #fafafa 0%, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fafafa), color-stop(100%,#ffffff));
+    background: -webkit-linear-gradient(top, #fafafa 0%,#ffffff 100%);
+    background: -o-linear-gradient(top, #fafafa 0%,#ffffff 100%);
+    background: -ms-linear-gradient(top, #fafafa 0%,#ffffff 100%);
+    background: linear-gradient(top, #fafafa 0%,#ffffff 100%);
+    border: 1px solid #D8D8D9;
+    margin: 5px 5px 5px 0;
+    display: inline-block;
+/ float: left; /
+-moz-box-shadow: 0 1px 0 #FFF,0 1px 0 #FFF inset;
+    box-shadow: 0 1px 0 #FFF,0 1px 0 #FFF inset;
+    -webkit-box-shadow: 0 1px 0 #FFF,0 1px 0 #FFF inset;
+    text-shadow: 0 1px 0 #FFF;
+    padding: 8px 10px 8px;
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+}
 .input-group .form-control { margin-bottom: 5px; }
 .form input[type=text], .form select, .form textarea{
     background: #fff;
