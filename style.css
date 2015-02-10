@@ -101,6 +101,7 @@ h2.no-background b{
 
 /*Single Line*/
 h2.single-line{
+    font-size: 22px;
     color: #555555;
 }
 h2.single-line span:before,
@@ -110,8 +111,11 @@ h2.single-line span:after {
     width: 1000px;
     position: absolute;
     border-top: 1px solid #c9c9c9;
-    top: 0.5em;
+    top: 0.7em;
     height: 6px;
+}
+.box h2.single-line.text-left>span{
+    margin-left: 68px;
 }
 
 
@@ -553,6 +557,7 @@ footer .list-items {
 .form input, .form select, .form textarea{
     margin-bottom: 15px;
     border: 0;
+    background: #fff;
 }
 .input-group .form-control { margin-bottom: 5px; }
 .form input[type=text], .form select, .form textarea{
