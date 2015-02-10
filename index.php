@@ -24,6 +24,7 @@
 					<?php
 
 					if($currentSegment == 'who-we-are'){
+						echo get_the_title();
 						the_title();
 						/*$title = get_the_title( get_the_ID() );
 						$keyword = "Who";
