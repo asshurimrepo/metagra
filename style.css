@@ -98,6 +98,10 @@ h2.no-background span:after, h2.single-line span:after {
 h2.no-background b{
     color: #c7810d;
 }
+h2.no-background .emp{
+    color: #fff;
+    font-weight: bold;
+}
 
 /*Single Line*/
 h2.single-line{
