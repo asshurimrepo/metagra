@@ -11,6 +11,7 @@ Tags: custom-design, cjnetsolutions, asshurim, cjnet, wordpress-corporate, iboos
 Text Domain:  iBoostme Metagra Project
 */
 
+@import url(font/texgyre.css);
 
 html, body {
     width: auto !important;
@@ -24,7 +25,7 @@ body{
 }
 
 *{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'TeXGyreAdventor', 'Open Sans', sans-serif;
 }
 
 /*Formats*/
