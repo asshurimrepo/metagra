@@ -558,6 +558,7 @@ input[type='text'], textarea{
 
 
 
+
 /*Footer*/
 footer .subscription{  padding: 25px 18px 0 0; }
 footer .lead { font-size: 16px; }
@@ -952,4 +953,8 @@ input[type='text'], input[type='password'], input[type='search'], input[type='em
     min-height: 250px;
     line-height: 20px;
     color: #f0f0f0;
+}
+.A_large_bg_black_assh {
+    border-left: 10px solid #c7810d;
+    border-rightt: 10px solid #c7810d;
 }
