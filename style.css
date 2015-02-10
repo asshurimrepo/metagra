@@ -958,12 +958,12 @@ input[type='text'], input[type='password'], input[type='search'], input[type='em
     /*border-left: 10px solid #c7810d;
     border-right: 10px solid #c7810d;*/
 }
-.A_large_bg_black_juni > center{
-    color: #d88b07;
-    font-size: 24px;
-    font-weight:700;
+.A_large_bg_black_juni  center{
+    color: #d88b07 !important;
+    font-size: 24px !important;
+    font-weight:700 !important;
 }
-.A_large_bg_black_juni > center > small{
-    font-size: 15px;
-    font-weight: 100;
+.A_large_bg_black_juni  center small{
+    font-size: 15px !important;
+    font-weight: 100 !important;
 }
