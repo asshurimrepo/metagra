@@ -52,7 +52,7 @@
 
 			<div id="contact">
 
-				<h2 class="single-line void-top full-width"><span><b>Contact</b> form:</span></h2>
+				<h2 class="single-line void-top full-width text-left"><span><b>Contact</b> form:</span></h2>
 
 				<div class="spc-md"></div>
 
