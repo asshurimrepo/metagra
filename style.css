@@ -63,13 +63,13 @@ h2 {
     font-weight: 300;
     letter-spacing: 0;
 }
-h2.no-background {
+h2.no-background, h2.single-line {
     position: relative;
     overflow: hidden;
     min-height: 40px;
     color: #444444;
 }
-h2.no-background span {
+h2.no-background span, h2.single-line span {
     display: inline-block;
     vertical-align: baseline;
     zoom: 1;
@@ -88,14 +88,29 @@ h2.no-background span:after {
     background: url('images/light-heading-sp.png') repeat-x bottom transparent;
     height: 6px;
 }
-h2.no-background span:before {
+h2.no-background span:before, h2.single-line {
     right: 100%;
 }
-h2.no-background span:after {
+h2.no-background span:after, h2.single-line {
     left: 100%;
 }
 h2.no-background b{
     color: #c7810d;
+}
+
+/*Single Line*/
+h2.single-line{
+    color: #555555;
+}
+h2.single-line span:before,
+h2.single-line span:after {
+    content: '';
+    display: block;
+    width: 1000px;
+    position: absolute;
+    border-top: 1px solid #c9c9c9;
+    top: 0.5em;
+    height: 6px;
 }
 
 

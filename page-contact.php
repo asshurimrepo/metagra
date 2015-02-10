@@ -51,6 +51,9 @@
 			<div class="space-md"></div>
 
 			<div id="contact">
+
+				<h2 class="single-line void-top full-width"><span><b>Contact</b> form:</span></h2>
+
 				<div class="spc-md"></div>
 
 				<div class="row">
