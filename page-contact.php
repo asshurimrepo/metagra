@@ -20,7 +20,9 @@
 
 			<div id="contact">
 				<div class="spc-md"></div>
-				<div class="container">
+
+				<div class="row">
+
 
 					<div class="col-md-8 form">
 
@@ -48,6 +50,7 @@
 
 						</p>
 					</div>
+
 				</div>
 
 				<div class="spc-lg"></div>
