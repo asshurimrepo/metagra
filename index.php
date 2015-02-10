@@ -7,6 +7,12 @@
 	$currentSegment = $segments[$numSegments - 2];
 
 	echo $currentSegment;
+	$title = the_title();
+	if($currentSegment == 'who-we-are'){
+		$keyword = "Who";
+		$title = str_ireplace($keyword, '<span style="color: #c7810d;">'.$keyword.'</span>', $str);
+	}
+
 	?>
 
 	<section class="container">
@@ -20,7 +26,7 @@
 			<?php else: ?>
 				<div class="summary col-md-12">
 			<?php endif; ?>
-				<h1 class="hidden-xs hidden-sm"><?php the_title(); ?></h1>
+				<h1 class="hidden-xs hidden-sm"><?php echo $title; ?></h1>
 				<?php the_content(); ?>
 			</div>
 		</article>
