@@ -315,7 +315,7 @@ header #logo .logo-tag {
 }
 
 
-.main-menu .drop-arrow{
+#main-menu .drop-arrow{
     font-size: 10px;
     font-weight: 100;
     color: #B3B2B2;
