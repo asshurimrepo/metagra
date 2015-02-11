@@ -43,7 +43,6 @@
 									<a data-id="<?=$product->ID?>" href="#featured"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a>
 								</figure>
 							<?php endif; ?>
-							<?=trace($product);?>
 							<h3><a href="<?php echo get_page_link($product->ID)?>" style="color: #555;"><?=$product->post_title?></a></h3>
 							<article class="small">
 								<?php
