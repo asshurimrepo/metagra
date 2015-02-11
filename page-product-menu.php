@@ -35,7 +35,7 @@ $images = [
                     <div class="col-xs-4 item">
 
                         <a href="<?=$url?>">
-                            <img src="<?=asset('images/').$images[$i]?>" alt="<?=$title?>" class="img-responsive"/>
+                            <img src="<?=asset('images/').$images[$i]?>" alt="<?=$title?>" class="img-responsive border-frame"/>
                             <?=$title?>
                         </a>
                     </div>
