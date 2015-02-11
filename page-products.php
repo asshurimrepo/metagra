@@ -51,7 +51,7 @@
 
 							<?php
 							if( $isOilProducts ): ?>
-								<figure style="background-image: url(<?=asset('images/certificate.png')?>) background-size: 140px;">
+								<figure style="background-image: url(<?=asset('images/certificate.png')?>); background-size: 140px;">
 									<a data-id="<?=$product->ID?>" href="#featured"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a>
 								</figure>
 								<h3 class="oil-products-header"><a href="<?php echo get_page_link($product->ID)?>" style="color: #555;"><?=$product->post_title?></a></h3>
