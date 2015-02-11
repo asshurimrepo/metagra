@@ -70,7 +70,7 @@
 				<ul class="nav navbar-nav sm" id="main-menu">
 					<li id="menu-home" class="hidden-sm hidden-xs"><a href="<?php echo get_home_url(); ?>">Home</a></li>
 					<?php foreach ( $main_nav as $nav ): ?>
-
+						<?=trace($nav)?>
 						<?php if ( ! $nav->menu_item_parent ): ?>
 							<li class="<?= is_active( $nav->object_id ) ?> main-items">
 								<a href="<?= $nav->url ?>" class="first-level"><?= $nav->title ?>
