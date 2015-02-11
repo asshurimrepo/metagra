@@ -288,7 +288,7 @@ header #logo .logo-tag {
     color: #777;
     /*transition: all .3s;*/
 }
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .active.main-items a {
+.navbar-default .navbar-nav>li>a:hover/*, .navbar-default .active.main-items a */{
     color: #fafafa !important;
     background: #555555; /* Old browsers */
     background: -moz-linear-gradient(top,  #555555 0%, #444444 100%); /* FF3.6+ */
