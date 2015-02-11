@@ -998,3 +998,9 @@ input[type='text'], input[type='password'], input[type='search'], input[type='em
     font-weight: 100 !important;
     color: #fff !important;
 }
+
+.product-headers {
+    font-size: 18px;
+    font-weight: bold;
+}
+.product-headers .item{ text-align: center; }
