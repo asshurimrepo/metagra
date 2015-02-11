@@ -10,7 +10,7 @@
 	?>
 
 <section class="container">
-	<div class="box">
+	<div class="box" style="padding-left: 15px; padding-right: 15px;">
 	<article class="row list no-pad-sides">
 
 			<?php if(has_post_thumbnail(get_the_ID())): ?>
