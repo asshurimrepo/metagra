@@ -577,6 +577,7 @@ input[type='text'], textarea{
 
 
 /*Footer*/
+footer .ucwords { margin-bottom: 2px; }
 footer .subscription{  padding: 25px 18px 0 0; }
 footer .subscription input[type='email'] {
     font-size: 14px;

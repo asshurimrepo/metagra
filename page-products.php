@@ -45,7 +45,7 @@
 							<?php endif; ?>
 
 							<h3><a href="<?php echo get_page_link($product->ID)?>" style="color: #555;"><?=$product->post_title?></a></h3>
-							<article class="small"><?=$product->post_excerpt?></article>
+							<article class="small"><?/*=$product->post_excerpt*/?><?=$product->post_content?></article>
 						</div>
 					<?php endif;?>
 				<?php endforeach; ?>
