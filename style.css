@@ -550,7 +550,7 @@ input[type='text'], textarea{
     padding: 30px;
 }
 .space-md{
-    padding: 20px;
+    padding: 20px 0;
 }
 .spacious{
     line-height: 2.2em;
