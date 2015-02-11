@@ -25,7 +25,8 @@
 						<div class="col-md-3 text-center"><img src="<?=asset('images/tracker-logo.png')?>" alt="Street Address"/></div>
 						<div class="col-md-9">
 							<h4>Street Address</h4>
-							<p>Office 1402, Platinium Tower, JLT,
+							<p>Office 1402, Platinum Tower, Cluster I <br/>
+								P.O.Box: 38192, Jumeirah Lakes Towers <br/>
 								Dubai, UAE</p>
 						</div>
 					</div>
