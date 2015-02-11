@@ -38,9 +38,12 @@
 				<?php foreach($products as $i => $product) : ?>
 					<?php if($i > 0 ): //remove the first product ?>
 						<div class="text-center" style="padding-top: 1px;">
-							<figure style="background-image: url(<?=thumbnail_src($product->ID)?>)">
-								<a data-id="<?=$product->ID?>" href="#featured"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a>
-							</figure>
+							<?php if(has_post_thumbnail($products[0]->ID)): ?>
+								<figure style="background-image: url(<?=thumbnail_src($product->ID)?>)">
+									<a data-id="<?=$product->ID?>" href="#featured"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a>
+								</figure>
+							<?php endif; ?>
+
 							<h3><a href="<?php echo get_page_link($product->ID)?>" style="color: #555;"><?=$product->post_title?></a></h3>
 							<article class="small"><?=$product->post_excerpt?></article>
 						</div>
