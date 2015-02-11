@@ -15,24 +15,33 @@
 			<h2 class="no-background void-top full-width"><span><?=get_the_title()?></span></h2>
 			<div class="space-md"></div>
 
+			<?php
+			// check if the first product to be displayed is an oil product.
+			$isFirstProductAnOil = false;
+			if( $products[0]->post_parent == 122){
+				$isFirstProductAnOil = true;
+			}
+			?>
 
-
-			<article class="row list  no-pad-sides">
-				<div class="pre-loader"><span><?=preloader()?></span></div>
-				<div class="ajax-content">
-					<?php if(has_post_thumbnail($products[0]->ID)): ?>
+			<?php
+			// display featuring products except for oil products.
+			if( !$isFirstProductAnOil ): ?>
+				<article class="row list  no-pad-sides">
+					<div class="pre-loader"><span><?=preloader()?></span></div>
+					<div class="ajax-content">
+						<?php if(has_post_thumbnail($products[0]->ID)): ?>
 						<figure class="col-md-5"><?=get_the_post_thumbnail($products[0]->ID)?></figure>
 						<div class="summary col-md-7">
-					<?php else: ?>
+							<?php else: ?>
 							<div class="summary col-md-12">
-					<?php endif; ?>
+								<?php endif; ?>
+								<h1 class="hidden-xs hidden-sm"><?=$products[0]->post_title?></h1>
+								<?=$products[0]->post_content?>
+							</div>
+						</div>
+				</article>
+			<?php endif; ?>
 
-
-						<h1 class="hidden-xs hidden-sm"><?=$products[0]->post_title?></h1>
-						<?=$products[0]->post_content?>
-					</div>
-				</div>
-			</article>
 
 			<div id="featured-list" class="owl-carousel featured-list">
 				<?php foreach($products as $i => $product) :
@@ -51,9 +60,7 @@
 
 							<?php
 							if( $isOilProducts ): ?>
-								<figure style="background-image: url(<?=asset('images/certificate.png')?>); background-size: 140px;">
-									<a data-id="<?=$product->ID?>" href="#featured"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a>
-								</figure>
+								<img src="<?=asset('images/certificate.png')?>" alt="<?=$product->post_title?> Certificate" class="img-responsive"/>
 								<h3 class="oil-products-header"><a href="<?php echo get_page_link($product->ID)?>" style="color: #555;"><?=$product->post_title?></a></h3>
 								<article class="small"> <?=$product->post_content;?> </article>
 							<?php else:?>
