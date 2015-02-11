@@ -36,7 +36,7 @@ $images = [
 
                         <a href="<?=$url?>">
                             <img src="<?=asset('images/').$images[$i]?>" alt="<?=$title?>" class="img-responsive border-frame"/>
-
+                            <div class="space"></div>
                             <p><?=$title?></p>
                         </a>
                     </div>
