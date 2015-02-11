@@ -73,12 +73,16 @@
 
 						<?php if ( ! $nav->menu_item_parent ): ?>
 							<li class="<?= is_active( $nav->object_id ) ?>">
-								<a href="<?= $nav->url ?>"><?= $nav->title ?></a>
+								<a href="<?= $nav->url ?>"><?= $nav->title ?>
+									<?php if( $nav->title == 'Products'){
+										echo '<i class="drop-arrow posUp fa fa-chevron-down"></i>';
+									}?>
+								</a>
 
 								<ul class="dropdown-menu" role="menu">
 									<?php foreach ( $main_nav as $s_nav ): if($s_nav->menu_item_parent == $nav->ID): ?>
 										<li>
-											<a href="#"><?= $s_nav->title ?></a>
+											<a href="#"><?= $s_nav->title ?> <i class="drop-arrow posLeft fa fa-chevron-right pull-right"></i></a>
 											<ul class="dropdown-menu sub-menu">
 												<?php foreach ( $main_nav as $_last ): if($_last->menu_item_parent == $s_nav->ID): ?>
 													<li><a href="<?= $_last->url ?>"><?= $_last->title ?></a></li>

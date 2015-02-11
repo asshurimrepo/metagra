@@ -10,34 +10,44 @@
 get_header(); ?>
 
 	<section class="container">
-		<div id="content" class="site-content" role="main">
+		<div class="space-lg"></div>
+		<div class="box" style="padding-left: 15px; padding-right: 15px;">
+			<!--Heading-->
+			<h2 class="no-background void-top full-width" style="margin-left: -16px; margin-right: -16px;">
+				<span><?php printf( __( '<b>Search Results for</b>: %s', 'twentyfourteen' ), get_search_query() ); ?></h2>
+			<div class="space-md"></div>
 
-			<?php if ( have_posts() ) : ?>
-				<div class="page-header">
-					<h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'twentyfourteen' ), get_search_query() ); ?></h1>
-				</div>
-				<?php
-					// Start the Loop.
-					while ( have_posts() ) : the_post();
+			<div class="row list no-pad-sides" >
+				<div id="content" class="site-content" role="main">
 
-						/*
-						 * Include the post format-specific template for the content. If you want to
-						 * use this in a child theme, then include a file called called content-___.php
-						 * (where ___ is the post format) and that will be used instead.
-						 */
-						get_template_part( 'content', get_post_format() );
+					<?php if ( have_posts() ) : ?>
 
-					endwhile;
-				else :
-					// If no content, include the "No posts found" template.
+
+						<?php
+						// Start the Loop.
+						while ( have_posts() ) : the_post();
+
+							/*
+							 * Include the post format-specific template for the content. If you want to
+							 * use this in a child theme, then include a file called called content-___.php
+							 * (where ___ is the post format) and that will be used instead.
+							 */
+							get_template_part( 'content', get_post_format() );
+							echo '<div class="space-md"></div>';
+						endwhile;
+					else :
+						// If no content, include the "No posts found" template.
+						?>
+						<div class="page-header">
+							<h1 class="page-title">No Results Found</h1>
+						</div>
+					<?php
+					endif;
 					?>
-					<div class="page-header">
-						<h1 class="page-title">No Results Found</h1>
-					</div>
-				<?php
-				endif;
-			?>
-		</div><!-- #content -->
+				</div><!-- #content -->
+			</div><!-- #row -->
+		</div>
+
 	</section><!-- #primary -->
 
 <?php

@@ -315,11 +315,23 @@ header #logo .logo-tag {
 }
 
 
-
+#main-menu .drop-arrow{
+    font-size: 10px;
+    font-weight: 100;
+    color: #B3B2B2;
+}
+#main-menu .drop-arrow.posUp{
+    position: relative;
+    bottom: 2px;
+    left: 2px;
+}
+#main-menu .drop-arrow.posLeft{
+    position: relative;
+    top: 6px;
+}
 
 /*List*/
 article.list{
-    margin-top: 20px;
     margin-bottom: 46px;
     position: relative;
     /* padding-bottom: 100px; */
@@ -550,12 +562,18 @@ input[type='text'], textarea{
     padding: 30px;
 }
 .space-md{
-    padding: 20px;
+    padding: 20px 0;
+}
+.space-sm{
+    padding: 10px 0;
 }
 .spacious{
     line-height: 2.2em;
 }
 
+.info p {
+    font-size: 14px;
+}
 
 
 /*Footer*/
@@ -575,7 +593,7 @@ footer .links li>a{
     /*font-size: 18px;
     line-height: 4vh;*/
     font-size: 16px;
-    line-height: 5vh;
+    line-height: 4vh;
 }
 
 footer .bottom{
@@ -940,7 +958,13 @@ input[type='text'], input[type='password'], input[type='search'], input[type='em
 .contact .emp{
     font-size: 20px;
 }
-
+#contact{
+    margin-top: 20px;
+}
+#contact .form input[type='text']{
+    display: block;
+    width: 70%;
+}
 .no-pad { padding: 0; }
 .no-pad-sides { padding-left: 0; padding-right: 0; }
 .no-pad-left { padding-left: 0; }
@@ -952,4 +976,18 @@ input[type='text'], input[type='password'], input[type='search'], input[type='em
     min-height: 250px;
     line-height: 20px;
     color: #f0f0f0;
+}
+.A_large_bg_black_juni {
+    border-left: 10px solid #c7810d;
+    border-right: 10px solid #c7810d;
+}
+.A_large_bg_black_juni  center{
+    color: #d88b07 !important;
+    font-size: 24px !important;
+    font-weight:700 !important;
+}
+.A_large_bg_black_juni  center small{
+    font-size: 15px !important;
+    font-weight: 100 !important;
+    color: #fff !important;
 }

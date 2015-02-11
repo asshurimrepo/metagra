@@ -59,31 +59,14 @@
 				<div class="row">
 
 
-					<div class="col-md-6 form">
+					<div class="col-md-7 form">
 
 						<?=do_shortcode('[contact-form-7 id="111" title="Contact Form Us"]')?>
 
 					</div>
 
-					<div class="col-md-6 text-center">
-						<img src="<?=asset('images/building.jpg')?>" alt="Metagra Trading Contact Form"/>
-						<!--<a target="_blank" href="https://twitter.com/#!/metagra" style="color: #ff7200; font-size: 40px; margin:0 6px;"><i class="fa fa-facebook-square"></i></a>
-						<a target="_blank" href="https://www.facebook.com/pages/Metagra-Trading-DMCC/291839950958697" style="color: #ff7200; font-size: 40px; margin:0 6px;"><i class="fa fa-twitter-square"></i></a>
-
-						<p>
-
-						<h3>Email us</h3>
-						<span class="italic lead">info@metagra.ae</span>
-
-						<h3>Call us</h3>
-						<span class="italic lead">+971 4369 9787</span>
-
-						<h3>Address</h3>
-						<span class="italic lead">Office 1402</span>
-						<span class="italic lead">Palatinium Tower, JLT</span>
-						<span class="italic lead">Dubai, UAE</span>
-
-						</p>-->
+					<div class="col-md-5 text-right">
+						<img src="<?=asset('images/building.jpg')?>" alt="Metagra Trading Contact Form" style="padding-right: 60px;"/>
 					</div>
 
 				</div>

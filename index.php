@@ -9,9 +9,10 @@
 
 	?>
 
-	<section class="container">
+<section class="container">
+	<div class="box" style="padding-left: 15px; padding-right: 15px;">
+	<article class="row list no-pad-sides">
 
-		<article class="row list box no-pad-sides">
 			<?php if(has_post_thumbnail(get_the_ID())): ?>
 				<figure class="col-md-5 no-pad-left">
 					<?php echo get_the_post_thumbnail(get_the_ID()); ?>
@@ -35,10 +36,14 @@
 					}
 					?>
 				</h1>
-				<?php the_content(); ?>
-			</div>
-		</article>
 
-	</section>
+				<div class="space-sm">
+					<?php the_content(); ?>
+				</div>
+			</div>
+
+	</article>
+	</div>
+</section>
 
 <?php get_footer(); ?>
