@@ -39,6 +39,7 @@
 	<section class="container featured-products">
 		<div class="box">
 			<h2 class="no-background void-top full-width"><span>Fuel Oil</span></h2>
+			<div class="space-md"></div>
 			<article class="row list">
 				<figure class="col-md-5"><img src="<?=asset('images/fuel-digging.jpg')?>" alt="#" /></figure>
 				<div class="summary col-md-7">
@@ -59,7 +60,7 @@
 
 			<div class="space-md"></div>
 
-			<div class="featured-list gallery">
+			<div class="row featured-list gallery">
 				<?php foreach($featured_product_gallery as $i=>$item): ?>
 					<div class="text-center col-sm-3 item"> <figure style="background-image: url(<?=$item['image']?>)"><a href="#"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a></figure> <h3><?=$item['text']?></h3>  </div>
 					<?php if($i%4 == 3): ?>
