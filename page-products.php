@@ -37,38 +37,37 @@
 	<div class="space-lg"></div>
 
 	<section class="container featured-products">
-		<h2 class="no-background void-top"><span>Fuel Oil</span></h2>
-
-		<article class="row list">
-			<figure class="col-md-5"><img src="<?=asset('images/fuel-digging.jpg')?>" alt="#" /></figure>
-			<div class="summary col-md-7">
-				<h1 class="hidden-xs hidden-sm">Fuel Oil</h1>
-				Understanding the constant changing current market demands and customers’ preferences for the best quality oil and other products. Our company has great reputation in the global market for offering international standard products that best suit the customers’ exact needs.
-				Our ethical business policies and commitment towards complete satisfaction of customers, have helped us to carve a niche in the competitive market. These products are made using state-of-the-art machines and modern techniques. The complete production process is done under the supervision of highly qualified and experienced personnel. Before the production begins, they conduct thorough research on market requirements. It helps us to introduce the right product range at industry leading prices. Our company supplies various items to Air force, Ordinance Factory, Electricity Boards etc.
-			</div>
-		</article>
-
-
+		<div class="box">
+			<h2 class="no-background void-top full-width"><span>Fuel Oil</span></h2>
+			<article class="row list">
+				<figure class="col-md-5"><img src="<?=asset('images/fuel-digging.jpg')?>" alt="#" /></figure>
+				<div class="summary col-md-7">
+					<h1 class="hidden-xs hidden-sm">Fuel Oil</h1>
+					Understanding the constant changing current market demands and customers’ preferences for the best quality oil and other products. Our company has great reputation in the global market for offering international standard products that best suit the customers’ exact needs.
+					Our ethical business policies and commitment towards complete satisfaction of customers, have helped us to carve a niche in the competitive market. These products are made using state-of-the-art machines and modern techniques. The complete production process is done under the supervision of highly qualified and experienced personnel. Before the production begins, they conduct thorough research on market requirements. It helps us to introduce the right product range at industry leading prices. Our company supplies various items to Air force, Ordinance Factory, Electricity Boards etc.
+				</div>
+			</article>
+		</div>
 	</section>
 
 
 
 	<section class="container">
-		<h2 class="no-background void-top"><span><?=get_field('featured_product_title')?></span></h2>
-		<p class="text-center"><?=get_field('featured_product_description')?></p>
+		<div class="bow">
+			<h2 class="no-background void-top full-width"><span><?=get_field('featured_product_title')?></span></h2>
+			<p class="text-center"><?=get_field('featured_product_description')?></p>
 
-		<div class="space-md"></div>
+			<div class="space-md"></div>
 
-		<div class="featured-list gallery">
-			<?php foreach($featured_product_gallery as $i=>$item): ?>
-				<div class="text-center col-sm-3 item"> <figure style="background-image: url(<?=$item['image']?>)"><a href="#"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a></figure> <h3><?=$item['text']?></h3>  </div>
-				<?php if($i%4 == 3): ?>
-					<div class="space-md col-xs-12"></div>
-				<?php endif; ?>
-			<?php endforeach; ?>
+			<div class="featured-list gallery">
+				<?php foreach($featured_product_gallery as $i=>$item): ?>
+					<div class="text-center col-sm-3 item"> <figure style="background-image: url(<?=$item['image']?>)"><a href="#"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a></figure> <h3><?=$item['text']?></h3>  </div>
+					<?php if($i%4 == 3): ?>
+						<div class="space-md col-xs-12"></div>
+					<?php endif; ?>
+				<?php endforeach; ?>
+			</div>
 		</div>
-
-
 	</section>
 
 
