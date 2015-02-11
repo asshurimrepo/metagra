@@ -72,7 +72,7 @@
 					<?php foreach ( $main_nav as $nav ): ?>
 
 						<?php if ( ! $nav->menu_item_parent ): ?>
-							<li class="<?= is_active( $nav->object_id ) ?>">
+							<li class="<?= is_active( $nav->object_id ) ?> main-items">
 								<a href="<?= $nav->url ?>"><?= $nav->title ?>
 									<?php if( $nav->title == 'Products'){
 										echo '<i class="drop-arrow posUp fa fa-chevron-down"></i>';

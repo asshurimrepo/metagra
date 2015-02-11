@@ -16,14 +16,14 @@
 			<div class="space-md"></div>
 
 			<div class="row product-headers">
-				<div class="col-4 item">
-					Metal
+				<div class="col-xs-4 item">
+					<a href="#">Metal</a>
 				</div>
-				<div class="col-4 item">
-					Oil Products
+				<div class="col-xs-4 item">
+					<a href="#">Oil Products</a>
 				</div>
-				<div class="col-4 item">
-					Agriculture
+				<div class="col-xs-4 item">
+					<a href="#">Agriculture</a>
 				</div>
 			</div>
 
