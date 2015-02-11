@@ -75,7 +75,7 @@
 							<li class="<?= is_active( $nav->object_id ) ?>">
 								<a href="<?= $nav->url ?>"><?= $nav->title ?>
 									<?php if( $nav->title == 'Products'){
-										echo '<i class="main-menu fa fa-chevron-down"></i>';
+										echo '<i class="drop-arrow fa fa-chevron-down"></i>';
 									}?>
 								</a>
 
