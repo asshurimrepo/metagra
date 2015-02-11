@@ -28,7 +28,7 @@
 				</div>
 			</article>
 
-			<div id="featured-list" class="owl-carousel featured-list">
+			<div id="featured-list" class=" featured-list">
 				<?php foreach($products as $i => $product) : ?>
 					<?php if($i > 0 ): //remove the first product?>
 						<div class="text-center" style="padding-top: 1px;"><figure style="background-image: url(<?=thumbnail_src($product->ID)?>)"><a data-id="<?=$product->ID?>" href="#featured"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a></figure> <h3><?=$product->post_title?></h3> <article class="small"><?=$product->post_excerpt?></article> </div>
