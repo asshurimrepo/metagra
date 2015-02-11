@@ -60,7 +60,7 @@
 
 							<?php
 							if( $isOilProducts ): ?>
-								<img src="<?=asset('images/certificate.png')?>" alt="<?=$product->post_title?> Certificate" class="img-responsive"/>
+								<img src="<?=asset('images/certificate.png')?>" alt="<?=$product->post_title?> Certificate" class="img-responsive" style="width: 80%; margin: 0 auto;"/>
 								<h3 class="oil-products-header"><a href="<?php echo get_page_link($product->ID)?>" style="color: #555;"><?=$product->post_title?></a></h3>
 								<article class="small"> <?=$product->post_content;?> </article>
 							<?php else:?>
