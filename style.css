@@ -967,6 +967,7 @@ input[type='text'], input[type='password'], input[type='search'], input[type='em
 #contact{
     margin-top: 20px;
 }
+#contact .form label { font-weight: normal; }
 #contact .form input[type='text']{
     display: block;
     width: 70%;
