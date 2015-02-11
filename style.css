@@ -578,6 +578,9 @@ input[type='text'], textarea{
 
 /*Footer*/
 footer .subscription{  padding: 25px 18px 0 0; }
+footer .subscription input[type='email'] {
+    font-size: 14px;
+}
 footer .lead { font-size: 16px; }
 
 footer .links{
