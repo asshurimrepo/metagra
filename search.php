@@ -15,9 +15,7 @@ get_header(); ?>
 			<!--Heading-->
 			<h2 class="no-background void-top full-width" style="margin-left: -16px; margin-right: -16px;">
 				<span><?php printf( __( '<b>Search Results for</b>: %s', 'twentyfourteen' ), get_search_query() ); ?></h2>
-			<div class="space-md">
-
-
+			<div class="space-md"></div>
 
 			<div class="row list no-pad-sides" >
 				<div id="content" class="site-content" role="main">
@@ -35,7 +33,7 @@ get_header(); ?>
 							 * (where ___ is the post format) and that will be used instead.
 							 */
 							get_template_part( 'content', get_post_format() );
-
+							echo '<div class="space-md"></div>';
 						endwhile;
 					else :
 						// If no content, include the "No posts found" template.
@@ -47,7 +45,7 @@ get_header(); ?>
 					endif;
 					?>
 				</div><!-- #content -->
-			</div>
+			</div><!-- #row -->
 		</div>
 
 	</section><!-- #primary -->
