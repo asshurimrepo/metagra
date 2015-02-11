@@ -33,8 +33,8 @@
 					<div class="col-md-3 text-center"><img src="<?=asset('images/phone-icon.png')?>" alt="Phone"/></div>
 					<div class="col-md-9">
 						<h4>Phone</h4>
-						<p>Tel: +38 098 79 79 213</p>
-						<p>Fax: +38 0512 765 764</p>
+						<p>Tel: +38 098 79 79 213 <br/>
+						Fax: +38 0512 765 764</p>
 					</div>
 				</div>
 			</div>
