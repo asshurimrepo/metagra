@@ -1,4 +1,4 @@
-<article class="row list" style="padding-left: 30px; padding-right: 30px;">
+<article class="row list" style="padding-left: 50px; padding-right: 50px;">
     <div class="summary col-md-12">
         <h1 class="hidden-xs hidden-sm"><a style="color:#222222"  href="<?=get_permalink(get_the_ID())?>"><?php the_title(); ?></a></h1>
         <div class="summary col-md-12">
