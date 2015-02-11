@@ -35,7 +35,10 @@
 					}
 					?>
 				</h1>
-				<?php the_content(); ?>
+
+				<div class="space-md">
+					<?php the_content(); ?>
+				</div>
 			</div>
 		</article>
 
