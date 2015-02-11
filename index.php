@@ -10,8 +10,9 @@
 	?>
 
 <section class="container">
+	<div class="box">
 	<article class="row list no-pad-sides">
-		<div class="box">
+
 			<?php if(has_post_thumbnail(get_the_ID())): ?>
 				<figure class="col-md-5 no-pad-left">
 					<?php echo get_the_post_thumbnail(get_the_ID()); ?>
@@ -40,8 +41,9 @@
 					<?php the_content(); ?>
 				</div>
 			</div>
-		</div>
+
 	</article>
+	</div>
 </section>
 
 <?php get_footer(); ?>
