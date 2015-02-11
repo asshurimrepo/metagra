@@ -1004,3 +1004,4 @@ input[type='text'], input[type='password'], input[type='search'], input[type='em
     font-weight: bold;
 }
 .product-headers .item{ text-align: center; }
+.product-headers .item a{  color: #555; text-decoration: none;; }
