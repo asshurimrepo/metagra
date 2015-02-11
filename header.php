@@ -73,7 +73,11 @@
 
 						<?php if ( ! $nav->menu_item_parent ): ?>
 							<li class="<?= is_active( $nav->object_id ) ?>">
-								<a href="<?= $nav->url ?>"><?= $nav->title ?></a>
+								<a href="<?= $nav->url ?>"><?= $nav->title ?>
+									<?php if( $nav->title == 'Products'){
+										echo '<i class="main-menu fa fa-chevron-down"></i>';
+									}?>
+								</a>
 
 								<ul class="dropdown-menu" role="menu">
 									<?php foreach ( $main_nav as $s_nav ): if($s_nav->menu_item_parent == $nav->ID): ?>
