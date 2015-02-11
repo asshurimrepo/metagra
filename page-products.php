@@ -50,10 +50,10 @@
 		</div>
 	</section>
 
-
+	<div class="space-lg"></div>
 
 	<section class="container">
-		<div class="bow">
+		<div class="box">
 			<h2 class="no-background void-top full-width"><span><?=get_field('featured_product_title')?></span></h2>
 			<p class="text-center"><?=get_field('featured_product_description')?></p>
 
