@@ -66,7 +66,7 @@
 					</div>
 
 					<div class="col-md-5 text-right">
-						<img src="<?=asset('images/building.jpg')?>" alt="Metagra Trading Contact Form" style="padding-right: 40px;"/>
+						<img src="<?=asset('images/building.jpg')?>" alt="Metagra Trading Contact Form" style="padding-right: 60px;"/>
 					</div>
 
 				</div>
