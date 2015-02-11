@@ -10,11 +10,10 @@ $args = [
 ];
 $pages = get_pages( $args );
 
-trace($pages);
+// get the pages of the products
 foreach($pages as $page ){
     $title = $page->post_title;
     $url = get_page_link($page->ID);
-    trace( $url );
 }
 ?>
     <div id="featured-products"></div>
@@ -24,15 +23,15 @@ foreach($pages as $page ){
             <div class="space-md"></div>
 
             <div class="row product-headers">
-                <div class="col-xs-4 item">
-                    <a href="#">Metal</a>
-                </div>
-                <div class="col-xs-4 item">
-                    <a href="#">Oil Products</a>
-                </div>
-                <div class="col-xs-4 item">
-                    <a href="#">Agriculture</a>
-                </div>
+                <?php foreach($pages as $page ){
+                    $title = $page->post_title;
+                    $url = get_page_link($page->ID); ?>
+
+                    <div class="col-xs-4 item">
+                        <a href="<?=$url?>"><?=$title?></a>
+                    </div>
+
+                <?php }?>
             </div>
         </div>
     </section>
