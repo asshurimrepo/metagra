@@ -15,6 +15,11 @@ foreach($pages as $page ){
     $title = $page->post_title;
     $url = get_page_link($page->ID);
 }
+$images = [
+    'feature_agriculture.jpg',
+    'feature_metal.jpg',
+    'feature_oil_products'
+];
 ?>
     <div class="space-lg"></div>
     <section class="container featured-products">
@@ -23,12 +28,16 @@ foreach($pages as $page ){
             <div class="space-md"></div>
 
             <div class="row product-headers">
-                <?php foreach($pages as $page ){
+                <?php foreach($pages as $i => $page ){
                     $title = $page->post_title;
                     $url = get_page_link($page->ID); ?>
 
                     <div class="col-xs-4 item">
-                        <a href="<?=$url?>"><?=$title?></a>
+
+                        <a href="<?=$url?>">
+                            <img src="<?=asset('images/').$images[$i]?>" alt="<?=$title?>" class="img-responsive"/>
+                            <?=$title?>
+                        </a>
                     </div>
 
                 <?php }?>
