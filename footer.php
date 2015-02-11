@@ -41,7 +41,7 @@
 				<!--<p class="lead"><i class="fa fa-phone-square"></i> <em>Have a Question? Call us</em> <strong class="text-danger">+971 4369 9787</strong> <br> <small class="text-muted">Our phone lines are available 24/7</small></p>-->
 			</div>
 
-			<div class="col-md-3 pull-right">
+			<div class="col-md-3 col-sm-6 pull-right">
 				<h3 class="ucwords"><span class="thin">Stay</span> Connected</h3>
 				<ul class="list-unstyled list-items">
 					<li><a target="_blank" href="https://twitter.com/#!/metagra"><i class="fa fa-twitter"></i> Twitter</a></li>
@@ -50,7 +50,7 @@
 				</ul>
 			</div>
 
-			<div class="col-md-3 pull-right">
+			<div class="col-md-3 col-sm-6 pull-right">
 				<h3 class="ucwords"><span class="thin">About</span> Metagra</h3>
 				<ul class="list-unstyled list-items">
 					<li><a href="<?=get_permalink(6)?>"><i class="fa fa-question"></i> About Metagra</a></li>
