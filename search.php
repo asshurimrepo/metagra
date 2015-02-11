@@ -10,15 +10,15 @@
 get_header(); ?>
 
 	<section class="container">
+		<div class="space-lg"></div>
 		<div class="box" style="padding-left: 15px; padding-right: 15px;">
+			<h2 class="no-background void-top full-width"><span><?php printf( __( '<b>Search Results for</b>: %s', 'twentyfourteen' ), get_search_query() ); ?></h2>
 			<div class="row list no-pad-sides">
 				<div id="content" class="site-content" role="main">
 
 					<?php if ( have_posts() ) : ?>
-						<h2 class="no-background void-top full-width"><span><?php printf( __( '<b>Search Results for</b>: %s', 'twentyfourteen' ), get_search_query() ); ?></h2>
-						<!--<div class="page-header">
-							<h1 class="page-title"></h1>
-						</div>-->
+
+						<div class="space-sm">
 						<?php
 						// Start the Loop.
 						while ( have_posts() ) : the_post();
