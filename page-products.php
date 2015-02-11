@@ -12,7 +12,7 @@
 	<div id="featured-products"></div>
 	<section class="container featured-products">
 		<div class="box">
-			<h2 class="no-background void-top full-width"><span>Products</span></h2>
+			<h2 class="no-background void-top full-width"><span><?=get_the_title()?></span></h2>
 			<div class="space-md"></div>
 
 
