@@ -12,8 +12,8 @@
 	<div id="featured-products"></div>
 	<section class="container featured-products">
 		<div class="box">
-			<h2 class="no-background void-top"><span>Metal</span></h2>
-
+			<h2 class="no-background void-top full-width"><span>Metal</span></h2>
+			<div class="space-md"></div>
 			<article class="row list  no-pad-sides">
 				<div class="pre-loader"><span><?=preloader()?></span></div>
 				<div class="ajax-content">
