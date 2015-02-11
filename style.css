@@ -157,6 +157,7 @@ h2.single-line span:after {
     padding: 8px 15px;
     font-size: 14px;
 }
+.featured-list .owl-item img { border: none !important; }
 .featured-list .oil-products-header {
     min-height: 50px;
 }
