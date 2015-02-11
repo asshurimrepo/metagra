@@ -11,6 +11,11 @@ $args = [
 $pages = get_pages( $args );
 
 trace($pages);
+foreach($pages as $page ){
+    $title = $page->post_title;
+    $url = get_page_link($page->ID);
+    trace( $url );
+}
 ?>
     <div id="featured-products"></div>
     <section class="container featured-products">
