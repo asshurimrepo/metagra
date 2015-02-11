@@ -13,7 +13,7 @@
 				<p><b>Or you could just press this neat little button:</b></p>
 				<div class="space-lg"></div>
 				<div class="text-center">
-					<a href="<?=get_site_url()?>" class="btn btn-danger btn-lg"><i class="icon-home icon-white"></i> Take Me Home</a>
+					<a href="<?=get_site_url()?>" class="btn btn-danger btn-sm"><i class="icon-home icon-white"></i> Take Me Home</a>
 				</div>
 			</div>
 		</div>
