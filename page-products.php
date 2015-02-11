@@ -20,8 +20,14 @@
 			<article class="row list  no-pad-sides">
 				<div class="pre-loader"><span><?=preloader()?></span></div>
 				<div class="ajax-content">
-					<figure class="col-md-5"><?=get_the_post_thumbnail($products[0]->ID)?></figure>
-					<div class="summary col-md-7">
+					<?php if(has_post_thumbnail($products[0]->ID)): ?>
+						<figure class="col-md-5"><?=get_the_post_thumbnail($products[0]->ID)?></figure>
+						<div class="summary col-md-7">
+					<?php else: ?>
+							<div class="summary col-md-12">
+					<?php endif; ?>
+
+
 						<h1 class="hidden-xs hidden-sm"><?=$products[0]->post_title?></h1>
 						<?=$products[0]->post_content?>
 					</div>
