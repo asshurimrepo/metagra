@@ -319,6 +319,8 @@ header #logo .logo-tag {
     font-size: 10px;
     font-weight: 100;
     color: #B3B2B2;
+}
+#main-menu .drop-arrow.posUp{
     position: relative;
     bottom: 2px;
     left: 2px;
