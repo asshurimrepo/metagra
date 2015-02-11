@@ -35,7 +35,12 @@
 			</article>
 
 			<div id="featured-list" class="owl-carousel featured-list">
-				<?php foreach($products as $i => $product) : ?>
+				<?php foreach($products as $i => $product) :
+					$isOilProducts = false;
+					if( $product->post_parent == 122){
+						$isOilProducts = true;
+					}
+					?>
 					<?php if($i > 0 ): //remove the first product ?>
 						<div class="text-center" style="padding-top: 1px;">
 							<?php if(has_post_thumbnail($products[0]->ID)): ?>
@@ -43,10 +48,10 @@
 									<a data-id="<?=$product->ID?>" href="#featured"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a>
 								</figure>
 							<?php endif; ?>
-							<h3><a href="<?php echo get_page_link($product->ID)?>" style="color: #555;"><?=$product->post_title?></a></h3>
+							<h3 class="<?=$isOilProducts ? 'oil-products-header' : ''  ?>"><a href="<?php echo get_page_link($product->ID)?>" style="color: #555;"><?=$product->post_title?></a></h3>
 							<article class="small">
 								<?php
-								if( $product->post_parent == 122){
+								if( $isOilProducts ){
 									echo $product->post_content;
 								}else{
 									echo $product->post_excerp;
