@@ -45,7 +45,14 @@
 							<?php endif; ?>
 							<?=trace($product);?>
 							<h3><a href="<?php echo get_page_link($product->ID)?>" style="color: #555;"><?=$product->post_title?></a></h3>
-							<article class="small"><?/*=$product->post_excerpt*/?><?=$product->post_content?></article>
+							<article class="small">
+								<?php
+								if( $product->post_parent == 122){
+									echo $product->post_content;
+								}else{
+									echo $product->post_excerp;
+								}
+								?>
 						</div>
 					<?php endif;?>
 				<?php endforeach; ?>

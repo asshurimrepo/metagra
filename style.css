@@ -153,6 +153,11 @@ h2.single-line span:after {
     background-size: cover;
     margin: 0 5px;
 }
+.featured-list .small .btn-lg {
+    padding: 8px 15px;
+    font-size: 14px;
+}
+
 .featured-list .item{
     margin-bottom: 10px;
 }
@@ -1007,4 +1012,3 @@ input[type='text'], input[type='password'], input[type='search'], input[type='em
 .product-headers .item{ text-align: center; }
 .product-headers .item a{  color: #555; text-decoration: none;; }
 
-.featured-list .small { }
