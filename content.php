@@ -4,7 +4,7 @@
         <?php if(has_post_thumbnail(get_the_ID())): ?>
             <?php echo get_the_post_thumbnail(get_the_ID()); ?>
         <?php else: ?>
-            <img src="<?=asset('images/image-empty.jpg'?>" class="img-responsive" alt="Image Empty"/>
+            <img src="<?=asset('images/image-empty.jpg') ?>" class="img-responsive" alt="Image Empty"/>
         <?php endif; ?>
     </figure>
 
