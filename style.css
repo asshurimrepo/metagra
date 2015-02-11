@@ -325,6 +325,10 @@ header #logo .logo-tag {
     bottom: 2px;
     left: 2px;
 }
+#main-menu .drop-arrow.posLeft{
+    position: relative;
+    top: 6px;
+}
 
 /*List*/
 article.list{
