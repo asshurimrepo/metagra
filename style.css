@@ -955,8 +955,8 @@ input[type='text'], input[type='password'], input[type='search'], input[type='em
     color: #f0f0f0;
 }
 .A_large_bg_black_juni {
-    /*border-left: 10px solid #c7810d;
-    border-right: 10px solid #c7810d;*/
+    border-left: 10px solid #c7810d;
+    border-right: 10px solid #c7810d;
 }
 .A_large_bg_black_juni  center{
     color: #d88b07 !important;
@@ -966,4 +966,5 @@ input[type='text'], input[type='password'], input[type='search'], input[type='em
 .A_large_bg_black_juni  center small{
     font-size: 15px !important;
     font-weight: 100 !important;
+    color: #fff !important;
 }
