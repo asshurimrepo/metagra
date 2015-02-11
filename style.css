@@ -110,14 +110,14 @@ h2.single-line{
     color: #555555;
 }
 h2.single-line.md{
-    font-size: 26px;
+    font-size: 22px;
     letter-spacing: 1px;
 }
 h2.single-line.md b{
     color: #c7810d;
 }
 h2.single-line.md span{
-    padding: 0 43px;
+    padding: 0 22px;
 }
 h2.single-line span:before,
 h2.single-line span:after {
