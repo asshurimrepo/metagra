@@ -70,9 +70,10 @@
 				<ul class="nav navbar-nav sm" id="main-menu">
 					<li id="menu-home" class="hidden-sm hidden-xs"><a href="<?php echo get_home_url(); ?>">Home</a></li>
 					<?php foreach ( $main_nav as $nav ): ?>
+
 						<?php if ( ! $nav->menu_item_parent ): ?>
 							<li class="<?= is_active( $nav->object_id ) ?> main-items">
-								<a href="<?= $nav->url ?>" class="first-level" ><?= $nav->title ?>
+								<a href="<?= $nav->url ?>" class="first-level"><?= $nav->title ?>
 									<?php if( $nav->title == 'Products'){
 										echo '<i class="drop-arrow posUp fa fa-chevron-down"></i>';
 									}?>
@@ -80,8 +81,8 @@
 
 								<ul class="dropdown-menu" role="menu">
 									<?php foreach ( $main_nav as $s_nav ): if($s_nav->menu_item_parent == $nav->ID): ?>
-										<a href="<?php echo get_page_link($nav->object_id)?>"><?= $s_nav->title ?> <i class="drop-arrow posLeft fa fa-chevron-right pull-right"></i></a>
 										<li>
+											<a href="<?php echo get_page_link($nav->ID)?>"><?= $s_nav->title ?> <i class="drop-arrow posLeft fa fa-chevron-right pull-right"></i></a>
 											<ul class="dropdown-menu sub-menu">
 												<?php foreach ( $main_nav as $_last ): if($_last->menu_item_parent == $s_nav->ID): ?>
 													<li><a href="<?= $_last->url ?>"><?= $_last->title ?></a></li>
