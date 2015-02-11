@@ -48,15 +48,22 @@
 									<a data-id="<?=$product->ID?>" href="#featured"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a>
 								</figure>
 							<?php endif; ?>
-							<h3 class="<?=$isOilProducts ? 'oil-products-header' : ''  ?>"><a href="<?php echo get_page_link($product->ID)?>" style="color: #555;"><?=$product->post_title?></a></h3>
-							<article class="small">
-								<?php
-								if( $isOilProducts ){
-									echo $product->post_content;
-								}else{
-									echo $product->post_excerp;
-								}
-								?>
+
+							<?php
+							if( $isOilProducts ): ?>
+								<figure style="background-image: url(<?=asset('certificate.png')?>)">
+									<a data-id="<?=$product->ID?>" href="#featured"><img src="<?=asset('images/magnify.png')?>" alt="#"/></a>
+								</figure>
+								<h3 class="oil-products-header"><a href="<?php echo get_page_link($product->ID)?>" style="color: #555;"><?=$product->post_title?></a></h3>
+								<article class="small"> <?=$product->post_content;?> </article>
+							<?php else:?>
+
+								<h3><a href="<?php echo get_page_link($product->ID)?>" style="color: #555;"><?=$product->post_title?></a></h3>
+								<article class="small"> <?=$product->post_excerp?> </article>
+							<?php endif;
+							?>
+
+
 						</div>
 					<?php endif;?>
 				<?php endforeach; ?>
