@@ -38,7 +38,7 @@ get_header(); ?>
 					else :
 						// If no content, include the "No posts found" template.
 						?>
-						<div class="page-header">
+						<div class="page-header text-center">
 							<h1 class="page-title">No Results Found</h1>
 						</div>
 					<?php
