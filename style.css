@@ -606,6 +606,7 @@ footer .bottom{
 
 footer .list-items {
     padding-left: 15px;
+    font-size: 14px;
 }
 
 
@@ -922,6 +923,7 @@ input[type='text'], input[type='password'], input[type='search'], input[type='em
 .copyright {
     text-align: center;
     color: #848484;
+    font-size: 14px;
 }
 .thin{
     font-weight: 100;
