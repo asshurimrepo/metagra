@@ -16,7 +16,7 @@ foreach($pages as $page ){
     $url = get_page_link($page->ID);
 }
 ?>
-    <div id="featured-products"></div>
+    <div class="space-lg"></div>
     <section class="container featured-products">
         <div class="box">
             <h2 class="no-background void-top full-width"><span>Products</span></h2>
