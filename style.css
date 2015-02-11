@@ -552,6 +552,9 @@ input[type='text'], textarea{
 .space-md{
     padding: 20px 0;
 }
+.space-sm{
+    padding: 10px 0;
+}
 .spacious{
     line-height: 2.2em;
 }

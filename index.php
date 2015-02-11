@@ -36,7 +36,7 @@
 					?>
 				</h1>
 
-				<div class="space-md">
+				<div class="space-sm">
 					<?php the_content(); ?>
 				</div>
 			</div>
