@@ -4,7 +4,14 @@ Template Name: Product Menu Page
 Author: Juni Brosas @ iBoostme
 */
 
-get_header(); ?>
+get_header();
+$args = [
+    'parent' => 8
+];
+$pages = get_pages( $args );
+
+trace($pages);
+?>
     <div id="featured-products"></div>
     <section class="container featured-products">
         <div class="box">
