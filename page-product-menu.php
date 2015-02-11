@@ -18,7 +18,7 @@ foreach($pages as $page ){
 $images = [
     'feature_agriculture.jpg',
     'feature_metal.jpg',
-    'feature_oil_products'
+    'feature_oil_products.jpg'
 ];
 ?>
     <div class="space-lg"></div>
