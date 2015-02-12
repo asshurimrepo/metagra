@@ -27,10 +27,10 @@ $pages = get_pages( $args ); ?>
                     <h1 class="hidden-xs hidden-sm">
                         <?php
                         $title = get_the_title( $page->ID );
-                        if($currentSegment == 'who-we-are'){
+                        if($title == 'Who we are?'){
                             $keyword = "Who";
                             echo '<span style="font-weight: normal; text-transform: capitalize;">'.str_ireplace($keyword, '<span class="emp-orange">'.$keyword.'</span>', $title).'</span>';
-                        }else if($currentSegment == 'what-we-do'){
+                        }else if($title == 'What we do?'){
                             $keyword = "What";
                             echo '<span style="font-weight: normal; text-transform: capitalize;">'.str_ireplace($keyword, '<span class="emp-orange">'.$keyword.'</span>', $title).'</span>';
                         }else
@@ -41,7 +41,7 @@ $pages = get_pages( $args ); ?>
                     </h1>
 
                     <div class="space-sm">
-                        <?php $page->post_content ?>
+                        <?php echo $page->post_content ?>
                     </div>
                 </div>
 
