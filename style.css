@@ -162,7 +162,7 @@ h2.single-line span:after {
     min-height: 50px;
 }
 
-.featured-list .owl-item a{
+.featured-list .owl-item a:hover{
     text-decoration: none;
 }
 .featured-list .item{
