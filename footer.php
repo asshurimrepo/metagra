@@ -42,7 +42,7 @@
 					<p class="sml_thankyou">Thank you for subscribing to our mailing list</p>
 					<div class="input-group input-group-lg">
 						<span>
-							<input class="form-control sml_emailinput" name="sml_email" placeholder="Enter your email address" type="text" value="">
+							<input type="email" class="form-control sml_emailinput" name="sml_email" placeholder="Enter your email address" type="text" value="">
 						</span>
 						<span class="input-group-btn">
 							<button class="btn btn-danger" type="submit">SUBSCRIBE</button>
