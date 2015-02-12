@@ -162,6 +162,9 @@ h2.single-line span:after {
     min-height: 50px;
 }
 
+.featured-list .owl-item a{
+    text-decoration: none;
+}
 .featured-list .item{
     margin-bottom: 10px;
 }
