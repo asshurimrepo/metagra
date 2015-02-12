@@ -46,6 +46,7 @@ $pages = get_pages( $args ); ?>
                 </div>
 
             </article>
+            <div class="space-lg"></div>
         <?php endforeach; ?>
 
     </div>
