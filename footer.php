@@ -35,7 +35,22 @@
 	<section class="links row">
 		<div class="container">
 			<div class="col-md-5 subscription">
-				<?=do_shortcode('[contact-form-7 id="57" title="Contact form 1"]')?>
+				<?/*=do_shortcode('[contact-form-7 id="57" title="Contact form 1"]')*/?>
+				<?php
+				$args = array(
+					'prepend' => '',
+					'showname' => true,
+					'nametxt' => 'Name:',
+					'nameholder' => 'Name...',
+					'emailtxt' => 'Email:',
+					'emailholder' => 'Email Address...',
+					'showsubmit' => true,
+					'submittxt' => 'Submit',
+					'jsthanks' => false,
+					'thankyou' => 'Thank you for subscribing to our mailing list'
+				);
+				echo smlsubform($args);
+				?>
 				<div class="space"></div>
 				<p class="contact">Contact Us <span class="number emp">+971 4369 9787</span></p>
 				<!--<p class="lead"><i class="fa fa-phone-square"></i> <em>Have a Question? Call us</em> <strong class="text-danger">+971 4369 9787</strong> <br> <small class="text-muted">Our phone lines are available 24/7</small></p>-->
