@@ -35,7 +35,7 @@
 	<section class="links row">
 		<div class="container">
 			<div class="col-md-5 subscription">
-				<?/*=do_shortcode('[contact-form-7 id="57" title="Contact form 1"]')*/?>
+				<?=do_shortcode('[contact-form-7 id="57" title="Contact form 1"]')?>
 				<?php
 				$args = array(
 					'prepend' => '',
