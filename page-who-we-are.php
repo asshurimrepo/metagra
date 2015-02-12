@@ -6,6 +6,8 @@ Author: Juni Brosas @ iBoostme
 get_header(); get_template_part('breadcrumbs');  have_posts(); the_post();
 
 $args = [
+    'sort_column' => 'post_title',
+    'sort_order' => 'ASC',
     'include' => ['6', '330'],
 ];
 $pages = get_pages( $args ); ?>
