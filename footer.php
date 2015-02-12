@@ -39,11 +39,11 @@
 				<?php
 				$args = array(
 					'prepend' => '',
-					'showname' => true,
+					'showname' => false,
 					'nametxt' => 'Name:',
 					'nameholder' => 'Name...',
-					'emailtxt' => 'Email:',
-					'emailholder' => 'Email Address...',
+					'emailtxt' => '',
+					'emailholder' => 'Enter your email address',
 					'showsubmit' => true,
 					'submittxt' => 'Submit',
 					'jsthanks' => false,
