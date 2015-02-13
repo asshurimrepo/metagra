@@ -35,6 +35,7 @@
 	<section class="links row">
 		<div class="container">
 			<div class="col-md-5 subscription">
+				<?php echo get_site_url(); ?>
 				<div id="email-subscribers-2">
 					<link rel="stylesheet" media="screen" type="text/css" href="http://preview.iboostme.com/metagra/wp-content/plugins/email-subscribers/widget/es-widget.css">
 					<script language="javascript" type="text/javascript" src="http://preview.iboostme.com/metagra/wp-content/plugins/email-subscribers/widget/es-widget.js"></script>
