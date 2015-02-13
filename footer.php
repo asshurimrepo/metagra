@@ -38,11 +38,11 @@
 				<?/*=do_shortcode('[contact-form-7 id="57" title="Contact form 1"]')*/?>
 				<?php /*echo do_shortcode('[smlsubform prepend="" showname=true nametxt="Name:" nameholder="Name..." emailtxt="Email:" emailholder="Email Address..." showsubmit=true submittxt="Submit" jsthanks=false thankyou="Thank you for subscribing to our mailing list"]'); */?>
 				<div>
-					<h2>LIVE DEMO Email subscribers</h2>
+					<script src="http://www.gopiplus.com/work/wp-content/plugins/email-posts-to-subscribers/widget/widget.js" type="text/javascript" language="javascript"></script>
 					<div style="padding-bottom:3px;padding-left:8px;color:#F00;"> <span id="elp_msg"></span> </div>
 					<div class="input-group input-group-lg">
 						<span>
-							<input class="form-control" style="width:250px;" name="elp_txt_email" id="elp_txt_email" onkeypress="if(event.keyCode==13) elp_submit_page('http://www.gopiplus.com/work')" type="email" placeholder="Enter your email address" >
+							<input class="form-control" name="elp_txt_email" id="elp_txt_email" onkeypress="if(event.keyCode==13) elp_submit_page('http://www.gopiplus.com/work')" type="email" placeholder="Enter your email address" >
 						</span>
 						<span class="input-group-btn">
 							<button class="btn btn-danger" type="submit"  name="elp_txt_button" id="elp_txt_button" onclick="return elp_submit_page('http://www.gopiplus.com/work')" >SUBSCRIBE</button>
