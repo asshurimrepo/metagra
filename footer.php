@@ -41,7 +41,7 @@
 					<script language="javascript" type="text/javascript" src="http://preview.iboostme.com/metagra/wp-content/plugins/email-subscribers/widget/es-widget.js"></script>
 					<div>
 						<div class="es_caption">Email subscription widget</div>
-						<div class="es_msg"><span id="es_msg">Subscribed successfully.</span></div>
+						<div class="es_msg"><span id="es_msg"></span></div>
 						<div class="es_lablebox">Email *</div>
 						<div class="es_textbox">
 							<input class="es_textbox_class" name="es_txt_email" id="es_txt_email" onkeypress="if(event.keyCode==13) es_submit_page('http://preview.iboostme.com/metagra')" value="" maxlength="225" type="text">
