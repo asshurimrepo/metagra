@@ -35,8 +35,6 @@
 	<section class="links row">
 		<div class="container">
 			<div class="col-md-5 subscription">
-				<?/*=do_shortcode('[contact-form-7 id="57" title="Contact form 1"]')*/?>
-				<?php /*echo do_shortcode('[smlsubform prepend="" showname=true nametxt="Name:" nameholder="Name..." emailtxt="Email:" emailholder="Email Address..." showsubmit=true submittxt="Submit" jsthanks=false thankyou="Thank you for subscribing to our mailing list"]'); */?>
 				<div id="email-subscribers-2">
 					<link rel="stylesheet" media="screen" type="text/css" href="http://preview.iboostme.com/metagra/wp-content/plugins/email-subscribers/widget/es-widget.css">
 					<script language="javascript" type="text/javascript" src="http://preview.iboostme.com/metagra/wp-content/plugins/email-subscribers/widget/es-widget.js"></script>
@@ -54,48 +52,7 @@
 						<input name="es_txt_group" id="es_txt_group" value="Subscription" type="hidden">
 					</div>
 				</div>
-				<?php /*if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('footer-left-widget') ) */?>
-				<!--<div>
-					<script src="http://www.gopiplus.com/work/wp-content/plugins/email-posts-to-subscribers/widget/widget.js" type="text/javascript" language="javascript"></script>
-					<div style="padding-bottom:3px;padding-left:8px;color:#F00;"> <span id="elp_msg"></span> </div>
-					<div class="input-group input-group-lg">
-						<span>
-							<input class="form-control" name="elp_txt_email" id="elp_txt_email" onkeypress="if(event.keyCode==13) elp_submit_page('http://www.gopiplus.com/work')" type="email" placeholder="Enter your email address" >
-						</span>
-						<span class="input-group-btn">
-							<button class="btn btn-danger" type="submit"  name="elp_txt_button" id="elp_txt_button" onclick="return elp_submit_page('http://www.gopiplus.com/work')" >SUBSCRIBE</button>
-						</span>
-					</div>
-				</div>-->
-				<!--<form class="sml_subscribe" method="post">
-					<input class="sml_hiddenfield" name="sml_subscribe" type="hidden" value="1">
-					<script>window.onload = function() { alert('Thank you for subscribing to our mailing list'); }</script>
-					<p class="sml_name">
-						<label class="sml_namelabel" for="sml_name">Name:</label>
-						<input class="sml_nameinput" placeholder="Name..." name="sml_name" type="text" value="">
-					</p>
-					<p class="sml_email">
-						<label class="sml_emaillabel" for="sml_email">Email:</label>
-						<input class="sml_emailinput" name="sml_email" placeholder="Email Address..." type="text" value="">
-					</p>
-					<p class="sml_submit">
-						<input name="submit" class="btn sml_submitbtn" type="submit" value="Submit">
-					</p>
-				</form>-->
-				<!--<form class="sml_subscribe" method="post">
-					<input class="sml_hiddenfield" name="sml_subscribe" type="hidden" value="1">
-					<p class="sml_thankyou"></p>
-					<div class="input-group input-group-lg">
-						<span>
-							<input type="email" class="form-control sml_emailinput" name="sml_email" placeholder="Enter your email address" type="text" value="">
-						</span>
-						<span class="input-group-btn">
-							<button class="btn btn-danger" type="submit">SUBSCRIBE</button>
-						</span>
-					</div>
-				</form>-->
-
-				<div class="space"></div>
+				<div class="space-sm"></div>
 				<p class="contact">Contact Us <span class="number emp">+971 4369 9787</span></p>
 			</div>
 
