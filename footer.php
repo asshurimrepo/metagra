@@ -36,8 +36,8 @@
 		<div class="container">
 			<div class="col-md-5 subscription">
 				<?/*=do_shortcode('[contact-form-7 id="57" title="Contact form 1"]')*/?>
-				<?php /*echo do_shortcode('[smlsubform prepend="" showname=true nametxt="Name:" nameholder="Name..." emailtxt="Email:" emailholder="Email Address..." showsubmit=true submittxt="Submit" jsthanks=false thankyou="Thank you for subscribing to our mailing list"]'); */?>
-				<form class="sml_subscribe" method="post">
+				<?php echo do_shortcode('[smlsubform prepend="" showname=true nametxt="Name:" nameholder="Name..." emailtxt="Email:" emailholder="Email Address..." showsubmit=true submittxt="Submit" jsthanks=false thankyou="Thank you for subscribing to our mailing list"]'); ?>
+				<!--<form class="sml_subscribe" method="post">
 					<input class="sml_hiddenfield" name="sml_subscribe" type="hidden" value="1">
 					<script>window.onload = function() { alert('Thank you for subscribing to our mailing list'); }</script>
 					<p class="sml_name">
@@ -51,7 +51,7 @@
 					<p class="sml_submit">
 						<input name="submit" class="btn sml_submitbtn" type="submit" value="Submit">
 					</p>
-				</form>
+				</form>-->
 				<!--<form class="sml_subscribe" method="post">
 					<input class="sml_hiddenfield" name="sml_subscribe" type="hidden" value="1">
 					<p class="sml_thankyou"></p>
