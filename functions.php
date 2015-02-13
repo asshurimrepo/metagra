@@ -23,6 +23,16 @@
 	}
 	add_action( 'widgets_init', 'arphabet_widgets_init' );
 
+	register_sidebar(array(
+		'name' => 'Footer Left',
+		'id'   => 'footer-left-widget',
+		'description'   => 'Left Footer widget position.',
+		'before_widget' => '<div id="%1$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2>',
+		'after_title'   => '</h2>'
+	));
+
 	add_theme_support( 'menus' );
 
 	add_theme_support( 'post-thumbnails', array( 'post', 'page' ) );
