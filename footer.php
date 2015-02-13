@@ -38,7 +38,7 @@
 				<?/*=do_shortcode('[contact-form-7 id="57" title="Contact form 1"]')*/?>
 				<?php /*echo do_shortcode('[smlsubform prepend="" showname=true nametxt="Name:" nameholder="Name..." emailtxt="Email:" emailholder="Email Address..." showsubmit=true submittxt="Submit" jsthanks=false thankyou="Thank you for subscribing to our mailing list"]'); */?>
 
-				<?php echo do_widget('') ?>
+				<?php if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('footer-left-widget') ) ?>
 				<!--<div>
 					<script src="http://www.gopiplus.com/work/wp-content/plugins/email-posts-to-subscribers/widget/widget.js" type="text/javascript" language="javascript"></script>
 					<div style="padding-bottom:3px;padding-left:8px;color:#F00;"> <span id="elp_msg"></span> </div>
