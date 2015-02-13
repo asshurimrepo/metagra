@@ -35,18 +35,18 @@
 	<section class="links row">
 		<div class="container">
 			<div class="col-md-5 subscription">
-				<?php echo get_site_url(); ?>
+				<?php $base_url = get_site_url(); ?>
 				<div id="email-subscribers-2">
-					<link rel="stylesheet" media="screen" type="text/css" href="http://preview.iboostme.com/metagra/wp-content/plugins/email-subscribers/widget/es-widget.css">
-					<script language="javascript" type="text/javascript" src="http://preview.iboostme.com/metagra/wp-content/plugins/email-subscribers/widget/es-widget.js"></script>
+					<link rel="stylesheet" media="screen" type="text/css" href="<?=$base_url ?>/wp-content/plugins/email-subscribers/widget/es-widget.css">
+					<script language="javascript" type="text/javascript" src="<?=$base_url ?>/wp-content/plugins/email-subscribers/widget/es-widget.js"></script>
 					<div>
 						<div class="es_msg"><span id="es_msg"></span></div>
 						<div class="input-group input-group-lg">
 							<span>
-								<input class="es_textbox_class form-control " name="es_txt_email" id="es_txt_email" onkeypress="if(event.keyCode==13) es_submit_page('http://preview.iboostme.com/metagra')" value="" type="email" placeholder="Enter your email address">
+								<input class="es_textbox_class form-control" name="es_txt_email" id="es_txt_email" onkeypress="if(event.keyCode==13) es_submit_page(<?=$base_url ?>)" value="" type="email" placeholder="Enter your email address">
 							</span>
 							<span class="input-group-btn">
-								<button class="btn btn-danger" name="es_txt_button" id="es_txt_button"  onclick="return es_submit_page('http://preview.iboostme.com/metagra')" type="submit">SUBSCRIBE</button>
+								<button class="btn btn-danger" name="es_txt_button" id="es_txt_button"  onclick="return es_submit_page(<?=$base_url ?>)" type="submit">SUBSCRIBE</button>
 							</span>
 						</div>
 						<input name="es_txt_name" id="es_txt_name" value="" type="hidden">
