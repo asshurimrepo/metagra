@@ -36,7 +36,26 @@
 		<div class="container">
 			<div class="col-md-5 subscription">
 				<?/*=do_shortcode('[contact-form-7 id="57" title="Contact form 1"]')*/?>
-				<?php echo do_shortcode('[smlsubform prepend="" showname=true nametxt="Name:" nameholder="Name..." emailtxt="Email:" emailholder="Email Address..." showsubmit=true submittxt="Submit" jsthanks=false thankyou="Thank you for subscribing to our mailing list"]'); ?>
+				<?php /*echo do_shortcode('[smlsubform prepend="" showname=true nametxt="Name:" nameholder="Name..." emailtxt="Email:" emailholder="Email Address..." showsubmit=true submittxt="Submit" jsthanks=false thankyou="Thank you for subscribing to our mailing list"]'); */?>
+				<form class="sml_subscribe" method="post">
+					<input class="sml_hiddenfield" name="sml_subscribe" type="hidden" value="1">
+					<script>window.onload = function() { alert('Thank you for subscribing to our mailing list'); }</script>
+					<div class="input-group input-group-lg">
+						<span>
+							<input type="email" class="form-control sml_emailinput" name="sml_email" placeholder="Enter your email address" type="text" value="">
+						</span>
+						<span class="input-group-btn">
+							<button class="btn btn-danger" type="submit">SUBSCRIBE</button>
+						</span>
+					</div>
+					<!--<p class="sml_email">
+						<label class="sml_emaillabel" for="sml_email">Email:</label>
+						<input class="sml_emailinput" name="sml_email" placeholder="Email Address..." type="text" value="">
+					</p>
+					<p class="sml_submit">
+						<input name="submit" class="btn sml_submitbtn" type="submit" value="Submit">
+					</p>-->
+				</form>
 				<!--<form class="sml_subscribe" method="post">
 					<input class="sml_hiddenfield" name="sml_subscribe" type="hidden" value="1">
 					<p class="sml_thankyou"></p>
