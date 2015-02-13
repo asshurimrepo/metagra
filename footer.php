@@ -40,6 +40,10 @@
 				<form class="sml_subscribe" method="post">
 					<input class="sml_hiddenfield" name="sml_subscribe" type="hidden" value="1">
 					<script>window.onload = function() { alert('Thank you for subscribing to our mailing list'); }</script>
+					<p class="sml_name">
+						<label class="sml_namelabel" for="sml_name">Name:</label>
+						<input class="sml_nameinput" placeholder="Name..." name="sml_name" type="text" value="">
+					</p>
 					<p class="sml_email">
 						<label class="sml_emaillabel" for="sml_email">Email:</label>
 						<input class="sml_emailinput" name="sml_email" placeholder="Email Address..." type="text" value="">
