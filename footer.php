@@ -37,8 +37,23 @@
 			<div class="col-md-5 subscription">
 				<?/*=do_shortcode('[contact-form-7 id="57" title="Contact form 1"]')*/?>
 				<?php /*echo do_shortcode('[smlsubform prepend="" showname=true nametxt="Name:" nameholder="Name..." emailtxt="Email:" emailholder="Email Address..." showsubmit=true submittxt="Submit" jsthanks=false thankyou="Thank you for subscribing to our mailing list"]'); */?>
-
-				<?php if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('footer-left-widget') ) ?>
+				<div id="email-subscribers-2"><h2>Subscription Widget</h2>			<link rel="stylesheet" media="screen" type="text/css" href="http://preview.iboostme.com/metagra/wp-content/plugins/email-subscribers/widget/es-widget.css">
+					<script language="javascript" type="text/javascript" src="http://preview.iboostme.com/metagra/wp-content/plugins/email-subscribers/widget/es-widget.js"></script>
+					<div>
+						<div class="es_caption">Email subscription widget</div>
+						<div class="es_msg"><span id="es_msg">Subscribed successfully.</span></div>
+						<div class="es_lablebox">Email *</div>
+						<div class="es_textbox">
+							<input class="es_textbox_class" name="es_txt_email" id="es_txt_email" onkeypress="if(event.keyCode==13) es_submit_page('http://preview.iboostme.com/metagra')" value="" maxlength="225" type="text">
+						</div>
+						<div class="es_button">
+							<input class="es_textbox_button" name="es_txt_button" id="es_txt_button" onclick="return es_submit_page('http://preview.iboostme.com/metagra')" value="Subscribe" type="button">
+						</div>
+						<input name="es_txt_name" id="es_txt_name" value="" type="hidden">
+						<input name="es_txt_group" id="es_txt_group" value="Subscription" type="hidden">
+					</div>
+				</div>
+				<?php /*if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('footer-left-widget') ) */?>
 				<!--<div>
 					<script src="http://www.gopiplus.com/work/wp-content/plugins/email-posts-to-subscribers/widget/widget.js" type="text/javascript" language="javascript"></script>
 					<div style="padding-bottom:3px;padding-left:8px;color:#F00;"> <span id="elp_msg"></span> </div>
