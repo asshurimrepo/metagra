@@ -40,14 +40,6 @@
 				<form class="sml_subscribe" method="post">
 					<input class="sml_hiddenfield" name="sml_subscribe" type="hidden" value="1">
 					<script>window.onload = function() { alert('Thank you for subscribing to our mailing list'); }</script>
-					<!--<div class="input-group input-group-lg">
-						<span>
-							<input type="email" class="form-control sml_emailinput" name="sml_email" placeholder="Enter your email address" type="text" value="">
-						</span>
-						<span class="input-group-btn">
-							<button class="btn btn-danger" type="submit">SUBSCRIBE</button>
-						</span>
-					</div>-->
 					<p class="sml_email">
 						<label class="sml_emaillabel" for="sml_email">Email:</label>
 						<input class="sml_emailinput" name="sml_email" placeholder="Email Address..." type="text" value="">
