@@ -7,7 +7,7 @@
 	$currentSegment = $segments[$numSegments - 2];
 
 
-	?>
+?>
 
 <section class="container">
 	<div class="box" style="padding-left: 15px; padding-right: 15px;">
