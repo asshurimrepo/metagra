@@ -17,13 +17,14 @@
 			<div class="col-md-12">
 				<style>
 					.wbiscroller { height: 20px; }
+					.wbiscroller .scrollingtext > span:last-child { display:none !important; }
 				</style>
 				<!-- START Worden Top Gainers Ticker Widget -->
 				<script>
 					var gainTicker = new WBIHorizontalTicker('gainers');
 					gainTicker.start();
 				</script> <!-- End Scrolling Ticker Widget -->
-				<div class="space-md"></div>
+				<div class="space-sm"></div>
 			</div>
 
 		</div>
