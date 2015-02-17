@@ -20,7 +20,7 @@
 					.wbiscroller { height: 20px; border: 1px solid #ccc; border-bottom: none;
 						background-image: url(<?=asset('images/changer-bg.jpg')?>);
 					}
-					.wbiscroller .quoteup {
+					.wbiscroller .quoteup:first-child {
 						text-align: center;
 						font-size: 10px;
 						color: #525151 !important;
