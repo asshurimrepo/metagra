@@ -24,6 +24,7 @@
 						text-align: center;
 						font-size: 10px;
 						color: #525151 !important;
+						margin-left: 2px;
 					}
 					.wbiscroller .dirup img { content: url(<?=asset('images/changer-arrow.png')?>); border: 1px solid #5a5a5a; }
 					.wbiscroller .changeup { background-image: none; background-color: #d88b07; color: #fff; }
