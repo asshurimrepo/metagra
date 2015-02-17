@@ -17,7 +17,7 @@
 			<div class="col-md-12">
 				<style>
 					.wbiscroller .sym { color: #222222; }
-					.wbiscroller { height: 20px; border: 1px solid #ccc; border-bottom: none;
+					.wbiscroller { height: 20px; border: 1px solid #ccc;
 						background-image: url(<?=asset('images/changer-bg.jpg')?>);
 					}
 					.wbiscroller .quoteup:first-child {
