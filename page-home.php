@@ -20,7 +20,12 @@
 					.wbiscroller { height: 20px; border: 1px solid #ccc; border-bottom: none;
 						background-image: url(<?=asset('images/changer-bg.jpg')?>);
 					}
-					.wbiscroller .dirup img { content: url(<?=asset('images/changer-arrow.png')?>) }
+					.wbiscroller .quoteup {
+						text-align: center;
+						font-size: 10px;
+						color: #525151 !important;
+					}
+					.wbiscroller .dirup img { content: url(<?=asset('images/changer-arrow.png')?>); border: 1px solid #5a5a5a; }
 					.wbiscroller .changeup { background-image: none; background-color: #d88b07; color: #fff; }
 					.wbiscroller .scrollingtext > span:last-child { display:none !important; }
 					.wbiscroller .scrollingtext > span:first-child { display:none !important; }
