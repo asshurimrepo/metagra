@@ -16,10 +16,11 @@
 		<div class="row">
 			<div class="col-md-12">
 				<style>
+					.wbiscroller .sym { color: #222222; }
 					.wbiscroller { height: 20px; border: 1px solid #ccc; border-bottom: none;
 						background-image: url(<?=asset('images/changer-bg.jpg')?>);
 					}
-					.wbiscroller .changeup { background-image: none; background-color: #d88b07; }
+					.wbiscroller .changeup { background-image: none; background-color: #d88b07; color: #fff; }
 					.wbiscroller .scrollingtext > span:last-child { display:none !important; }
 					.wbiscroller .scrollingtext > span:first-child { display:none !important; }
 				</style>
