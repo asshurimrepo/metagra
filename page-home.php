@@ -23,7 +23,7 @@
 				<!-- START Worden Top Gainers Ticker Widget -->
 				<script>
 					var gainTicker = new WBIHorizontalTicker('gainers');
-					//gainTicker.start();
+					gainTicker.start();
 				</script> <!-- End Scrolling Ticker Widget -->
 			</div>
 
