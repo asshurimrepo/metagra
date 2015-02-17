@@ -18,6 +18,7 @@
 				<style>
 					.wbiscroller { height: 20px; }
 					.wbiscroller .scrollingtext > span:last-child { display:none !important; }
+					.wbiscroller .scrollingtext > span:first-child { display:none !important; }
 				</style>
 				<!-- START Worden Top Gainers Ticker Widget -->
 				<script>
