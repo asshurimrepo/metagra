@@ -15,7 +15,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-
+				<style>
+					.wbiscroller { height: 20px; }
+				</style>
 				<!-- START Worden Top Gainers Ticker Widget -->
 				<script>
 					var gainTicker = new WBIHorizontalTicker('gainers');
