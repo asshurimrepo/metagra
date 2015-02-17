@@ -17,7 +17,6 @@
 			<div class="col-md-12">
 
 				<!-- START Worden Top Gainers Ticker Widget -->
-				<script src="http://widgets.freestockcharts.com/js/jquery-1.3.1.min.js" type="text/javascript"></script> <script src="http://widgets.freestockcharts.com/script/WBIHorizontalTicker2.js?ver=12334" type="text/javascript"></script> <link href="http://widgets.freestockcharts.com/WidgetServer/WBITickerblue.css" rel="stylesheet" type="text/css" />
 				<script>
 					var gainTicker = new WBIHorizontalTicker('gainers');
 					gainTicker.start();
