@@ -21,8 +21,9 @@
 					var gainTicker = new WBIHorizontalTicker('gainers');
 					gainTicker.start();
 				</script> <!-- End Scrolling Ticker Widget -->
-
+				<div class="space-md"></div>
 			</div>
+
 		</div>
 		<div class="row">
 			<div class="col-md-12">

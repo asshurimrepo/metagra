@@ -1018,4 +1018,4 @@ input[type='text'], input[type='password'], input[type='search'], input[type='em
 }
 .product-headers .item{ text-align: center; }
 .product-headers .item a{  color: #555; text-decoration: none;; }
-
+.wbiscroller { height: 20px; }
