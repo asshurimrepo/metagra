@@ -996,6 +996,7 @@ input[type='text'], input[type='password'], input[type='search'], input[type='em
     min-height: 250px;
     line-height: 20px;
     color: #f0f0f0;
+    margin-bottom: 20px;
 }
 .A_large_bg_black_juni {
     border-left: 10px solid #c7810d;
