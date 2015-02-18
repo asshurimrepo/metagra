@@ -41,7 +41,7 @@
 				<div class="currencyWrapper">
 					<script type="text/javascript">
 						var tz = 'userset';
-						var w = '100%';
+						var w = '1024';
 						var i = '45';
 						var s = '1';
 						var mbg = 'ffffff';
