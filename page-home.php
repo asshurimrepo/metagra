@@ -34,8 +34,29 @@
 				<!-- START Worden Top Gainers Ticker Widget -->
 				<script>
 					var gainTicker = new WBIHorizontalTicker('gainers');
-					gainTicker.start();
+					///gainTicker.start();
 				</script> <!-- End Scrolling Ticker Widget -->
+
+				<!-- START CURRENCY RATES WIDGET -->
+				<div class="currencyWrapper">
+					<script type="text/javascript">
+						var tz = 'userset';
+						var w = '1024';
+						var i = '45';
+						var s = '1';
+						var mbg = 'ffffff';
+						var f = 'arial';
+						var fs = '10px';
+						var fc = '333333';
+						var bc = 'ffffff';
+						var bs = '0';
+						var vc = '999999';
+						var lc = '333333';
+						var lhc = '999999';
+					</script>
+					<script type="text/javascript" src="http://www.currency-converter.org.uk/widget/CCUK-LRTICKER-1.php"></script>
+				</div>
+				<!-- END CURRENCY RATES WIDGET -->
 			</div>
 
 		</div>
