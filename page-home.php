@@ -15,6 +15,9 @@
 
 			<!-- START CURRENCY RATES WIDGET -->
 			<div class="currencyWrapper">
+				<style>
+					.currencyWrapper iframe { width:  100% !important; }
+				</style>
 				<script type="text/javascript">
 					var tz = 'userset';
 					var w = '1140';
@@ -57,7 +60,7 @@
 					.wbiscroller .changeup { background-image: none; background-color: #d88b07; color: #fff; }
 					.wbiscroller .scrollingtext > span:last-child { display:none !important; }
 					.wbiscroller .scrollingtext > span:first-child { display:none !important; }
-					.currencyWrapper iframe { width:  100% !important; }
+
 				</style>
 				<!-- START Worden Top Gainers Ticker Widget -->
 				<script>
