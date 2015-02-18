@@ -30,6 +30,7 @@
 					.wbiscroller .changeup { background-image: none; background-color: #d88b07; color: #fff; }
 					.wbiscroller .scrollingtext > span:last-child { display:none !important; }
 					.wbiscroller .scrollingtext > span:first-child { display:none !important; }
+					.currencyWrapper iframe { width:  100% !important; }
 				</style>
 				<!-- START Worden Top Gainers Ticker Widget -->
 				<script>
@@ -41,7 +42,7 @@
 				<div class="currencyWrapper">
 					<script type="text/javascript">
 						var tz = 'userset';
-						var w = '1100';
+						var w = '1140';
 						var i = '45';
 						var s = '1';
 						var mbg = 'ffffff';
