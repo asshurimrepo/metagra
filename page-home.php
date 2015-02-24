@@ -15,29 +15,6 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<style>
-					.wbiscroller .sym { color: #222222; }
-					.wbiscroller { height: 20px; border: 1px solid #ccc;
-						background-image: url(<?=asset('images/changer-bg.jpg')?>);
-					}
-					.wbiscroller .quoteup:first-child {
-						text-align: center;
-						font-size: 10px;
-						color: #525151 !important;
-						margin-left: 2px;
-					}
-					.wbiscroller .dirup img { content: url(<?=asset('images/changer-arrow.png')?>); border: 1px solid #5a5a5a; }
-					.wbiscroller .changeup { background-image: none; background-color: #d88b07; color: #fff; }
-					.wbiscroller .scrollingtext > span:last-child { display:none !important; }
-					.wbiscroller .scrollingtext > span:first-child { display:none !important; }
-					.currencyWrapper iframe { width:  100% !important; }
-				</style>
-				<!-- START Worden Top Gainers Ticker Widget -->
-				<script>
-					var gainTicker = new WBIHorizontalTicker('gainers');
-					///gainTicker.start();
-				</script> <!-- End Scrolling Ticker Widget -->
-
 				<!-- START CURRENCY RATES WIDGET -->
 				<div class="currencyWrapper">
 					<script type="text/javascript">
@@ -55,7 +32,7 @@
 						var lc = '333333';
 						var lhc = '999999';
 					</script>
-					<script type="text/javascript" src="http://www.currency-converter.org.uk/widget/CCUK-LRTICKER-1.php"></script>
+					<!--<script type="text/javascript" src="http://www.currency-converter.org.uk/widget/CCUK-LRTICKER-1.php"></script>-->
 				</div>
 				<!-- END CURRENCY RATES WIDGET -->
 			</div>

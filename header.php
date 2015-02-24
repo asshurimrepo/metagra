@@ -53,6 +53,9 @@
 					<img class="logo-tag" src="<?= asset( 'images/logo-span.png' ) ?>" alt=""/>
 				</span>
 			</div>
+			<div class="col-md-4">
+				<?php include('my-widgets/widget-commodities')?>
+			</div>
 		</div>
 	</div>
 
