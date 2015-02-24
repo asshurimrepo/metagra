@@ -25,11 +25,6 @@
 	<?= link_css( 'owl-carousel/owl.carousel.css' ) ?>
 	<?= link_css( 'owl-carousel/owl.theme.css' ) ?>
 
-	<script src="http://widgets.freestockcharts.com/js/jquery-1.3.1.min.js" type="text/javascript"></script>
-	<script src="http://widgets.freestockcharts.com/script/WBIHorizontalTicker2.js?ver=12334" type="text/javascript"></script>
-	<link href="http://widgets.freestockcharts.com/WidgetServer/WBITickerblue.css" rel="stylesheet" type="text/css" />
-
-
 	<?php wp_head(); ?>
 </head>
 <body>
