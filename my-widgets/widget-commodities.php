@@ -23,8 +23,6 @@
 </style>
 <div class="ticker">
     <span>
-        Crude Oil <span><b style="color:#008800;">0.13</b></span><span><b style="color:#008800;"> (0.26%)</b></span>
-        Crude Oil <span><b style="color:#008800;">0.13</b></span><span><b style="color:#008800;"> (0.26%)</b></span>
-        Crude Oil <span><b style="color:#008800;">0.13</b></span><span><b style="color:#008800;"> (0.26%)</b></span>
+        Crude Oil <span><b style="color:#008800;"><i class="fa fa-arrow-up"></i> 0.13</b></span><span><b style="color:#008800;"> (0.26%)</b></span>
     </span>
 </div>
