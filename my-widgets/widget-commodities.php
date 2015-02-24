@@ -9,7 +9,9 @@
 <?=link_js('js/jquery.jticker.js')?>
 <script type="text/javascript">
     jQuery(function($) {
-        $('.ticker').jTicker();
+        $('.ticker').jTicker({
+            offset: 2
+        });
     });
 </script>
 <style type="text/css">
