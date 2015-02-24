@@ -29,6 +29,9 @@
         color:#cc0000;
         font-weight: bold;
     }
+    .ticker.energy{
+        background-color: #f1f1f1;
+    }
 </style>
 <div class="ticker metal">
     <span>
@@ -42,11 +45,9 @@
 </div>
 <div class="ticker energy">
     <span>
-        <span class="desc">Copper </span> <span class="down-stock"><i class="fa fa-arrow-down"></i> 0.01 (0.47%)</span>
-        <span class="desc">Gold 100 oz. </span> <span class="up-stock"><i class="fa fa-arrow-up"></i> 2.30 (0.17%)</span>
-        <span class="desc">Gold  </span> <span class="up-stock"><i class="fa fa-arrow-up"></i> 3.20 (0.27%)</span>
-        <span class="desc">Palladium   </span> <span class="up-stock"><i class="fa fa-arrow-up"></i> 0.65 (0.08%)</span>
-        <span class="desc">Silver 5000 oz.   </span> <span class="down-stock"><i class="fa fa-arrow-down"></i> 0.11 (0.51%)</span>
-        <span class="desc">Silver </span> <span class="up-stock"><i class="fa fa-arrow-up"></i> 0.08 (0.48%)</span>
+        <span class="desc">Crude Oil </span> <span class="up-stock"><i class="fa fa-arrow-up"></i> 0.08 (0.16%)</span>
+        <span class="desc">Heating Oil</span> <span class="down-stock"><i class="fa fa-arrow-down"></i> 0.01 (0.51%)</span>
+        <span class="desc">Natural Gas  </span> <span class="up-stock"><i class="fa fa-arrow-up"></i> 0.01 (0.24%)</span>
+        <span class="desc">RBOB Gasoline </span> <span class="up-stock"><i class="fa fa-arrow-up"></i> 0.01 (0.24%)</span>
     </span>
 </div>
