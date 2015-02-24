@@ -18,6 +18,7 @@
         color: #584c56;
         padding: 7px;
         font-size: 12px;
+        font-family:'roboto Condensed', sans-serif;
     }
     .ticker .desc { margin: 0 5px; }
     .ticker .up-stock {
@@ -32,7 +33,17 @@
 <div class="ticker">
     <span>
         <span class="desc">Copper </span> <span class="down-stock"><i class="fa fa-arrow-down"></i> 0.01 (0.47%)</span>
-        <span class="desc">Gold 100 oz. </span> <span class="up-stock"><i class="fa fa-arrow-up"></i> 2.30(0.17%)</span>
+        <span class="desc">Gold 100 oz. </span> <span class="up-stock"><i class="fa fa-arrow-up"></i> 2.30 (0.17%)</span>
+        <span class="desc">Gold  </span> <span class="up-stock"><i class="fa fa-arrow-up"></i> 3.20 (0.27%)</span>
+        <span class="desc">Palladium   </span> <span class="up-stock"><i class="fa fa-arrow-up"></i> 0.65 (0.08%)</span>
+        <span class="desc">Silver 5000 oz.   </span> <span class="down-stock"><i class="fa fa-arrow-down"></i> 0.11 (0.51%)</span>
+        <span class="desc">Silver </span> <span class="up-stock"><i class="fa fa-arrow-up"></i> 0.08 (0.48%)</span>
+    </span>
+</div>
+<div class="ticker">
+    <span>
+        <span class="desc">Copper </span> <span class="down-stock"><i class="fa fa-arrow-down"></i> 0.01 (0.47%)</span>
+        <span class="desc">Gold 100 oz. </span> <span class="up-stock"><i class="fa fa-arrow-up"></i> 2.30 (0.17%)</span>
         <span class="desc">Gold  </span> <span class="up-stock"><i class="fa fa-arrow-up"></i> 3.20 (0.27%)</span>
         <span class="desc">Palladium   </span> <span class="up-stock"><i class="fa fa-arrow-up"></i> 0.65 (0.08%)</span>
         <span class="desc">Silver 5000 oz.   </span> <span class="down-stock"><i class="fa fa-arrow-down"></i> 0.11 (0.51%)</span>
