@@ -54,7 +54,7 @@
 				</span>
 			</div>
 			<div class="col-md-4">
-				<?php include('my-widgets/widget-commodities')?>
+				<?php include('my-widgets/widget-commodities.php')?>
 			</div>
 		</div>
 	</div>
