@@ -30,7 +30,7 @@
         font-weight: bold;
     }
 </style>
-<div class="ticker">
+<div class="ticker metal">
     <span>
         <span class="desc">Copper </span> <span class="down-stock"><i class="fa fa-arrow-down"></i> 0.01 (0.47%)</span>
         <span class="desc">Gold 100 oz. </span> <span class="up-stock"><i class="fa fa-arrow-up"></i> 2.30 (0.17%)</span>
@@ -40,7 +40,7 @@
         <span class="desc">Silver </span> <span class="up-stock"><i class="fa fa-arrow-up"></i> 0.08 (0.48%)</span>
     </span>
 </div>
-<div class="ticker">
+<div class="ticker energy">
     <span>
         <span class="desc">Copper </span> <span class="down-stock"><i class="fa fa-arrow-down"></i> 0.01 (0.47%)</span>
         <span class="desc">Gold 100 oz. </span> <span class="up-stock"><i class="fa fa-arrow-up"></i> 2.30 (0.17%)</span>
