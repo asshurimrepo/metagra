@@ -87,7 +87,7 @@
 	</section>
 </footer>
 
-<?=link_js('jquery/jquery.min.js')?>
+<?=link_js('jquery/jquery.js')?>
 <?=link_js('bootstrap/js/bootstrap.min.js')?>
 <?=link_js('owl-carousel/owl.carousel.js')?>
 <?=link_js('js/jquery.smartmenus.js')?>
