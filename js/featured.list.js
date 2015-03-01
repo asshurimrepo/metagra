@@ -27,6 +27,8 @@ $(document).ready(function(){
 
         scrollTo('#featured-products');
 
+        console.log(base_url);
+
         $.post(base_url,{
             action: 'get_post_content',
             id: post_id
