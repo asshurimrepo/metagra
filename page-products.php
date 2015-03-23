@@ -9,7 +9,6 @@
 	$products = get_field('products');
 	$featured_product_gallery = get_field('featured_product_gallery');
 ?>
-
 	<div id="featured-products"></div>
 	<section class="container featured-products">
 		<div class="box">

@@ -62,7 +62,7 @@
 				<ul class="list-unstyled list-items">
 					<li><a target="_blank" href="https://twitter.com/#!/metagra"><i class="fa fa-twitter"></i> Twitter</a></li>
 					<li><a target="_blank" href="https://www.facebook.com/pages/Metagra-Trading-DMCC/291839950958697"><i class="fa fa-facebook"></i> Facebook</a></li>
-					<li><a target="_blank" href="mailto:info@metagra.ae"><i class="fa fa-envelope"></i> Mail</a></li>
+					<li><a target="_blank" href="mailto:info@metragra-dmcc.ae"><i class="fa fa-envelope"></i> Mail</a></li>
 				</ul>
 			</div>
 
