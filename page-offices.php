@@ -40,6 +40,8 @@
 			</div>
 		</div>
 
+		<div class="space-lg"></div>
+
 
 		<!--Location 2 -->
 		<section class="map">
@@ -69,6 +71,7 @@
 			</div>
 		</div>
 
+		<div class="space-lg"></div>
 
 		<!--Location 3 -->
 		<section class="map">
