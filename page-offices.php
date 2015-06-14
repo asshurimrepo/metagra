@@ -9,7 +9,7 @@
 ?>
 <div class="container">
 	<div class="box">
-		<h2 class="no-background void-top full-width"><span>Office in <b>Ukraine</b></span></h2>
+		<h2 class="no-background void-top full-width"><span>Offices in <b>Ukraine</b></span></h2>
 
 		<!--Location 1-->
 		<section class="map">
@@ -86,7 +86,7 @@
 					<div class="col-md-3 text-center"><img src="<?=asset('images/tracker-logo.png')?>" alt="Street Address"/></div>
 					<div class="col-md-9">
 						<h4>Street Address</h4>
-						<p>Office 401, Mizan Hotel, Archabil Avenue, Ashgabat, Turkmenistan</p>
+						<p>13А, Amir Timur Street, Tashkent, Uzbekistan</p>
 					</div>
 				</div>
 
@@ -94,8 +94,8 @@
 					<div class="col-md-3 text-center"><img src="<?=asset('images/phone-icon.png')?>" alt="Phone"/></div>
 					<div class="col-md-9">
 						<h4>Phone</h4>
-						<p>Tel: +993 12 480676 <br/>
-							Fax: +993 12 488614</p>
+						<p>Tel: +998 71 2336060 <br/>
+							Fax: +998 71 2335500</p>
 					</div>
 				</div>
 			</div>
