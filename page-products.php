@@ -17,15 +17,16 @@
 
 			<?php
 			// check if the first product to be displayed is an oil product.
-			$isFirstProductAnOil = false;
-			if( $products[0]->post_parent == 122){
-				$isFirstProductAnOil = true;
+			$isACertification = false;
+			$categoryIds = array(122,434); // categories that must be displayed in a certificate layout.
+			if( in_array($products[0]->post_parent, $categoryIds) ){
+				$isACertification = true;
 			}
 			?>
 
 			<?php
 			// display featuring products except for oil products.
-			if( !$isFirstProductAnOil ): ?>
+			if( !$isACertification ): ?>
 				<article class="row list  no-pad-sides">
 					<div class="pre-loader"><span><?=preloader()?></span></div>
 					<div class="ajax-content">
@@ -45,9 +46,9 @@
 
 			<div id="featured-list" class="owl-carousel featured-list">
 				<?php foreach($products as $i => $product) :
-					$isOilProducts = false;
-					if( $product->post_parent == 122){
-						$isOilProducts = true;
+					$isProductCertification = false; // a boolean for product certification.
+					if( in_array($product->post_parent , $categoryIds) ){
+						$isProductCertification = true;
 					}
 					?>
 					<?php if($i > 0 ): //remove the first product ?>
@@ -59,7 +60,7 @@
 							<?php endif; ?>
 
 							<?php
-							if( $isOilProducts ): ?>
+							if( $isProductCertification ): ?>
 								<img src="<?=asset('images/certificate.png')?>" alt="<?=$product->post_title?> Certificate" class="img-responsive" style="width: 80%; margin: 0 auto;"/>
 								<h3 class="oil-products-header"><a href="<?php echo get_page_link($product->ID)?>" style="color: #555;"><?=$product->post_title?></a></h3>
 								<article class="small"> <?=$product->post_content;?> </article>
@@ -69,8 +70,6 @@
 								<article class="small"> <?=$product->post_excerp?> </article>
 							<?php endif;
 							?>
-
-
 						</div>
 					<?php endif;?>
 				<?php endforeach; ?>
