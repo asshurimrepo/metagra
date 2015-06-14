@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/metagra.iml" filepath="$PROJECT_DIR$/.idea/metagra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Metagra.iml" filepath="$PROJECT_DIR$/.idea/Metagra.iml" />
     </modules>
   </component>
 </project>
