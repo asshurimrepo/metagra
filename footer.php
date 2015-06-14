@@ -2,28 +2,6 @@
 <!--Footer-->
 <footer>
 
-	<!--Subscription-->
-	<!--<section class="subscription container">
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2">
-
-
-				<div class="input-group input-group-lg">
-					<input type="email" class="form-control" placeholder="Enter Email address">
-                  <span class="input-group-btn">
-                    <button class="btn btn-danger" type="button">SUBSCRIBE</button>
-                  </span>
-				</div>
-
-				<?/*=do_shortcode('[contact-form-7 id="57" title="Contact form 1"]')*/?>
-
-				<div class="space"></div>
-
-				<p class="lead"><i class="fa fa-phone-square"></i> <em>Have a Question? Call us</em> <strong class="text-danger">+971 4369 9787</strong> <br> <small class="text-muted">Our phone lines are available 24/7</small></p>
-
-			</div>
-		</div>
-	</section>-->
 
 	<section>
 		<div class="space-md"></div>
@@ -82,7 +60,7 @@
 	<!--footer bottom-->
 	<section class="bottom">
 		<div class="container copyright">
-			<small>Copyright Metagra &copy; 2015. All Rights Reserved</small>
+			<small>Copyright Metagra © 2013-2015. All Rights Reserved</small>
 		</div>
 	</section>
 </footer>
