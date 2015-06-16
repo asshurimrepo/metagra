@@ -16,6 +16,7 @@ foreach($pages as $page ){
     $url = get_page_link($page->ID);
 }
 $images = [
+    'feature_fertilizers.jpg',
     'feature_agriculture.jpg',
     'feature_metal.jpg',
     'feature_oil_products.jpg'
