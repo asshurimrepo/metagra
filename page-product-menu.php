@@ -33,7 +33,7 @@ $images = [
                     $title = $page->post_title;
                     $url = get_page_link($page->ID); ?>
 
-                    <div class="col-xs-4 item">
+                    <div class="col-sm-3 item">
 
                         <a href="<?=$url?>">
                             <img src="<?=asset('images/').$images[$i]?>" alt="<?=$title?>" class="img-responsive border-frame"/>
