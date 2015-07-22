@@ -7,7 +7,7 @@ Author: Juni Brosas @ iBoostme
 get_header();
 $args = [
     'parent' => 8,
-    'sort_order' => 'desc',
+    /*'sort_order' => 'desc',*/
 ];
 $pages = get_pages( $args );
 
