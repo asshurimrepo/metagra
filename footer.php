@@ -32,7 +32,7 @@
 					</div>
 				</div>
 				<div class="space-sm"></div>
-				<p class="contact">Contact Us <span class="number emp">+971 4 3 69 9787</span></p>
+				<p class="contact">Contact Us <span class="number emp">+971 4 369 9787</span></p>
 			</div>
 
 			<div class="col-md-3 col-sm-6 pull-right">
