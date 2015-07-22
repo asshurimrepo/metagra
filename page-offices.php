@@ -13,7 +13,7 @@
 
 		<!--Location 11-->
 		<section class="map">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2723.4205444988474!2d32.0404875!3d46.9534267!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c5cbbac7a49b05%3A0xcb7dc46a404802a0!2sMyru+Ave%2C+4%2C+Mykolaiv%2C+Mykolaivs&#39;ka+oblast%2C+Ukraine!5e0!3m2!1sen!2sph!4v1420962639106" width="100%" height="250" frameborder="0" style="border:0"></iframe></iframe>
+			<iframe src="https://www.google.ae/maps/place/SAIF-Zone+Gate/@25.3264988,55.4958373,17z/data=!3m1!4b1!4m2!3m1!1s0x3ef5f5f73efc451d:0x79663741ad74a926" width="100%" height="250" frameborder="0" style="border:0"></iframe></iframe>
 		</section>
 
 		<div class="space-md"></div>
