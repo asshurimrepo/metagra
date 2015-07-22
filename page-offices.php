@@ -9,7 +9,7 @@
 ?>
 <div class="container">
 	<div class="box">
-		<h2 class="no-background void-top full-width"><span>Offices in <b>Ukraine</b></span></h2>
+		<h2 class="no-background void-top full-width"><span>Office in <b>Ukraine</b></span></h2>
 
 		<!--Location 1-->
 		<section class="map">
@@ -43,7 +43,7 @@
 		<div class="space-lg"></div>
 
 
-		<h2 class="no-background void-top full-width"><span>Offices in <b>Turkmenistan</b></span></h2>
+		<h2 class="no-background void-top full-width"><span>Office in <b>Turkmenistan</b></span></h2>
 
 		<!--Location 2 -->
 		<section class="map">
@@ -75,7 +75,7 @@
 
 		<div class="space-lg"></div>
 
-		<h2 class="no-background void-top full-width"><span>Offices in <b>Uzbekistan</b></span></h2>
+		<h2 class="no-background void-top full-width"><span>Office in <b>Uzbekistan</b></span></h2>
 
 		<!--Location 3 -->
 		<section class="map">
