@@ -7,7 +7,7 @@ Author: Juni Brosas @ iBoostme
 get_header();
 $args = [
     'parent' => 8,
-    /*'sort_order' => 'desc',*/
+    'sort_order' => 'desc',
 ];
 $pages = get_pages( $args );
 
@@ -17,10 +17,13 @@ foreach($pages as $page ){
     $url = get_page_link($page->ID);
 }
 $images = [
-    'feature_fertilizers.jpg',
-    'feature_agriculture.jpg',
+    'feature_oil_products.jpg',
     'feature_metal.jpg',
-    'feature_oil_products.jpg'
+    'feature_agriculture.jpg',
+    'feature_fertilizers.jpg',
+
+
+
 ];
 ?>
     <div class="space-lg"></div>
